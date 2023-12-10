@@ -12,7 +12,7 @@ import {
   DropdownItem,
   NavItem,
 } from "reactstrap";
-import logoImg from "../assets/img/logo-png-2 1.png";
+import logoImg from "../assets/img/header_logo.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

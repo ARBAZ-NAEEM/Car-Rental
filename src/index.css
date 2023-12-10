@@ -13,17 +13,17 @@ h5{
 }
 
 h2{
-  font-size: 71px;
-  font-weight: 600;
+  font-size: 71px !important;
+  font-weight: 600 !important;
 }
 
 h4{
-  font-size: 26px;
-  letter-spacing: 1px;
-  font-weight: 500;
+  font-size: 26px !important;
+  letter-spacing: 1px !important;
+  font-weight: 500 !important;
 }
 
 h1{
-  font-size: 120px;
-  font-weight: 600;
+  font-size: 120px !important;
+  font-weight: 600 !important;
 }
