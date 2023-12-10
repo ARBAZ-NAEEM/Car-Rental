@@ -1,16 +1,18 @@
 import React from "react";
 import { Container } from "reactstrap";
-import BgImgage from "../assets/img/hero_01.png";
 
 const PageTitle = (props) => {
-  const { subHeading, heading, bgImg } = props;
+  const { subHeading, heading, bgImg, gap } = props;
   return (
-    <Container fluid style={{padding: 0}}>
-      <div className="title-bar text-center text-light" style={{backgroundImage: `url(${BgImgage})`}}>
+    <Container fluid style={{ padding: 0 }}>
+      <div
+        className="title-bar text-center text-light"
+        style={{ backgroundImage: `url(${bgImg})`, backgroundSize: "cover", padding: gap }}
+      >
         {subHeading ? (
-          <h4 style={{ textTransform: "uppercase" }}>{subHeading}</h4>
+          <h4 className="mb-0" style={{ textTransform: "uppercase" }}>{subHeading}</h4>
         ) : null}
-        <h1>{heading}</h1>
+        <h1 className="mb-0"><span>{heading}</span></h1>
       </div>
     </Container>
   );

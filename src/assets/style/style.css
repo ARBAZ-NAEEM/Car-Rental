@@ -1,6 +1,13 @@
-body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  
+.title-bar h1 span {
+  position: relative;
+}
+
+.title-bar h1 span:before {
+  position: absolute;
+  background-image: url("../img/red_line.png");
+  width: 497px;
+  height: 26px;
+  content: "";
+  bottom: -30px;
+  right: -50px;
+}
