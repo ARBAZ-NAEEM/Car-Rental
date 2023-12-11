@@ -5,15 +5,29 @@ body {
 h4, h1, h2{
   font-family: 'Lexend', sans-serif !important;
 }
+h3{
+  font-family: 'Chivo', sans-serif !important;
+  font-size: 55px;
+}
 
-h5{
+h5, label, input{
+  font-family: 'Poppins', sans-serif !important;
+}
+label, input {
+  font-family: 'Poppins', sans-serif !important;
+  color: #343434;
+  font-size: 16px;
+  font-weight: 600 !important;
+}
+input::placeholder{
   font-family: 'Poppins', sans-serif !important;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500 !important;
 }
 
 h2{
   font-size: 71px !important;
+  line-height: 71px !important;
   font-weight: 600 !important;
 }
 

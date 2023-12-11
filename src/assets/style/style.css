@@ -11,3 +11,172 @@
   bottom: -30px;
   right: -50px;
 }
+a.nav-link.nav-btn {
+  background: linear-gradient(90deg, rgba(238,51,58,1) 0%, rgb(119 24 24) 100%);
+  border-radius: 7px;
+  color: #fff !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-primary {
+  background-image: linear-gradient(90deg, rgba(238,51,58,1) 0%, rgb(119 24 24) 100%)  !important;
+  border: unset !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+.btn-secondary{
+  background-color: #fff !important;
+  font-family: 'Poppins', sans-serif !important;
+  color:  rgb(119 24 24)  !important;
+  border: unset !important;
+}
+
+.form-section {
+  padding: 40px 10px 30px 40px;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: -30px;
+}
+
+button.btn-formPanel {
+  width: 80%;
+  height: 60px;
+  border-radius: 10px;
+}
+select.form-select, input {
+  height: 60px;
+  background-color: #ECF0F4 !important;
+  border-radius: 10px;
+  border: unset !important;
+}
+.partners-section{
+  background-image: url("../img/partner-logos.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 170px 0 50px 0;
+  margin-top: -132px;
+  position: relative;
+  z-index: -1;
+}
+.btn-lease {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  padding: 10px 30px !important;
+  border-radius: 8px !important;
+}
+.hr-sizing{
+  width: 90%;
+  margin-left: 5%;
+}
+.long-term {
+  margin-bottom: 30px;
+}
+.heading-discover{
+  color: #181918;
+}
+.heading-discover span {
+  color: #c71917;
+}
+.text-discover{
+  font-size: 18px;
+}
+.car-img {
+  margin-top: 70px;
+}
+.car-count-heading{
+  color: #E3E3E3;
+  font-size: 55px;
+}
+.car-count-img {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 0px 5px;
+}
+.car-subtext h5 {
+  color: #EE333A;
+  font-size: 19px;
+  font-weight: 800;
+  padding-right: 50px;
+  min-height: 50px;
+}
+.car-subtext p {
+  font-size: 13px;
+  color: #fff;
+  line-height: 19px;
+}
+.car-subtext {
+  padding: 10px 55px 10px 15px;
+  margin-top: 60px;
+}
+.car-background {
+  background-color: #262E34;
+  margin-top: -130px;
+  padding: 250px 0px 160px 0;
+}
+.car-sc:before {
+  background-image: url("../img/Vector-stroke.png");
+  position: absolute;
+  content: "";
+  width: 242px;
+  height: 220px;
+  z-index: 99;
+  top: 50px;
+  right: 50px;
+  transform: scale(1.15);
+}
+.car-sc {
+  position: relative;
+}
+.car-count-img img {
+  width: 90px;
+}
+.howitworks-section {
+  padding: 80px 0px 60px;
+}
+.howit-count {
+  background: linear-gradient(90deg, rgb(189 60 66) 0%, rgb(241 70 70) 100%) !important;
+  color: #fff;
+  padding: 35px 100px 20px 30px;
+  position: relative;
+}
+.howit-count h4 {
+  font-size: 22px !important;
+  font-weight: 800 !important;
+}
+.howit-count h4 span:before {
+  width: 45px;
+  height: 8px;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  top: 35px;
+}
+.howit-count h4 span {
+  position: relative;
+}
+.howit-count h3 {
+  margin-top: 55px;
+  min-height: 75px;
+}
+.howit-img img {
+  width: 86px;
+  object-fit: scale-down;
+}
+.img-how-it-work {
+  position: relative;
+}
+.img-how-it-work:before {
+  position: absolute;
+  width: 52px;
+  height: 16px;
+  content: "";
+  background-image: url("../img/arrow-line.png");
+  right: -40px;
+  top: 49%;
+  z-index: 9;
+}
+.rmv-bf:before {
+  display: none;
+}
