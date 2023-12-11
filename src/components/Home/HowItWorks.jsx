@@ -13,7 +13,7 @@ const HowItWorks = () => {
   return (
     <div className="howitworks-section">
       <Container>
-        <div className="discover-titlebar text-center">
+        <div className="howit-titlebar text-center">
           <h2 className="heading-discover">
             How it
             <br />

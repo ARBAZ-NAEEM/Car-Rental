@@ -180,3 +180,6 @@ select.form-select, input {
 .rmv-bf:before {
   display: none;
 }
+.howit-titlebar {
+  margin-bottom: 80px;
+}
