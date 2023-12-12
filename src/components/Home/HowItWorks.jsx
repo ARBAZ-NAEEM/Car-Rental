@@ -24,7 +24,7 @@ const HowItWorks = () => {
           </p>
         </div>
         <div className="howit-card">
-          <Row>
+          <Row className="howit-row1">
             <Col lg="3" md="3" xs="12">
               <div className="howit-count">
                 <h4>
@@ -62,7 +62,7 @@ const HowItWorks = () => {
               </div>
             </Col>
           </Row>
-          <Row className="mt-4">
+          <Row className="mt-4 howit-row2">
             <Col lg="3" md="3" xs="12">
               <div className="img-how-it-work">
                 <img src={work3} style={{width: "100%"}} />
