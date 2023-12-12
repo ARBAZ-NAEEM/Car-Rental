@@ -7,6 +7,7 @@ import PartnersSection from "../components/Home/PartnersSection";
 import DiscoverSection from "../components/Home/DiscoverSection";
 import CarSection from "../components/Home/CarSection";
 import HowItWorks from "../components/Home/HowItWorks";
+import PremiumSection from "../components/Home/PremiumSection";
 
 const Home = () => {
   
@@ -17,13 +18,14 @@ const Home = () => {
         subHeading="Book Any Luxury Car in low price"
         heading="Car Rental"
         bgImg={bgImg}
-        gap="325px 0"
+        gap="288px 0"
       />
       <PickUpForm />
       <PartnersSection />
       <DiscoverSection />
       <CarSection />
       <HowItWorks />
+      <PremiumSection />
       <div className="mt-5 mb-5"></div>
     </Fragment>
   );
