@@ -17,7 +17,7 @@ import logoImg from "../assets/img/header_logo.png";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="nav-menu-app">
+    <div className="page-header">
       <Container>
         <Navbar expand="md" className="navbar-custom p-0">
           <NavbarToggler onClick={() => setIsOpen(true)} />

@@ -8,6 +8,7 @@ import DiscoverSection from "../components/Home/DiscoverSection";
 import CarSection from "../components/Home/CarSection";
 import HowItWorks from "../components/Home/HowItWorks";
 import PremiumSection from "../components/Home/PremiumSection";
+import Footer from "../components/Footer";
 
 const Home = () => {
   
@@ -27,6 +28,7 @@ const Home = () => {
       <HowItWorks />
       <PremiumSection />
       <div className="mt-5 mb-5"></div>
+      <Footer />
     </Fragment>
   );
 };
