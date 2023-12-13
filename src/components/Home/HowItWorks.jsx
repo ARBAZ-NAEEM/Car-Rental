@@ -34,13 +34,13 @@ const HowItWorks = () => {
                   Choose a <strong>Car</strong>
                 </h3>
                 <div className="howit-img">
-                  <img src={car1} />
+                  <img src={car1} alt="" />
                 </div>
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
               <div className="img-how-it-work">
-                <img src={work1} style={{width: "100%"}} />
+                <img src={work1} style={{width: "100%"}} alt="" />
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
@@ -52,20 +52,20 @@ const HowItWorks = () => {
                   Pick up the <strong>Vehicals</strong>
                 </h3>
                 <div className="howit-img">
-                  <img src={car2} />
+                  <img src={car2} alt="" />
                 </div>
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
               <div className="img-how-it-work rmv-bf">
-                <img src={work2} />
+                <img src={work2} alt="" />
               </div>
             </Col>
           </Row>
           <Row className="mt-4 howit-row2">
             <Col lg="3" md="3" xs="12">
               <div className="img-how-it-work">
-                <img src={work3} style={{width: "100%"}} />
+                <img src={work3} style={{width: "100%"}} alt="" />
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
@@ -77,13 +77,13 @@ const HowItWorks = () => {
                   Pay <strong>Online</strong>
                 </h3>
                 <div className="howit-img">
-                  <img src={car3}  />
+                  <img src={car3}  alt="" />
                 </div>
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
               <div className="img-how-it-work">
-                <img src={work4} style={{width: "100%"}} />
+                <img src={work4} style={{width: "100%"}} alt="" />
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
@@ -95,7 +95,7 @@ const HowItWorks = () => {
                   Discover <strong>Milta</strong>
                 </h3>
                 <div className="howit-img">
-                  <img src={car4} />
+                  <img src={car4} alt="" />
                 </div>
               </div>
             </Col>

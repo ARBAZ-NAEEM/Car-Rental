@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 import Header from "../components/Header";
 import PageTitle from "../components/PageTitle";
 import bgImg from "../assets/img/hero_01.png";
@@ -9,6 +9,7 @@ import CarSection from "../components/Home/CarSection";
 import HowItWorks from "../components/Home/HowItWorks";
 import PremiumSection from "../components/Home/PremiumSection";
 import Footer from "../components/Footer";
+import CustomerSatisfication from "../components/Home/CustomerSatisfication";
 
 const Home = () => {
   
@@ -26,6 +27,7 @@ const Home = () => {
       <DiscoverSection />
       <CarSection />
       <HowItWorks />
+      <CustomerSatisfication />
       <PremiumSection />
       <div className="mt-5 mb-5"></div>
       <Footer />

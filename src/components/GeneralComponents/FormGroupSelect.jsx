@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import { FormGroup, Input, Label } from "reactstrap";
+import React from "react";
+import {  Input, Label } from "reactstrap";
 import { array, bool, func, number, string } from "prop-types";
 
 const FormGroupSelect = (props) => {

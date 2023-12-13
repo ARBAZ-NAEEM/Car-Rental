@@ -1,5 +1,5 @@
 import React from "react";
-import { FormGroup, Input, Label } from "reactstrap";
+import {  Input, Label } from "reactstrap";
 import { number, bool, func, string, objectOf } from "prop-types";
 
 const FormGroupInput = (props) => {

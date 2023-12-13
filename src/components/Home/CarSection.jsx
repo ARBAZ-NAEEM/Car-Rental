@@ -17,7 +17,7 @@ const CarSection = () => {
               <span>Open To Welcome You</span>
             </h2>
             <div className="car-img">
-              <img src={carMain} />
+              <img src={carMain} alt=""/>
             </div>
           </div>
         </Container>
@@ -30,7 +30,7 @@ const CarSection = () => {
                 <div className="car-count">
                   <h3 className="car-count-heading mb-0">01</h3>
                   <div className="car-count-img">
-                    <img src={callCenter} />
+                    <img src={callCenter} alt=""/>
                   </div>
                 </div>
                 <div className="car-subtext">
@@ -49,7 +49,7 @@ const CarSection = () => {
                 <div className="car-count">
                   <h3 className="car-count-heading mb-0">02</h3>
                   <div className="car-count-img">
-                    <img src={traffic} />
+                    <img src={traffic} alt=""/>
                   </div>
                 </div>
                 <div className="car-subtext">
@@ -68,7 +68,7 @@ const CarSection = () => {
                 <div className="car-count">
                   <h3 className="car-count-heading mb-0">03</h3>
                   <div className="car-count-img">
-                    <img src={hours} />
+                    <img src={hours} alt=""/>
                   </div>
                 </div>
                 <div className="car-subtext">

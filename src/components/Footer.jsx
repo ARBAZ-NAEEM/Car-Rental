@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="footer-one">
                   <div className="footer-one-text">
                     <div className="footer-one-logo">
-                      <img src={footerLogo} />
+                      <img src={footerLogo} alt=""/>
                     </div>
                     <p className="mb-0">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -48,12 +48,12 @@ const Footer = () => {
                       </li>
                       <li>
                         <a href="#">
-                          <i className="fa fa-linkedin"></i>
+                          <i className="fa fa-linkedin-square"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i className="fa fa-youtube"></i>
+                          <i className="fa fa-youtube-play"></i>
                         </a>
                       </li>
                     </ul>
