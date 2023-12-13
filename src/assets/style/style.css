@@ -58,6 +58,13 @@ input {
   border-radius: 10px;
   border: unset !important;
 }
+.page-header li.dropdown.nav-item .dropdown-toggle::after {
+  content: "\f107";
+  font-family: 'FontAwesome';
+  background: none;
+  border: unset;
+  vertical-align: bottom;
+}
 .partners-section {
   background-image: url("../img/partners-img.png");
   background-size: cover;
