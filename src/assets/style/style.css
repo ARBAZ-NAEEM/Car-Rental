@@ -60,7 +60,7 @@ input {
 }
 .page-header li.dropdown.nav-item .dropdown-toggle::after {
   content: "\f107";
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   background: none;
   border: unset;
   vertical-align: bottom;
@@ -268,6 +268,10 @@ input {
   background-image: url("../img/premium-car.png");
   background-size: cover;
 }
+.section-premium {
+  background-color: #f4efef;
+  padding-bottom: 50px;
+}
 .page-footer {
   background-color: #000;
   padding: 70px 0px;
@@ -415,23 +419,20 @@ ul.social-menu {
 }
 .customer-content {
   padding: 70px 760px 70px 180px;
-  margin: 60px 0;
-}
-.gallery-section {
-  margin-bottom: 40px;
+  margin: 0 0 60px;
 }
 .img-glry img {
   border-radius: 10px;
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
-.img-glry{
-  transition: .4s ease-in-out;
+.img-glry {
+  transition: 0.4s ease-in-out;
   position: relative;
 }
-.img-glry:hover img{
+.img-glry:hover img {
   filter: brightness(0.5);
 }
-.img-glry:hover:before{
+.img-glry:hover:before {
   background-image: url("../img/mask.png");
   width: 97%;
   height: 125px;
@@ -442,5 +443,125 @@ ul.social-menu {
   z-index: 9;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+.gallery-section {
+  padding: 50px 0;
+  background-color: #f4efef;
+}
+.heading-city {
+  line-height: 85px !important;
+}
+.main-city-section {
+  background-color: #f4efef;
+  padding: 60px 0 120px;
+}
+.service-content h5 {
+  color: #ee333a;
+  font-size: 19px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 28px;
+}
+.service-content h3 {
+  font-size: 48px !important;
+  font-weight: 600;
+  line-height: 54px;
+  font-family: "Lexend", sans-serif !important;
+  color: #0c142e;
+}
+.service-content p {
+  color: #77797e;
+  font-family: "Lexend", sans-serif !important;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+}
+.service-content ul li {
+  color: #0c142e;
+  font-family: "Lexend", sans-serif !important;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 500;
+  border-bottom: 2px solid #d0d7de;
+  padding-bottom: 5px;
+  margin-bottom: 14px;
+}
+.service-content ul {
+  list-style: none;
+  padding-left: 0;
+  column-count: 2;
+}
+.service-content button {
+  padding: 16px 27px;
+  font-weight: 600;
+}
+.service-content {
+  padding-left: 10px;
+}
+.dimg-box {
+  margin-right: 30px;
+}
+.react-multi-carousel-track {
+  margin-left: -140px;
+}
+.test-content h4 {
+  color: #ff3726;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.test-content p {
+  color: #77797e;
+  font-family: "Lexend", sans-serif !important;
+  padding-left: 130px;
+}
+.heading-test {
+  font-size: 48px !important;
+  font-weight: 600;
+  line-height: 54px;
+  font-family: "Lexend", sans-serif !important;
+}
+.testimonial-section {
+  background-image: url("../img/testimonials.png");
+}
+.testimonials-client p {
+  color: #77797e;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  font-family: "Lexend", sans-serif !important;
+  padding: 0 40px;
+}
+.client-view p {
+  font-size: 18px;
+  font-family: "Lexend", sans-serif !important;
+  font-weight: 600;
+  color: #0c142e;
+  line-height: 18px;
+}
+.client-view span {
+  font-size: 14px;
+  font-family: "Lexend", sans-serif !important;
+  font-weight: 300;
+  color: #77797E;
+  line-height: 25px;
+}
+.card-client {
+  padding: 0 !important;
+  border: 0 !important;
+  margin: 90px 15px;
+}
+.img-quote {
+  margin-top: -40px;
+  margin-bottom: 27px;
+}
+.client-view {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.testimonials-client {
+  background: #f1f1f1;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
 }

@@ -58,7 +58,7 @@ const HowItWorks = () => {
             </Col>
             <Col lg="3" md="3" xs="12">
               <div className="img-how-it-work rmv-bf">
-                <img src={work2} alt="" />
+                <img src={work2} style={{width: "100%"}} alt="" />
               </div>
             </Col>
           </Row>
