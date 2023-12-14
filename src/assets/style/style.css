@@ -417,3 +417,30 @@ ul.social-menu {
   padding: 70px 760px 70px 180px;
   margin: 60px 0;
 }
+.gallery-section {
+  margin-bottom: 40px;
+}
+.img-glry img {
+  border-radius: 10px;
+  transition: .4s ease-in-out;
+}
+.img-glry{
+  transition: .4s ease-in-out;
+  position: relative;
+}
+.img-glry:hover img{
+  filter: brightness(0.5);
+}
+.img-glry:hover:before{
+  background-image: url("../img/mask.png");
+  width: 97%;
+  height: 125px;
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: .4s ease-in-out;
+}

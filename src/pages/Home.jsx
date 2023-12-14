@@ -10,6 +10,7 @@ import HowItWorks from "../components/Home/HowItWorks";
 import PremiumSection from "../components/Home/PremiumSection";
 import Footer from "../components/Footer";
 import CustomerSatisfication from "../components/Home/CustomerSatisfication";
+import GallerySection from "../components/Home/GallerySection";
 
 const Home = () => {
   
@@ -28,6 +29,7 @@ const Home = () => {
       <CarSection />
       <HowItWorks />
       <CustomerSatisfication />
+      <GallerySection />
       <PremiumSection />
       <div className="mt-5 mb-5"></div>
       <Footer />
