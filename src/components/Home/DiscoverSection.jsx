@@ -99,7 +99,7 @@ const DiscoverSection = () => {
                       <div className="dimg-box">
                         <img src={items.src} alt="" style={{width: '100%'}} />
                       </div>
-                      <div className="dim-btn mt-4">
+                      <div className="dim-btn mt-5">
                       <Button color="primary"> {items.btnText} </Button>
                       </div>
                     </div>

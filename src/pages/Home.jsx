@@ -10,9 +10,11 @@ import HowItWorks from "../components/Home/HowItWorks";
 import PremiumSection from "../components/Home/PremiumSection";
 import Footer from "../components/Footer";
 import CustomerSatisfication from "../components/Home/CustomerSatisfication";
+import GallerySection from "../components/Home/GallerySection";
+import CitySection from "../components/Home/CitySection";
+import Testimonial from "../components/Home/Testimonial";
 
 const Home = () => {
-  
   return (
     <Fragment>
       <Header />
@@ -27,9 +29,11 @@ const Home = () => {
       <DiscoverSection />
       <CarSection />
       <HowItWorks />
+      <CitySection />
       <CustomerSatisfication />
+      <Testimonial />
+      <GallerySection />
       <PremiumSection />
-      <div className="mt-5 mb-5"></div>
       <Footer />
     </Fragment>
   );
