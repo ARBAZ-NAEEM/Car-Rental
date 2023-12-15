@@ -60,7 +60,7 @@ input {
 }
 .page-header li.dropdown.nav-item .dropdown-toggle::after {
   content: "\f107";
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   background: none;
   border: unset;
   vertical-align: bottom;
@@ -136,7 +136,7 @@ input {
   font-family: "Poppins";
 }
 .car-subtext {
-  padding: 10px 55px 10px 15px;
+  padding: 10px 15px 10px 15px;
   margin-top: 60px;
 }
 .car-background {
@@ -152,7 +152,7 @@ input {
   height: 220px;
   z-index: 99;
   top: 50px;
-  right: 60px;
+  right: 20px;
   transform: scale(1.15);
 }
 .car-sc {
