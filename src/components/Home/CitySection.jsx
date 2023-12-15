@@ -31,42 +31,38 @@ const allItems = [
   {
     src: city1,
     key: 1,
-    btnText: "Small Car",
+    heading: "Mellieha",
+    text: "10 routes to/from this city",
   },
   {
     src: city2,
     key: 2,
-    btnText: "Medium Car",
+    heading: "popaye village",
+    text: "48 routes to/from this city",
   },
   {
     src: city3,
     key: 3,
-    btnText: "SUV Car",
-  },
-  {
-    src: city4,
-    key: 4,
-    btnText: "Small Car",
+    heading: "Saint Julian's",
+    text: "48 routes to/from this city",
   },
   {
     src: city1,
-    key: 5,
-    btnText: "Medium Car",
+    key: 4,
+    heading: "Mellieha",
+    text: "10 routes to/from this city",
   },
   {
     src: city2,
-    key: 6,
-    btnText: "Medium Car",
+    key: 5,
+    heading: "popaye village",
+    text: "48 routes to/from this city",
   },
   {
     src: city3,
-    key: 7,
-    btnText: "Medium Car",
-  },
-  {
-    src: city4,
-    key: 8,
-    btnText: "Medium Car",
+    key: 6,
+    heading: "Saint Julian's",
+    text: "48 routes to/from this city",
   },
 ];
 const CitySection = () => {
@@ -81,7 +77,7 @@ const CitySection = () => {
               <span>Routes</span>
             </h2>
           </div>
-          <div className="IndicatorCarousel">
+          <div className="carousel-city">
             <Carousel
               swipeable={true}
               draggable={true}
@@ -89,7 +85,7 @@ const CitySection = () => {
               responsive={responsive}
               ssr={true}
               infinite={true}
-            //   autoPlay={true}
+              //   autoPlay={true}
               autoPlaySpeed={7500}
               shouldResetAutoplay={false}
               keyBoardControl={true}
@@ -98,7 +94,7 @@ const CitySection = () => {
               transitionDuration={500}
               containerClass="carousel-container"
               //  containerClass="carousel-container justify-content-center"
-            //   removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}
+              //   removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}
               removeArrowOnDeviceType={["tablet"]}
               dotListClass="custom-dot-list-style"
               itemClass="carousel-item-padding-40-px"
@@ -106,9 +102,18 @@ const CitySection = () => {
             >
               {allItems?.map((items, i) => {
                 return (
-                  <div key={i} className="route-box text-center">
+                  <div key={i} className="route-box ">
                     <div className="dimg-box">
                       <img src={items.src} alt="" style={{ width: "100%" }} />
+                      <div className="route-content">
+                        <div>
+                          <h5>{items.heading}</h5>
+                          <p className="mb-0">{items.text}</p>
+                        </div>
+                        <a href="#" style={{ color: "#EE333A" }}>
+                          <i className="fa fa-arrow-right"></i>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 );

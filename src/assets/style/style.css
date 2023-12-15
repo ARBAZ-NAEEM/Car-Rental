@@ -108,7 +108,10 @@ input {
 }
 .dim-btn .btn {
   border-radius: 4px !important;
-  padding: 8px 27px;
+  padding: 12px 36px;
+}
+.card-discover {
+  padding: 26px 13px !important;
 }
 .car-img {
   margin-top: 70px;
@@ -419,7 +422,7 @@ ul.social-menu {
 }
 .customer-content {
   padding: 70px 760px 70px 180px;
-  margin: 0 0 60px;
+  /* margin: 0 0 60px; */
 }
 .img-glry img {
   border-radius: 10px;
@@ -451,6 +454,7 @@ ul.social-menu {
 }
 .heading-city {
   line-height: 85px !important;
+  margin-bottom: 40px;
 }
 .main-city-section {
   background-color: #f4efef;
@@ -498,6 +502,7 @@ ul.social-menu {
 }
 .service-content {
   padding-left: 10px;
+  padding-right: 30px;
 }
 .dimg-box {
   margin-right: 30px;
@@ -523,6 +528,8 @@ ul.social-menu {
 }
 .testimonial-section {
   background-image: url("../img/testimonials.png");
+  background-size: cover;
+  padding-top: 110px;
 }
 .testimonials-client p {
   color: #77797e;
@@ -565,3 +572,42 @@ ul.social-menu {
   padding-bottom: 40px;
   margin-bottom: 30px;
 }
+.route-content p {
+  font-size: 16px;
+  color: #3C3C3C;
+}
+.route-content h5{
+  font-size: 24px;
+  font-weight: 600;
+  color: #181A1F;
+  font-family: "Poppins", sans-serif !important;
+}
+.route-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.services-section {
+  margin-top: 150px;
+}
+.carousel-city ul.react-multi-carousel-track {
+  margin-left: -230px;
+}
+
+
+
+
+/* Media Query Start*/
+@media (max-width: 1600px) {}
+@media (max-width: 1440px) {}
+@media (max-width: 1366px) {}
+@media (max-width: 1280px) {
+}
+@media (max-width: 1024px) {}
+@media (max-width: 800px) {}
+@media (max-width: 768px) {}
+@media (max-width: 480px) {}
+@media (max-width: 414px) {}
+@media (max-width: 375px) {}
+
+/* Media Query End */
