@@ -596,12 +596,13 @@ ul.social-menu {
 
 /* Media Query Start*/
 @media (max-width: 1600px) {
-}
-@media (max-width: 1440px) {
   .car-sc:before {
     right: 40px;
     transform: scale(1.3);
-  }
+    
+}
+}
+@media (max-width: 1440px) {
 }
 @media (max-width: 1366px) {
   .customer-content {
