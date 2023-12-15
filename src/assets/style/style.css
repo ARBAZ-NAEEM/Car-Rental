@@ -550,7 +550,7 @@ ul.social-menu {
   font-size: 14px;
   font-family: "Lexend", sans-serif !important;
   font-weight: 300;
-  color: #77797E;
+  color: #77797e;
   line-height: 25px;
 }
 .card-client {
@@ -574,12 +574,12 @@ ul.social-menu {
 }
 .route-content p {
   font-size: 16px;
-  color: #3C3C3C;
+  color: #3c3c3c;
 }
-.route-content h5{
+.route-content h5 {
   font-size: 24px;
   font-weight: 600;
-  color: #181A1F;
+  color: #181a1f;
   font-family: "Poppins", sans-serif !important;
 }
 .route-content {
@@ -594,20 +594,43 @@ ul.social-menu {
   margin-left: -230px;
 }
 
-
-
-
 /* Media Query Start*/
-@media (max-width: 1600px) {}
-@media (max-width: 1440px) {}
-@media (max-width: 1366px) {}
+@media (max-width: 1600px) {
+}
+@media (max-width: 1440px) {
+  .car-sc:before {
+    right: 40px;
+    transform: scale(1.3);
+  }
+}
+@media (max-width: 1366px) {
+  .customer-content {
+    padding: 70px 600px 70px 180px;
+  }
+  .howit-count {
+    padding: 35px 40px 20px 30px;
+  }
+  .car-sc:before {
+    right: 10px;
+    transform: scale(1.1);
+  }
+  .img-how-it-work img {
+    height: 306px;
+  }
+}
 @media (max-width: 1280px) {
 }
-@media (max-width: 1024px) {}
-@media (max-width: 800px) {}
-@media (max-width: 768px) {}
-@media (max-width: 480px) {}
-@media (max-width: 414px) {}
-@media (max-width: 375px) {}
+@media (max-width: 1024px) {
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 414px) {
+}
+@media (max-width: 375px) {
+}
 
 /* Media Query End */
