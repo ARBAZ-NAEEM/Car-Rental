@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../components/Header'
 
 const LongTermForm = () => {
   return (
-    <div>LongTermForm</div>
+    <div className="page-longterm-form">
+      <Header />
+    </div>
   )
 }
 
