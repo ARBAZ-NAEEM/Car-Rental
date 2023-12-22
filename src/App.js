@@ -24,7 +24,7 @@ function App() {
           <Route path="fleet" element={<FleetView />} />
           <Route path="discover" element={<Discover />} />
           <Route path="longtermform" element={<LongTermForm />} />
-          <Route path="privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="ourpolicy" element={<PrivacyPolicy />} />
           <Route path="*" element={<NoPageFound />} />
         </Routes>
       </BrowserRouter>
