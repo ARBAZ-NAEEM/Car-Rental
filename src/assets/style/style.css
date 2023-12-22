@@ -287,10 +287,12 @@ input {
   line-height: 22px;
 }
 .footer-one-text p {
-  margin-top: 30px;
+  margin-top: 10px;
+  padding-right: 60px;
 }
 .footer-one-logo {
-  text-align: center;
+  position: relative;
+    left: -25px 
 }
 .footer-two-menu {
   list-style: none;
