@@ -43,7 +43,7 @@ const Header = () => {
                       <DropdownItem
                         type="button"
                         className="dropdown-item"
-                        href="/"
+                        href="/discover"
                       >
                         Dummy Link
                       </DropdownItem>
@@ -72,7 +72,7 @@ const Header = () => {
             </Nav>
             <Nav>
               <NavItem className="nav-size">
-                <Link to="/home">
+                <Link to="/">
                   <img
                     // height={90}
                     src={logoImg}
@@ -83,12 +83,12 @@ const Header = () => {
             </Nav>
             <Nav>
               <NavItem>
-                <Link className="nav-link" to="/testimonials">
+                <Link className="nav-link" to="/longtermform">
                   Long-Term Rent
                 </Link>
               </NavItem>
               <NavItem>
-                <Link className="nav-link" to="/contact">
+                <Link className="nav-link" to="/contactus">
                   Contact
                 </Link>
               </NavItem>

@@ -16,26 +16,26 @@ import Testimonial from "../components/Home/Testimonial";
 
 const Home = () => {
   return (
-    <Fragment>
-      <Header />
-      <PageTitle
-        subHeading="Book Any Luxury Car in low price"
-        heading="Car Rental"
-        bgImg={bgImg}
-        gap="288px 0"
-      />
-      <PickUpForm />
-      <PartnersSection />
-      <DiscoverSection />
-      <CarSection />
-      <HowItWorks />
-      <CitySection />
-      <CustomerSatisfication />
-      <Testimonial />
-      <GallerySection />
-      <PremiumSection />
-      <Footer />
-    </Fragment>
+      <div className="page-home">
+        <Header />
+        <PageTitle
+          subHeading="Book Any Luxury Car in low price"
+          heading="Car Rental"
+          bgImg={bgImg}
+          gap="288px 0"
+        />
+        <PickUpForm />
+        <PartnersSection />
+        <DiscoverSection />
+        <CarSection />
+        <HowItWorks />
+        <CitySection />
+        <CustomerSatisfication />
+        <Testimonial />
+        <GallerySection />
+        <PremiumSection bg="#f4efef" />
+        <Footer />
+      </div>
   );
 };
 

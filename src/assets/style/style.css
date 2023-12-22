@@ -595,6 +595,35 @@ ul.social-menu {
 .carousel-city ul.react-multi-carousel-track {
   margin-left: -230px;
 }
+.policy-content h4{
+  color: #54595F;
+  font-size: 27px !important;
+  margin-bottom: 30px;
+  font-weight: bold !important;
+}
+.policy-content p {
+  padding-left: 20px;
+}
+.policy-content li, .policy-content p {
+  color: #535353;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.policy-content .content-list{
+  color: #2B2B2B;
+}
+ul.list-number {
+  margin-bottom: 30px;
+}
+.section-policy{
+  background-color:#f4efef;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+ul.list-number > li {
+  list-style: auto;
+}
 
 /* Media Query Start*/
 @media (max-width: 1600px) {

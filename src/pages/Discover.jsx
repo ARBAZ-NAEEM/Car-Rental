@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/Header";
 
 const Discover = () => {
   return (
-    <div>Discover</div>
-  )
-}
+    <div className="page-discover">
+      <Header />
+    </div>
+  );
+};
 
-export default Discover
+export default Discover;
