@@ -29,17 +29,20 @@ const Header = () => {
           >
             <Nav>
               <NavItem>
-                <Link className="nav-link" to="/about">
+                <Link className="nav-link" to="/aboutus">
                   About
                 </Link>
               </NavItem>
               <NavItem>
                 <Nav className="ml-auto">
                   <UncontrolledDropdown nav inNavbar>
-                    <DropdownToggle nav caret>
+                    <DropdownToggle nav caret >
+                      <Link  to="/discover" style={{textDecoration: 'none', color: '#000'}}>
                       Discover Malta
+                      </Link>
+                      
                     </DropdownToggle>
-                    <DropdownMenu>
+                    {/* <DropdownMenu>
                       <DropdownItem
                         type="button"
                         className="dropdown-item"
@@ -47,17 +50,20 @@ const Header = () => {
                       >
                         Dummy Link
                       </DropdownItem>
-                    </DropdownMenu>
+                    </DropdownMenu> */}
                   </UncontrolledDropdown>
                 </Nav>
               </NavItem>
               <NavItem>
                 <Nav className="ml-auto">
                   <UncontrolledDropdown nav inNavbar>
-                    <DropdownToggle nav caret>
+                  <DropdownToggle nav caret >
+                      <Link  to="/fleet" style={{textDecoration: 'none', color: '#000'}}>
                       Fleet
+                      </Link>
+                      
                     </DropdownToggle>
-                    <DropdownMenu>
+                    {/* <DropdownMenu>
                       <DropdownItem
                         type="button"
                         className="dropdown-item"
@@ -65,7 +71,7 @@ const Header = () => {
                       >
                         Dummy Link
                       </DropdownItem>
-                    </DropdownMenu>
+                    </DropdownMenu> */}
                   </UncontrolledDropdown>
                 </Nav>
               </NavItem>

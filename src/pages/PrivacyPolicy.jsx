@@ -175,7 +175,7 @@ const PrivacyPolicy = () => {
                 Your Consent To The Use Of Cookies And Relevant Technologies
               </strong>
             </h4>
-            <p>
+            <p className="mb-0">
               We need to use cookies for our website to function correctly and
               to provide you with the advertisements and content that would
               interest you. When you use our website, application, messenger
