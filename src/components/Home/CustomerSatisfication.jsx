@@ -9,7 +9,7 @@ const CustomerSatisfication = () => {
           <div
             className="customer-text"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             <h3>10 Million+</h3>
             <p>Number of Satisfied Customers</p>
@@ -17,7 +17,7 @@ const CustomerSatisfication = () => {
           <div
             className="customer-text"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             <h3>10+</h3>
             <p>Number of Vehicles</p>
@@ -25,7 +25,7 @@ const CustomerSatisfication = () => {
           <div
             className="customer-text"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             <h3>23 Years</h3>
             <p>Years of Service</p>
@@ -33,7 +33,7 @@ const CustomerSatisfication = () => {
           <div
             className="customer-text"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             <h3>79+</h3>
             <p>Number of Coffees Offered to Our Customers</p>

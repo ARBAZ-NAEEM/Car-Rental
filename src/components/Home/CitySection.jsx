@@ -76,7 +76,7 @@ const CitySection = (props) => {
             <h2
               className="heading-discover heading-city"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               City To City
               <br />

@@ -20,7 +20,7 @@ const About = () => {
   return (
     <div className="page-about">
       <Header />
-      <PageTitle heading="About us" bgImg={bgImg} gap="228px 0" />
+      <PageTitle heading="About us" bgImg={bgImg} gap="180px 0" />
       <AboutSection bg="#F4EFEF" />
       <div className="about-group-service">
         <Container>
@@ -144,7 +144,7 @@ const About = () => {
       <CustomerSatisfication />
       <Testimonial />
       <PremiumSection />
-      <Footer/>
+      <Footer />
     </div>
   );
 };

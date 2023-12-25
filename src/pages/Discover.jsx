@@ -22,7 +22,7 @@ const Discover = () => {
   return (
     <div className="page-discover">
       <Header />
-      <PageTitle heading="Discover Malta" bgImg={discover} gap="268px 0" />
+      <PageTitle heading="Discover Malta" bgImg={discover} gap="180px 0" />
       <CitySection bg="#fff" />
       <div className="search-section">
         <Container fluid>
@@ -194,12 +194,9 @@ const Discover = () => {
       </div>
       <GallerySection />
       <PremiumSection />
-      <PickUpForm btnText="Change" boxShadow="5px 5px 5px #ccc"/>
+      <PickUpForm btnText="Change" boxShadow="5px 5px 5px #ccc" />
       <div className="text-center btn-lease-discover">
-        <Button
-          color="primary"
-          data-aos="fade-up"
-        >
+        <Button color="primary" data-aos="fade-up">
           Long Term Lease
         </Button>
       </div>

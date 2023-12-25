@@ -70,7 +70,7 @@ const Testimonial = () => {
                 <div
                   className="test-content"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                 >
                   <h4>Our testimonials</h4>
                   <h3 className="heading-discover heading-test">

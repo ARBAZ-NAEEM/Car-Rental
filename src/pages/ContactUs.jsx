@@ -13,7 +13,7 @@ const ContactUs = () => {
   return (
     <div className="page-contact-us">
       <Header />
-      <PageTitle heading="Contact us" bgImg={bgImg} gap="228px 0" />
+      <PageTitle heading="Contact us" bgImg={bgImg} gap="180px 0" />
       <div className="contact-section text-center">
         <Container>
           <div className="contact-info">

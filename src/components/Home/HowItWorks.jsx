@@ -17,7 +17,7 @@ const HowItWorks = () => {
           <h2
             className="heading-discover"
             data-aos="fade-up"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             How it
             <br />
@@ -34,13 +34,13 @@ const HowItWorks = () => {
                 <h4>
                   <span>01</span>
                 </h4>
-                <h3 data-aos="fade-right" data-aos-duration="3000">
+                <h3 data-aos="fade-right" data-aos-duration="1000">
                   Choose a <strong>Car</strong>
                 </h3>
                 <div
                   className="howit-img"
                   data-aos="flip-left"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                 >
                   <img src={car1} alt="" />
                 </div>
@@ -56,13 +56,13 @@ const HowItWorks = () => {
                 <h4>
                   <span>03</span>
                 </h4>
-                <h3 data-aos="fade-right" data-aos-duration="3000">
+                <h3 data-aos="fade-right" data-aos-duration="1000">
                   Pick up the <strong>Vehicals</strong>
                 </h3>
                 <div
                   className="howit-img"
                   data-aos="flip-left"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                 >
                   <img src={car2} alt="" />
                 </div>
@@ -85,7 +85,7 @@ const HowItWorks = () => {
                 <h4>
                   <span>02</span>
                 </h4>
-                <h3 data-aos="fade-right" data-aos-duration="3000">
+                <h3 data-aos="fade-right" data-aos-duration="1000">
                   Pay <strong>Online</strong>
                 </h3>
                 <div
@@ -107,13 +107,13 @@ const HowItWorks = () => {
                 <h4>
                   <span>04</span>
                 </h4>
-                <h3 data-aos="fade-right" data-aos-duration="3000">
+                <h3 data-aos="fade-right" data-aos-duration="1000">
                   Discover <strong>Milta</strong>
                 </h3>
                 <div
                   className="howit-img"
                   data-aos="flip-left"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                 >
                   <img src={car4} alt="" />
                 </div>

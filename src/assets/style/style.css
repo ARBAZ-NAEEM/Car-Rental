@@ -26,11 +26,7 @@ a.nav-link.nav-btn {
 }
 
 .btn-primary {
-  background-image: linear-gradient(
-    90deg,
-    #9d2b02 0%,
-    rgba(238, 51, 58, 1) 100%
-  ) !important;
+  background-image: linear-gradient(90deg, #9d0208 0%, #d00000 100%) !important;
   border: unset !important;
   font-family: "Poppins", sans-serif !important;
 }
@@ -794,12 +790,17 @@ ul.list-number > li {
 }
 .about-us-content .heading2 {
   background: #262e34;
-  padding: 0px 250px 70px;
+  padding: 0px 160px 70px;
+  font-size: 60px !important;
 }
 
 .about-us-content .heading1 {
   background: #bc0003;
-  padding: 70px 250px 0;
+  padding: 70px 80px 0px;
+  font-size: 60px !important;
+}
+.custom-form.container {
+  margin-top: -80px;
 }
 .about-us-content h2 {
   margin: 0;
