@@ -12,7 +12,7 @@ const PartnersSection = () => {
     <div className="partners-section">
       <Container>
         <div className="long-term">
-          <Button color="secondary" className="btn-lease">
+          <Button color="secondary" className="btn-lease" data-aos="fade-up">
             Long Term Lease
           </Button>
         </div>
@@ -22,17 +22,17 @@ const PartnersSection = () => {
             <Col md="6" lg="6" xs="12">
               <hr className="text-light hr-sizing" />
               <div className="d-flex justify-content-around align-items-center">
-                <img src={logo5} alt=""/>
-                <img src={logo3} alt=""/>
-                <img src={logo1} alt=""/>
+                <img src={logo5} alt="" />
+                <img src={logo3} alt="" />
+                <img src={logo1} alt="" />
               </div>
             </Col>
             <Col md="6" lg="6" xs="12">
               <hr className="text-light hr-sizing" />
               <div className="d-flex justify-content-around align-items-center">
-                <img src={logo6} alt=""/>
-                <img src={logo2} alt=""/>
-                <img src={logo4} alt=""/>
+                <img src={logo6} alt="" />
+                <img src={logo2} alt="" />
+                <img src={logo4} alt="" />
               </div>
             </Col>
           </Row>

@@ -67,7 +67,11 @@ const Testimonial = () => {
           <div className="testimonials-heading">
             <Row>
               <Col lg="6" md="6" xs="12">
-                <div className="test-content">
+                <div
+                  className="test-content"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
                   <h4>Our testimonials</h4>
                   <h3 className="heading-discover heading-test">
                     What They're Talking <br />

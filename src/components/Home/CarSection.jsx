@@ -11,13 +11,17 @@ const CarSection = () => {
       <div className="car-section">
         <Container>
           <div className="car-titlebar text-center">
-            <h2 className="heading-discover">
+            <h2 className="heading-discover" data-aos="fade-up">
               Our Doors Are Always
               <br />
               <span>Open To Welcome You</span>
             </h2>
-            <div className="car-img">
-              <img src={carMain} alt=""/>
+            <div
+              className="car-img"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+            >
+              <img src={carMain} alt="" />
             </div>
           </div>
         </Container>
@@ -29,12 +33,18 @@ const CarSection = () => {
               <div className="d-flex car-sc">
                 <div className="car-count">
                   <h3 className="car-count-heading mb-0">01</h3>
-                  <div className="car-count-img">
-                    <img src={callCenter} alt=""/>
+                  <div
+                    className="car-count-img"
+                    data-aos="flip-right"
+                    data-aos-duration="3000"
+                  >
+                    <img src={callCenter} alt="" />
                   </div>
                 </div>
                 <div className="car-subtext">
-                  <h5>Multilingual Support</h5>
+                  <h5 data-aos="fade-up" data-aos-duration="3000">
+                    Multilingual Support
+                  </h5>
                   <p>
                     Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, Lorem
                     ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem
@@ -45,15 +55,21 @@ const CarSection = () => {
               </div>
             </Col>
             <Col>
-            <div className="d-flex car-sc">
+              <div className="d-flex car-sc">
                 <div className="car-count">
                   <h3 className="car-count-heading mb-0">02</h3>
-                  <div className="car-count-img">
-                    <img src={traffic} alt=""/>
+                  <div
+                    className="car-count-img"
+                    data-aos="flip-right"
+                    data-aos-duration="3000"
+                  >
+                    <img src={traffic} alt="" />
                   </div>
                 </div>
                 <div className="car-subtext">
-                  <h5>Diverse fleet</h5>
+                  <h5 data-aos="fade-up" data-aos-duration="3000">
+                    Diverse fleet
+                  </h5>
                   <p>
                     Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, Lorem
                     ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem
@@ -64,15 +80,21 @@ const CarSection = () => {
               </div>
             </Col>
             <Col>
-            <div className="d-flex car-sc">
+              <div className="d-flex car-sc">
                 <div className="car-count">
                   <h3 className="car-count-heading mb-0">03</h3>
-                  <div className="car-count-img">
-                    <img src={hours} alt=""/>
+                  <div
+                    className="car-count-img"
+                    data-aos="flip-right"
+                    data-aos-duration="3000"
+                  >
+                    <img src={hours} alt="" />
                   </div>
                 </div>
                 <div className="car-subtext">
-                  <h5>24/7 customer service.</h5>
+                  <h5 data-aos="fade-up" data-aos-duration="3000">
+                    24/7 customer service.
+                  </h5>
                   <p>
                     Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, Lorem
                     ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem

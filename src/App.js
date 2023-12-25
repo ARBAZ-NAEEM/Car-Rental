@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import "../src/assets/style/style.css"
+import "../src/assets/style/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -17,11 +17,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="checkout" element={<Checkout />} />
           <Route path="contactus" element={<ContactUs />} />
-          <Route path="fleet" element={<FleetView />} />
+          <Route path="fleetview" element={<FleetView />} />
           <Route path="discover" element={<Discover />} />
           <Route path="longtermform" element={<LongTermForm />} />
           <Route path="ourpolicy" element={<PrivacyPolicy />} />

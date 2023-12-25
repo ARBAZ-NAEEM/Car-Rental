@@ -29,36 +29,36 @@ const allItems = [
   {
     src: car1,
     key: 1,
-    btnText: "Small Car"
+    btnText: "Small Car",
   },
   {
     src: car2,
     key: 2,
-    btnText: "Medium Car"
+    btnText: "Medium Car",
   },
   {
     src: car3,
     key: 3,
-    btnText: "SUV Car"
+    btnText: "SUV Car",
   },
   {
     src: car1,
     key: 4,
-    btnText: "Small Car"
+    btnText: "Small Car",
   },
   {
     src: car2,
     key: 5,
-    btnText: "Medium Car"
+    btnText: "Medium Car",
   },
 ];
 
 const DiscoverSection = () => {
   return (
     <div className="discover-section">
-      <Container fluid style={{padding: 0}}>
+      <Container fluid style={{ padding: 0 }}>
         <div className="discover-titlebar text-center">
-          <h2 className="heading-discover">
+          <h2 className="heading-discover" data-aos="fade-up">
             Discover
             <br />
             <span>Our Fleet</span>
@@ -97,10 +97,10 @@ const DiscoverSection = () => {
                   <div className="donation-box text-center">
                     <div className="" style={{ minHeight: "280px" }}>
                       <div className="dimg-box">
-                        <img src={items.src} alt="" style={{width: '100%'}} />
+                        <img src={items.src} alt="" style={{ width: "100%" }} />
                       </div>
                       <div className="dim-btn mt-5">
-                      <Button color="primary"> {items.btnText} </Button>
+                        <Button color="primary"> {items.btnText} </Button>
                       </div>
                     </div>
                   </div>

@@ -14,7 +14,11 @@ const HowItWorks = () => {
     <div className="howitworks-section">
       <Container>
         <div className="howit-titlebar text-center">
-          <h2 className="heading-discover">
+          <h2
+            className="heading-discover"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             How it
             <br />
             <span>works</span>
@@ -30,17 +34,21 @@ const HowItWorks = () => {
                 <h4>
                   <span>01</span>
                 </h4>
-                <h3>
+                <h3 data-aos="fade-right" data-aos-duration="3000">
                   Choose a <strong>Car</strong>
                 </h3>
-                <div className="howit-img">
+                <div
+                  className="howit-img"
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                >
                   <img src={car1} alt="" />
                 </div>
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
               <div className="img-how-it-work">
-                <img src={work1} style={{width: "100%"}} alt="" />
+                <img src={work1} style={{ width: "100%" }} alt="" />
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
@@ -48,24 +56,28 @@ const HowItWorks = () => {
                 <h4>
                   <span>03</span>
                 </h4>
-                <h3>
+                <h3 data-aos="fade-right" data-aos-duration="3000">
                   Pick up the <strong>Vehicals</strong>
                 </h3>
-                <div className="howit-img">
+                <div
+                  className="howit-img"
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                >
                   <img src={car2} alt="" />
                 </div>
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
               <div className="img-how-it-work rmv-bf">
-                <img src={work2} style={{width: "100%"}} alt="" />
+                <img src={work2} style={{ width: "100%" }} alt="" />
               </div>
             </Col>
           </Row>
           <Row className="mt-4 howit-row2">
             <Col lg="3" md="3" xs="12">
               <div className="img-how-it-work">
-                <img src={work3} style={{width: "100%"}} alt="" />
+                <img src={work3} style={{ width: "100%" }} alt="" />
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
@@ -73,17 +85,21 @@ const HowItWorks = () => {
                 <h4>
                   <span>02</span>
                 </h4>
-                <h3>
+                <h3 data-aos="fade-right" data-aos-duration="3000">
                   Pay <strong>Online</strong>
                 </h3>
-                <div className="howit-img">
-                  <img src={car3}  alt="" />
+                <div
+                  className="howit-img"
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                >
+                  <img src={car3} alt="" />
                 </div>
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
               <div className="img-how-it-work">
-                <img src={work4} style={{width: "100%"}} alt="" />
+                <img src={work4} style={{ width: "100%" }} alt="" />
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
@@ -91,10 +107,14 @@ const HowItWorks = () => {
                 <h4>
                   <span>04</span>
                 </h4>
-                <h3>
+                <h3 data-aos="fade-right" data-aos-duration="3000">
                   Discover <strong>Milta</strong>
                 </h3>
-                <div className="howit-img">
+                <div
+                  className="howit-img"
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                >
                   <img src={car4} alt="" />
                 </div>
               </div>

@@ -12,7 +12,7 @@ const PageTitle = (props) => {
         padding: gap,
       }}
     >
-      <Container >
+      <Container>
         {subHeading ? (
           <h4 className="mb-0" style={{ textTransform: "uppercase" }}>
             {subHeading}

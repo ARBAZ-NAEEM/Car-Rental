@@ -24,7 +24,6 @@ const Header = () => {
           <Collapse
             isOpen={isOpen}
             navbar
-            // tag="ul"
             className="nav main-menu justify-content-between"
           >
             <Nav>
@@ -61,9 +60,9 @@ const Header = () => {
                       <DropdownItem
                         type="button"
                         className="dropdown-item"
-                        href="/"
+                        href="/FleetView"
                       >
-                        Dummy Link
+                        Fleet View
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>

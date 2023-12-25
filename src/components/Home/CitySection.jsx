@@ -71,7 +71,11 @@ const CitySection = () => {
       <div className="section-city">
         <Container fluid style={{ padding: 0 }}>
           <div className="city-titlebar text-center">
-            <h2 className="heading-discover heading-city">
+            <h2
+              className="heading-discover heading-city"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               City To City
               <br />
               <span>Routes</span>
@@ -134,7 +138,13 @@ const CitySection = () => {
               <Col md="6" lg="6" xs="12">
                 <div className="service-content">
                   <h5>Get to know us</h5>
-                  <h3 className="mb-3">Services with a Wide Range of Cars</h3>
+                  <h3
+                    className="mb-3"
+                    data-aos="fade-up"
+                    data-aos-duration="6000"
+                  >
+                    Services with a Wide Range of Cars
+                  </h3>
                   <h5>
                     committed to providing our customers with exceptional
                     service.
@@ -150,7 +160,12 @@ const CitySection = () => {
                     <li>News & Luxury Cars</li>
                     <li>Trusted Rental Service</li>
                   </ul>
-                  <Button color="primary" className="mt-1">
+                  <Button
+                    color="primary"
+                    className="mt-1"
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                  >
                     Discover More
                   </Button>
                 </div>

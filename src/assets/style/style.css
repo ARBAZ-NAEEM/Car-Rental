@@ -595,8 +595,8 @@ ul.social-menu {
 .carousel-city ul.react-multi-carousel-track {
   margin-left: -230px;
 }
-.policy-content h4{
-  color: #54595F;
+.policy-content h4 {
+  color: #54595f;
   font-size: 27px !important;
   margin-bottom: 30px;
   font-weight: bold !important;
@@ -604,34 +604,80 @@ ul.social-menu {
 .policy-content p {
   padding-left: 20px;
 }
-.policy-content li, .policy-content p {
+.policy-content li,
+.policy-content p {
   color: #535353;
   font-size: 14px;
   line-height: 30px;
   font-weight: 500;
 }
-.policy-content .content-list{
-  color: #2B2B2B;
+.policy-content .content-list {
+  color: #2b2b2b;
 }
 ul.list-number {
   margin-bottom: 30px;
 }
-.section-policy{
-  background-color:#f4efef;
+.section-policy {
+  background-color: #f4efef;
   padding-top: 80px;
   padding-bottom: 50px;
 }
 ul.list-number > li {
   list-style: auto;
 }
+.page-header {
+  padding: 5px 0;
+}
 
+/* fleet view page css  */
+.page-fleetview .page-header {
+  box-shadow: 0 0 100px 10px #0000001f;
+}
+.discover-feet {
+  padding: 30px 0px;
+}
+.filter-heading p {
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox-box label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px; /* Adjust margin as needed */
+  font-size: 14px;
+  font-weight: 500 !important;
+}
+
+.checkbox-box label input[type="checkbox"] {
+  margin-right: 5px; /* Adjust space between checkbox and label */
+  height: 16px; /* Set custom height */
+  width: 20px; /* Set custom width */
+}
+.filter-section .card {
+  border: unset;
+  box-shadow: 0 0 40px 2px #00000014;
+  border-radius: 20px;
+}
+.filter-heading p span a {
+  text-decoration: unset;
+  font-size: 16px;
+}
+.page-fleetview .discover-feet .title-bar h4 {
+  font-size: 20px !important;
+}
+.page-fleetview .discover-feet .title-bar h1 {
+  font-size: 70px !important;
+}
+.form-section-fleetview .form-section {
+  margin-top: 0;
+  padding: 40px 0;
+}
 /* Media Query Start*/
 @media (max-width: 1600px) {
   .car-sc:before {
     right: 40px;
     transform: scale(1.3);
-    
-}
+  }
 }
 @media (max-width: 1440px) {
 }
