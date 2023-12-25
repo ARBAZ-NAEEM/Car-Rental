@@ -35,11 +35,13 @@ const Header = () => {
               <NavItem>
                 <Nav className="ml-auto">
                   <UncontrolledDropdown nav inNavbar>
-                    <DropdownToggle nav caret >
-                      <Link  to="/discover" style={{textDecoration: 'none', color: '#000'}}>
-                      Discover Malta
+                    <DropdownToggle nav caret>
+                      <Link
+                        to="/discover"
+                        style={{ textDecoration: "none", color: "#000" }}
+                      >
+                        Discover Malta
                       </Link>
-                      
                     </DropdownToggle>
                     {/* <DropdownMenu>
                       <DropdownItem
@@ -56,11 +58,13 @@ const Header = () => {
               <NavItem>
                 <Nav className="ml-auto">
                   <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav caret >
-                      <Link  to="/fleet" style={{textDecoration: 'none', color: '#000'}}>
-                      Fleet
+                    <DropdownToggle nav caret>
+                      <Link
+                        to="/FleetView"
+                        style={{ textDecoration: "none", color: "#000" }}
+                      >
+                        Fleet
                       </Link>
-                      
                     </DropdownToggle>
                     {/* <DropdownMenu>
                       <DropdownItem
