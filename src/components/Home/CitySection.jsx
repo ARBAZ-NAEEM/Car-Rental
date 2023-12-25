@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Button, Card, Col, Container, Row } from "reactstrap";
-import groupServices from "../../assets/img/group-service.png";
+
 import city1 from "../../assets/img/city1.png";
 import city2 from "../../assets/img/city2.png";
 import city3 from "../../assets/img/city3.png";

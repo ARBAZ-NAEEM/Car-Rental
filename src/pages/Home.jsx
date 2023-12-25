@@ -15,6 +15,7 @@ import CitySection from "../components/Home/CitySection";
 import Testimonial from "../components/Home/Testimonial";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CityServiceSection from "../components/Home/CityServiceSection";
 
 const Home = () => {
   useEffect(() => {
@@ -35,6 +36,7 @@ const Home = () => {
       <CarSection />
       <HowItWorks />
       <CitySection />
+      <CityServiceSection />
       <CustomerSatisfication />
       <Testimonial />
       <GallerySection />
