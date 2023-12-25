@@ -13,15 +13,10 @@ import CustomerSatisfication from "../components/Home/CustomerSatisfication";
 import GallerySection from "../components/Home/GallerySection";
 import CitySection from "../components/Home/CitySection";
 import Testimonial from "../components/Home/Testimonial";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import CityServiceSection from "../components/Home/CityServiceSection";
 
 const Home = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div className="page-home">
       <Header />

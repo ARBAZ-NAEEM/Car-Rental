@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
-import { Col, Container, Row, UncontrolledAccordion } from "reactstrap";
+import {
+  Button,
+  Col,
+  Container,
+  Input,
+  Label,
+  Row,
+  UncontrolledAccordion,
+} from "reactstrap";
 import PageTitle from "../components/PageTitle";
 import bgImg from "../assets/img/hero_01.png";
 import usericon from "../assets/img/user-icon.png";
@@ -476,15 +484,75 @@ const FleetView = () => {
                   <img src={circlesupport} alt="" />
                   <h3>LONG TERM LEASE </h3>
                 </div>
-                <div className="support-details">
-                  <img src={emailicon} alt="" />
-                  <p> Send us a message</p>
-                  <p>Support@blocship.com</p>
-                </div>
+                <Row className="support-sec mt-5">
+                  <Col md="2" lg="2">
+                    <div className="support-image">
+                      <img src={emailicon} alt="" />
+                    </div>
+                  </Col>
+                  <Col md="8" lg="8">
+                    <div className="support-text">
+                      <p className="color-changetxt"> Send us a message </p>
+                      <p className="simple-txt">Support@blocship.com</p>
+                    </div>
+                  </Col>
+                </Row>
+                <Row className="support-sec mt-3">
+                  <Col md="2" lg="2">
+                    <div className="support-image">
+                      <img src={phoneicon} alt="" />
+                    </div>
+                  </Col>
+                  <Col md="8" lg="8">
+                    <div className="support-text">
+                      <p className="color-changetxt"> Setup a call </p>
+                      <p className="simple-txt">+1 555 555 5</p>
+                    </div>
+                  </Col>
+                </Row>
               </div>
             </Col>
             <Col lg="8" md="8">
-              form
+              <div className="contact-choice-section ">
+                <Row>
+                  <Col lg="6" md="6" xs="12">
+                    <div className="form-group">
+                      <Label>Full Name</Label>
+                      <Input placeholder="Enter Your Name" />
+                    </div>
+                  </Col>
+                  <Col lg="6" md="6" xs="12">
+                    <div className="form-group">
+                      <Label>Email Address</Label>
+                      <Input placeholder="Enter Your Email" />
+                    </div>
+                  </Col>
+                  <Col lg="6" md="6" xs="12">
+                    <div className="form-group">
+                      <Label>Company Name</Label>
+                      <Input placeholder="Enter Your Company" />
+                    </div>
+                  </Col>
+                  <Col lg="6" md="6" xs="12">
+                    <div className="form-group">
+                      <Label>Services</Label>
+                      <Input placeholder="Specify your budget" />
+                    </div>
+                  </Col>
+                  <Col lg="12" md="12" xs="12">
+                    <div className="form-group">
+                      <Label>Enter Your Message</Label>
+                      <Input placeholder="Enter your Messgae" />
+                    </div>
+                  </Col>
+
+                  <Col lg="12">
+                    <Button className="btn-contact-info" color="primary">
+                      Send Message To Us
+                    </Button>
+                  </Col>
+                </Row>
+              </div>
             </Col>
           </Row>
         </Container>

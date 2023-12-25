@@ -994,7 +994,8 @@ button.choose-btn {
 }
 .contact-section.row {
   border: 10px solid #f0f0f0;
-  margin: 0 140px;
+  margin: 0 100px;
+  padding: 30px 25px;
   background-color: #fff;
 }
 button:focus:not(:focus-visible) {
@@ -1003,6 +1004,37 @@ button:focus:not(:focus-visible) {
 }
 .faqs-section .accordion {
   --bs-accordion-border-width: none;
+}
+.support-image img {
+  width: 100%;
+}
+p.color-changetxt {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    #9d2b02 0%,
+    rgba(238, 51, 58, 1) 100%
+  ) !important;
+  font-size: 16px;
+  font-weight: 700;
+}
+p.simple-txt {
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+}
+.contact-section.row .col-md-4 {
+  border-right: 3px solid #f6f6f6;
+}
+.support-text p {
+  margin-bottom: 0;
+}
+.image-icon h3 {
+  color: #011643;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 30px 6px;
 }
 .car-product .card:hover button.choose-btn {
   background-image: unset;

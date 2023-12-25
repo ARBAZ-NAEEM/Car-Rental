@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   Collapse,
@@ -12,10 +12,12 @@ import {
   DropdownItem,
   NavItem,
 } from "reactstrap";
+
 import logoImg from "../assets/img/header_logo.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="page-header">
       <Container>
