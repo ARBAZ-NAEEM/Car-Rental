@@ -26,10 +26,10 @@ const Home = () => {
         bgImg={bgImg}
         gap="288px 0"
       />
-      <PickUpForm />
+      <PickUpForm btnText="Find a Car" boxShadow="none" />
       <PartnersSection />
       <DiscoverSection />
-      <CarSection />
+      <CarSection bg="#F4EFEF" />
       <HowItWorks />
       <CitySection />
       <CityServiceSection />
