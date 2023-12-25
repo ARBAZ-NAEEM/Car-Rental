@@ -3,7 +3,8 @@ import { Button, Col, Container, Row } from "reactstrap";
 import FormGroupSelect from "../GeneralComponents/FormGroupSelect";
 import FormGroupInput from "../GeneralComponents/FormGroupInput";
 
-const PickUpForm = () => {
+const PickUpForm = (props) => {
+  const {btnText, boxShadow} = props
   const formPanel = {
     pickUpLocation: 0,
     // pickUpDate: "",
@@ -20,7 +21,7 @@ const PickUpForm = () => {
   return (
     <div className="section-form">
       <Container>
-        <div className="form-section">
+        <div className="form-section" style={{boxShadow: boxShadow}}>
           <Row style={{ alignItems: "flex-end" }}>
             <Col>
               <FormGroupSelect
@@ -60,7 +61,7 @@ const PickUpForm = () => {
             </Col>
             <Col>
               <Button className="btn-formPanel" color="primary">
-                Find a Car
+                {btnText}
               </Button>
             </Col>
           </Row>

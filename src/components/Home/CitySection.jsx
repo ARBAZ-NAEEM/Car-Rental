@@ -66,9 +66,10 @@ const allItems = [
     text: "48 routes to/from this city",
   },
 ];
-const CitySection = () => {
+const CitySection = (props) => {
+  const { bg } = props;
   return (
-    <div className="main-city-section">
+    <div className="main-city-section" style={{ backgroundColor: bg }}>
       <div className="section-city">
         <Container fluid style={{ padding: 0 }}>
           <div className="city-titlebar text-center">

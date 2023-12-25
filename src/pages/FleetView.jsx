@@ -303,7 +303,7 @@ const FleetView = () => {
                 </Container>
               </div>
               <div className="form-section-fleetview">
-                <PickUpForm />
+                <PickUpForm btnText="Change" boxShadow="none"/>
               </div>
               <div className="car-product">
                 <div className="row">
