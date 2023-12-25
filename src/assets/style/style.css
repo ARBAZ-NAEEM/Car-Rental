@@ -76,6 +76,7 @@ input {
   position: relative;
   z-index: -1;
 }
+
 .btn-lease {
   font-size: 18px !important;
   font-weight: 600 !important;
@@ -870,6 +871,151 @@ ul.list-number > li {
 .about-subtext h4 {
   margin-bottom: 0;
   line-height: 37px;
+}
+
+.small-tags {
+  margin-bottom: 20px;
+}
+
+.small-tags span.tag-btn {
+  background-image: linear-gradient(to right, #9d0208 51%, #d00000 100%);
+  color: #fff;
+  padding: 4px 28px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-transform: capitalize;
+  box-shadow: 1px 4px 5px 0px #0000002e;
+}
+.car-name-data p {
+  margin-bottom: 0;
+}
+.car-data h6 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.car-data p {
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+}
+.car-price {
+  float: right;
+}
+
+p.price {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p.price span {
+  font-size: 14px !important;
+}
+
+.car-price p.total-text {
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+}
+.image-product img {
+  width: 100%;
+  /* height: 260px; */
+}
+
+.car-specification ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+.car-specification ul {
+  padding-left: 0;
+}
+
+.car-specification ul li img {
+  margin-right: 6px;
+  background-color: #fff;
+  padding: 5px 5px;
+  border-radius: 8px;
+}
+.car-select-btn button {
+  width: 48%;
+  padding: 8px 30px;
+  margin: 0 4px;
+  border: unset;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ecf0f4;
+}
+button.choose-btn {
+  background-image: linear-gradient(to right, #9d0208 51%, #d00000 100%);
+  color: #fff;
+}
+.car-product .card {
+  border: unset;
+  box-shadow: 0 0 13px 3px #0000000f;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.car-product .card:hover {
+  background-color: #ee333a;
+}
+.car-product .card:hover span.tag-btn {
+  background-image: unset;
+  background-color: #fff;
+  color: #000;
+}
+.car-product .card:hover .car-name-data {
+  color: #fff;
+}
+.car-product .card:hover .car-specification ul li {
+  color: #fff;
+}
+.car-product .card:hover .car-data p {
+  color: #fff;
+}
+.car-product .card:hover .car-price p.total-text {
+  color: #fff;
+}
+.faqs-section {
+  margin: 40px 0 20px 0;
+}
+.faqs-heading h3 {
+  font-size: 45px;
+}
+.faqs-section button.accordion-button {
+  padding: 0 0px;
+  background-color: unset;
+  line-height: 50px;
+}
+.contact-section.row {
+  border: 10px solid #f0f0f0;
+  margin: 0 140px;
+  background-color: #fff;
+}
+button:focus:not(:focus-visible) {
+  box-shadow: unset;
+  border-bottom: 1px solid;
+}
+.faqs-section .accordion {
+  --bs-accordion-border-width: none;
+}
+.car-product .card:hover button.choose-btn {
+  background-image: unset;
+  color: #000;
+  background-color: #fff;
+}
+.contact-form-bg {
+  background-image: url("../img/feet-form-bg.png");
+  background-size: cover;
+  padding: 50px 0;
+}
+.faqs-section .accordion-body {
+  padding: 20px 0;
 }
 /* Media Query Start*/
 @media (max-width: 1600px) {

@@ -7,6 +7,7 @@ import city3 from "../../assets/img/city3.png";
 import city4 from "../../assets/img/city4.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import groupServices from "../../assets/img/group-service.png";
 
 const responsive = {
   superLargeDesktop: {
@@ -126,7 +127,7 @@ const CitySection = () => {
           </div>
         </Container>
       </div>
-      <div className="services-section">
+      {/* <div className="services-section">
         <Container>
           <div className="services-get">
             <Row className="align-items-center">
@@ -173,7 +174,7 @@ const CitySection = () => {
             </Row>
           </div>
         </Container>
-      </div>
+      </div> */}
     </div>
   );
 };

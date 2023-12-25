@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
-import { Col, Container, Row } from "reactstrap";
+import { Col, Container, Row, UncontrolledAccordion } from "reactstrap";
 import PageTitle from "../components/PageTitle";
 import bgImg from "../assets/img/hero_01.png";
 import usericon from "../assets/img/user-icon.png";
@@ -8,8 +8,24 @@ import bagicon from "../assets/img/bag-icon.png";
 import dooricon from "../assets/img/door-icon.png";
 import manulicon from "../assets/img/manul-icon.png";
 import petrolicon from "../assets/img/petrol-icon.png";
-
+import question from "../assets/img/question.png";
+import product_one from "../assets/img/product-1.png";
+import product_two from "../assets/img/product-2.png";
+import product_three from "../assets/img/product-3.png";
+import product_four from "../assets/img/product-4.png";
+import product_five from "../assets/img/product-5.png";
+import product_six from "../assets/img/product-6.png";
+import circlesupport from "../assets/img/Feature Icon with circle.png";
+import emailicon from "../assets/img/email 1.png";
+import phoneicon from "../assets/img/viber 1.png";
+import {
+  Accordion,
+  AccordionBody,
+  AccordionHeader,
+  AccordionItem,
+} from "reactstrap";
 import PickUpForm from "../components/Home/PickUpForm";
+import Footer from "../components/Footer";
 
 const FleetView = () => {
   const [carType, setCarType] = useState([]);
@@ -30,13 +46,42 @@ const FleetView = () => {
   };
 
   const carProducts = [
-    { id: 1, name: "Product 1", description: "Description of Product 1" },
-    { id: 2, name: "Product 2", description: "Description of Product 2" },
-    { id: 3, name: "Product 3", description: "Description of Product 3" },
-    { id: 4, name: "Product 4", description: "Description of Product 4" },
-    { id: 5, name: "Product 5", description: "Description of Product 5" },
-    { id: 6, name: "Product 6", description: "Description of Product 6" },
-    { id: 7, name: "Product 7", description: "Description of Product 7" },
+    {
+      id: 1,
+      name: "Product 1",
+      description: "Description of Product 1",
+      imageUrl: product_one,
+    },
+    {
+      id: 2,
+      name: "Product 2",
+      description: "Description of Product 2",
+      imageUrl: product_two,
+    },
+    {
+      id: 3,
+      name: "Product 3",
+      description: "Description of Product 3",
+      imageUrl: product_three,
+    },
+    {
+      id: 4,
+      name: "Product 4",
+      description: "Description of Product 4",
+      imageUrl: product_four,
+    },
+    {
+      id: 5,
+      name: "Product 5",
+      description: "Description of Product 5",
+      imageUrl: product_five,
+    },
+    {
+      id: 6,
+      name: "Product 6",
+      description: "Description of Product 6",
+      imageUrl: product_six,
+    },
   ];
 
   return (
@@ -254,24 +299,33 @@ const FleetView = () => {
                           <div className="car-name-data">
                             <div className="row">
                               <div className="small-tags">
-                                <p className="tag-btn">small</p>
+                                <span className="tag-btn">small</span>
                               </div>
                               <div className="col-md-6">
                                 <div className="car-data">
                                   <h6>Toyota Aygo</h6>
-                                  <p>or similar group B car</p>
+                                  <p>
+                                    or similar group B car{" "}
+                                    <span>
+                                      <img src={question} alt="" />
+                                    </span>
+                                  </p>
                                 </div>
                               </div>
                               <div className="col-md-6">
                                 <div className="car-price">
-                                  <p className="price">$ 24.63</p>
-                                  <p>Total rental</p>
+                                  <p className="price">
+                                    € 24. <span className="font-small">23</span>
+                                  </p>
+                                  <p className="total-text">Total rental</p>
                                 </div>
                               </div>
                             </div>
                             <div className="row">
                               <div className="col-md-12">
-                                <img src="" alt="" />
+                                <div className="image-product">
+                                  <img src={product.imageUrl} alt="" />
+                                </div>
                               </div>
                             </div>
                             <div className="car-specification">
@@ -296,7 +350,7 @@ const FleetView = () => {
                               </ul>
                             </div>
                             <div className="car-select-btn">
-                              <button>Choose</button>
+                              <button className="choose-btn">Choose</button>
                               <button>Details</button>
                             </div>
                           </div>
@@ -306,10 +360,136 @@ const FleetView = () => {
                   ))}
                 </div>
               </div>
+              <div className="faqs-section">
+                <div className="faqs-heading">
+                  <h3>FAQ</h3>
+                </div>
+                <UncontrolledAccordion defaultOpen="1">
+                  <AccordionItem>
+                    <AccordionHeader targetId="1">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod?
+                    </AccordionHeader>
+                    <AccordionBody accordionId="1">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </AccordionBody>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <AccordionHeader targetId="2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod?
+                    </AccordionHeader>
+                    <AccordionBody accordionId="2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </AccordionBody>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <AccordionHeader targetId="3">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod?
+                    </AccordionHeader>
+                    <AccordionBody accordionId="3">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </AccordionBody>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <AccordionHeader targetId="4">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod?
+                    </AccordionHeader>
+                    <AccordionBody accordionId="4">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </AccordionBody>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <AccordionHeader targetId="5">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod?
+                    </AccordionHeader>
+                    <AccordionBody accordionId="5">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </AccordionBody>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <AccordionHeader targetId="6">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod?
+                    </AccordionHeader>
+                    <AccordionBody accordionId="6">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </AccordionBody>
+                  </AccordionItem>
+                </UncontrolledAccordion>
+              </div>
             </Col>
           </Row>
         </Container>
       </div>
+      <div className="contact-form-bg">
+        <Container fluid>
+          <Row className="contact-section">
+            <Col lg="4" md="4">
+              <div className="right-section">
+                <div className="image-icon">
+                  <img src={circlesupport} alt="" />
+                  <h3>LONG TERM LEASE </h3>
+                </div>
+                <div className="support-details">
+                  <img src={emailicon} alt="" />
+                  <p> Send us a message</p>
+                  <p>Support@blocship.com</p>
+                </div>
+              </div>
+            </Col>
+            <Col lg="8" md="8">
+              form
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <Footer />
     </div>
   );
 };

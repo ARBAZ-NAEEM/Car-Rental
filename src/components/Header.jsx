@@ -102,7 +102,7 @@ const Header = () => {
                 </Link>
               </NavItem>
               <NavItem>
-                <Link className="nav-link nav-btn" to="/contact">
+                <Link className="nav-link nav-btn" to="">
                   Booking Now
                 </Link>
               </NavItem>

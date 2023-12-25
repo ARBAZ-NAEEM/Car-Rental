@@ -21,6 +21,7 @@ const Home = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <div className="page-home">
       <Header />
