@@ -34,6 +34,7 @@ import {
 } from "reactstrap";
 import PickUpForm from "../components/Home/PickUpForm";
 import Footer from "../components/Footer";
+import FullView from "../components/Fleet/FullView";
 
 const FleetView = () => {
   const [carType, setCarType] = useState([]);
@@ -91,6 +92,13 @@ const FleetView = () => {
       imageUrl: product_six,
     },
   ];
+
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  // Function to toggle modal visibility
+  const toggleModal = () => {
+    setIsModalVisible(!isModalVisible);
+  };
 
   return (
     <div className="page-fleetview">
@@ -359,8 +367,11 @@ const FleetView = () => {
                             </div>
                             <div className="car-select-btn">
                               <button className="choose-btn">Choose</button>
-                              <button>Details</button>
+                              <button onClick={toggleModal}>Details</button>
                             </div>
+                            {isModalVisible && (
+                              <FullView onClose={toggleModal} />
+                            )}
                           </div>
                         </div>
                       </div>
@@ -527,26 +538,31 @@ const FleetView = () => {
                       <Input placeholder="Enter Your Email" />
                     </div>
                   </Col>
-                  <Col lg="6" md="6" xs="12">
+                  <Col lg="6" md="6" xs="12" className="mt-3">
                     <div className="form-group">
                       <Label>Company Name</Label>
                       <Input placeholder="Enter Your Company" />
                     </div>
                   </Col>
-                  <Col lg="6" md="6" xs="12">
+                  <Col lg="6" md="6" xs="12" className="mt-3">
                     <div className="form-group">
                       <Label>Services</Label>
                       <Input placeholder="Specify your budget" />
                     </div>
                   </Col>
-                  <Col lg="12" md="12" xs="12">
+                  <Col lg="12" md="12" xs="12" className="mt-3">
                     <div className="form-group">
                       <Label>Enter Your Message</Label>
-                      <Input placeholder="Enter your Messgae" />
+                      <Input
+                        type="textarea"
+                        rows={4}
+                        cols={40}
+                        placeholder="Enter your Messgae"
+                      />
                     </div>
                   </Col>
 
-                  <Col lg="12">
+                  <Col lg="12" className="mt-3">
                     <Button className="btn-contact-info" color="primary">
                       Send Message To Us
                     </Button>
