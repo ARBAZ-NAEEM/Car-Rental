@@ -17,6 +17,7 @@ import travel2of1 from "../assets/img/traveling2-1.png";
 import GallerySection from "../components/Home/GallerySection";
 import PremiumSection from "../components/Home/PremiumSection";
 import PickUpForm from "../components/Home/PickUpForm";
+import Faq from "../components/Fleet/Faq";
 
 const Discover = () => {
   return (
@@ -193,6 +194,7 @@ const Discover = () => {
         </Container>
       </div>
       <GallerySection />
+      <Faq />
       <PremiumSection />
       <PickUpForm btnText="Change" boxShadow="5px 5px 5px #ccc" />
       <div className="text-center btn-lease-discover">
