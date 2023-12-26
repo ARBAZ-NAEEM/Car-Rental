@@ -9,8 +9,21 @@ import phoneicon from "../assets/img/viber 1.png";
 import PageTitle from "../components/PageTitle";
 import bgImg from "../assets/img/long-term.png";
 import AboutSection from "../components/About/AboutSection";
+import bussiness from "../assets/img/business.png";
+import emailIcon from "../assets/img/email-icon.png";
+import phoneIcon from "../assets/img/phone-icon.png";
 
 const LongTermForm = () => {
+  const iframe =
+    '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6884.647678747011!2d14.462037859355188!3d35.89546231748722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1703575125043!5m2!1sen!2s" width="100%" height="400" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+  function Iframe(props) {
+    return (
+      <div
+        dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : "" }}
+      />
+    );
+  }
+
   return (
     <div className="page-longterm-form">
       <Header />
@@ -106,7 +119,85 @@ const LongTermForm = () => {
         </Row>
       </Container>
       <AboutSection />
-
+      <div className="section-bussiness">
+        <Container>
+          <Row style={{ alignItems: "center" }}>
+            <Col md="6" lg="6" xs="12">
+              <div className="business-img ">
+                <div
+                  className="business-mn-img text-right"
+                  style={{ textAlign: "right" }}
+                >
+                  <img src={bussiness} />
+                </div>
+              </div>
+            </Col>
+            <Col md="6" lg="6" xs="12">
+              <div className="content-content">
+                <h2>
+                  <span>business </span> <br /> solutions
+                </h2>
+                <p>
+                  <strong>While some providers charge $150+</strong> to file a C
+                  Corp, streamlined processes enable us to offer truly free C
+                  Corp formation. You only pay the mandatory, one time state
+                  fee. File your C Corporation with us for free and spend your
+                  valuable time on other things.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="section-contact-long">
+        <Container>
+          <Row>
+            <Col lg="5" md="5" xs="12">
+              <div className="inner-contact-long">
+                <h2>Contact us</h2>
+                <ul>
+                  <li>
+                    <img src={emailIcon} />
+                  </li>
+                  <li>
+                    <div className="msg-contct">
+                      <p className="mb-0">Send us a message</p>
+                      <h4 className="mb-0">Support@blocship.com</h4>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <img src={phoneIcon} />
+                  </li>
+                  <li>
+                    <div className="msg-contct">
+                      <p className="mb-0">Setup a call</p>
+                      <h4 className="mb-0">+1 555 555 5</h4>
+                    </div>
+                  </li>
+                </ul>
+                <div className="footer-contact">
+                  <input className="footer-field" placeholder="Write a message" />
+                  <Button color="primary" className="footer-submit">
+                    SEND MESSAGE
+                  </Button>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="section-visit">
+        <Container>
+          <div className="inner-visit text-center">
+            <h2>
+              <span>Visit</span> us Now
+            </h2>
+            <Iframe iframe={iframe} />
+          </div>
+        </Container>
+      </div>
       <PremiumSection bg="#f4efef" />
       <Footer />
     </div>

@@ -155,7 +155,7 @@ const Discover = () => {
                     <span>Lorem ipsum </span> <br /> dolor sit amet
                   </h2>
                   <p>
-                    While some providers charge $150+ to file a C Corp,
+                    <strong>While some providers charge $150+</strong> to file a C Corp,
                     streamlined processes enable us to offer truly free C Corp
                     formation. You only pay the mandatory, one time state fee.
                     File your C Corporation with us for free and spend your
@@ -171,7 +171,7 @@ const Discover = () => {
                     <span>Lorem ipsum </span> <br /> dolor sit amet
                   </h2>
                   <p>
-                    While some providers charge $150+ to file a C Corp,
+                  <strong>While some providers charge $150+</strong> to file a C Corp,
                     streamlined processes enable us to offer truly free C Corp
                     formation. You only pay the mandatory, one time state fee.
                     File your C Corporation with us for free and spend your
