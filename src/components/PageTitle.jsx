@@ -10,6 +10,7 @@ const PageTitle = (props) => {
         backgroundImage: `url(${bgImg})`,
         backgroundSize: "cover",
         padding: gap,
+        backgroundPosition: "center",
       }}
     >
       <Container>

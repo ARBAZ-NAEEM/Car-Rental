@@ -83,7 +83,7 @@ const ContactUs = () => {
           <div className="form-contact-section">
             <p className="text-center">
               Please fill out the form below to receive a free consultation. Get
-              access to Legal, Tax and Monetary Support When you Sign up Today!
+              access to Legal, Tax and Monetary Support When you <a href="#">Sign up Today!</a>
             </p>
             <hr />
             <Row>

@@ -7,8 +7,8 @@ const PickUpForm = (props) => {
   const {btnText, boxShadow} = props
   const formPanel = {
     pickUpLocation: 0,
-    // pickUpDate: "",
-    // dropOffDate: "",
+    pickUpDate: "",
+    dropOffDate: "",
     // carType: 0,
   };
   const [fields, setFields] = useState(formPanel);
@@ -23,7 +23,7 @@ const PickUpForm = (props) => {
       <Container>
         <div className="form-section" style={{boxShadow: boxShadow}}>
           <Row style={{ alignItems: "flex-end" }}>
-            <Col>
+            <Col lg="3" md="3" xs="12">
               <FormGroupSelect
                 label="Pick-up Location"
                 onChange={handleChange}
@@ -32,34 +32,27 @@ const PickUpForm = (props) => {
                 defaultName="Select Location"
               />
             </Col>
-            <Col>
+            <Col lg="3" md="3" xs="12">
               <FormGroupInput
                 label="Pick-up Date"
                 onChange={handleChange}
-                name="pickUpLocation"
-                value={fields?.pickUpLocation}
+                name="pickUpDate"
+                value={fields?.pickUpDate}
                 placeholder="d-m-Y"
+                type="date"
               />
             </Col>
-            <Col>
+            <Col lg="3" md="3" xs="12">
               <FormGroupInput
                 label="Drop-off Date"
                 onChange={handleChange}
-                name="pickUpLocation"
-                value={fields?.pickUpLocation}
+                name="dropOffDate"
+                value={fields?.dropOffDate}
                 placeholder="d-m-Y"
+                type="date"
               />
             </Col>
-            <Col>
-              <FormGroupSelect
-                label="Car Type"
-                onChange={handleChange}
-                name="pickUpLocation"
-                value={fields?.pickUpLocation}
-                defaultName="Car Type"
-              />
-            </Col>
-            <Col>
+            <Col lg="3" md="3" xs="12">
               <Button className="btn-formPanel" color="primary">
                 {btnText}
               </Button>

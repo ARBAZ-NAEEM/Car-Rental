@@ -106,7 +106,8 @@ input {
   margin: 10px;
   padding: 15px !important;
   position: relative;
-  border: 2px solid #e9e9e9 !important;
+  /* border: 2px solid #e9e9e9 !important; */
+  border: 0px !important;
   border-radius: 0 !important;
 }
 .discover-section {
@@ -115,6 +116,10 @@ input {
 .dim-btn .btn {
   border-radius: 4px !important;
   padding: 12px 36px;
+}
+.form-section .form-control {
+  color: #212529 !important;
+  font-weight: 400 !important;
 }
 .card-discover {
   padding: 26px 13px !important;
@@ -140,13 +145,13 @@ input {
 }
 .car-subtext h5 {
   color: #ee333a;
-  font-size: 19px;
+  font-size: 25px;
   font-weight: 800;
   padding-right: 50px;
-  min-height: 50px;
+  min-height: 68px;
 }
 .car-subtext p {
-  font-size: 13px;
+  font-size: 16px;
   color: #fff;
   line-height: 19px;
   font-family: "Poppins";
@@ -167,9 +172,9 @@ input {
   width: 242px;
   height: 220px;
   z-index: 99;
-  top: 50px;
-  right: 20px;
-  transform: scale(1.15);
+  top: 59px;
+  right: 43px;
+  transform: scale(1.3);
 }
 .car-sc {
   position: relative;
@@ -601,10 +606,10 @@ ul.social-menu {
   align-items: center;
   gap: 8px;
 }
-.client-view img{
+.client-view img {
   transition: 0.8s;
 }
-.client-view:hover img{
+.client-view:hover img {
   transform: rotateY(25deg);
   filter: brightness(0.8);
 }
@@ -733,9 +738,10 @@ ul.list-number > li {
 .contact-section h2,
 .contact-choice-section h2 {
   color: #ee333a;
-  font-size: 62px !important;
+  font-size: 77.8px !important;
   text-transform: uppercase;
-  font-weight: 400 !important;
+  font-weight: 500 !important;
+  line-height: 80px !important;
 }
 .contact-choice-section h2 span {
   color: #070707;
@@ -800,16 +806,23 @@ ul.list-number > li {
   padding: 80px 0 40px;
 }
 .contact-choice-section p {
-  font-size: 20px;
+  font-size: 24px;
   color: #2c2c2c;
-  font-weight: 600;
-  padding: 0px 190px;
+  font-weight: 500;
+  padding: 0px 100px;
+  line-height: 44px;
+  font-family: 'Poppins';
+}
+.contact-choice-section p a {
+  color: #1D4734;
+  text-decoration: none;
 }
 .contact-choice-section {
   padding: 30px 0 30px;
 }
 .form-contact-section label {
   font-size: 18px;
+  color: #0A271A !important;
 }
 .form-contact-section input {
   background: #f9fbfd !important;
@@ -829,9 +842,9 @@ ul.list-number > li {
   border-radius: 12px;
 }
 .form-contact-section hr {
-  width: 60%;
+  width: 80%;
   color: #988787;
-  margin: 30px 20% 30px 20%;
+  margin: 30px 10% 30px 10%;
 }
 .about-us-content .heading2 {
   background: #262e34;

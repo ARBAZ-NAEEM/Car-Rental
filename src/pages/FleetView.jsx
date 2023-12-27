@@ -36,8 +36,23 @@ import PickUpForm from "../components/Home/PickUpForm";
 import Footer from "../components/Footer";
 import FullView from "../components/Fleet/FullView";
 import Faq from "../components/Fleet/Faq";
+import FormGroupSelect from "../components/GeneralComponents/FormGroupSelect";
+import FormGroupInput from "../components/GeneralComponents/FormGroupInput";
 
 const FleetView = () => {
+  const formPanel = {
+    pickUpLocation: 0,
+    pickUpDate: "",
+    dropOffDate: "",
+    // carType: 0,
+  };
+  const [fields, setFields] = useState(formPanel);
+  const handleChange = (e) => {
+    setFields({
+      ...fields,
+      [e.target.name]: e.target.value,
+    });
+  };
   const [carType, setCarType] = useState([]);
   const [seats, setSeats] = useState([]);
   const [transmission, setTransmission] = useState([]);
@@ -289,8 +304,9 @@ const FleetView = () => {
                 style={{
                   backgroundImage: `url(${bgImg})`,
                   backgroundSize: "cover",
-                  padding: "185px 0px",
+                  padding: "235px 0px",
                   borderRadius: "30px",
+                  backgroundPosition:"center"
                 }}
               >
                 <Container>
@@ -304,7 +320,60 @@ const FleetView = () => {
                 </Container>
               </div>
               <div className="form-section-fleetview">
-                <PickUpForm btnText="Change" boxShadow="none"/>
+                <div className="section-form">
+                  <Container>
+                    <div
+                      className="form-section"
+                      // style={{ boxShadow: boxShadow }}
+                    >
+                      <Row style={{ alignItems: "flex-end" }}>
+                        <Col>
+                          <FormGroupSelect
+                            label="Pick-up Location"
+                            onChange={handleChange}
+                            name="pickUpLocation"
+                            value={fields?.pickUpLocation}
+                            defaultName="Select Location"
+                          />
+                        </Col>
+                        <Col>
+                          <FormGroupInput
+                            label="Pick-up Date"
+                            onChange={handleChange}
+                            name="pickUpDate"
+                            value={fields?.pickUpDate}
+                            placeholder="d-m-Y"
+                            type="date"
+                          />
+                        </Col>
+                        <Col>
+                          <FormGroupInput
+                            label="Drop-off Date"
+                            onChange={handleChange}
+                            name="dropOffDate"
+                            value={fields?.dropOffDate}
+                            placeholder="d-m-Y"
+                            type="date"
+                          />
+                        </Col>
+                        <Col>
+                          <FormGroupSelect
+                            label="Car Type"
+                            onChange={handleChange}
+                            name="pickUpLocation"
+                            value={fields?.pickUpLocation}
+                            defaultName="Car Type"
+                          />
+                        </Col>
+                        <Col>
+                          <Button className="btn-formPanel" color="primary">
+                            Close
+                          </Button>
+                        </Col>
+                      </Row>
+                    </div>
+                  </Container>
+                </div>
               </div>
               <div className="car-product">
                 <div className="row">
