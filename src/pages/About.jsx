@@ -84,7 +84,8 @@ const About = () => {
               <span>Our</span> <br /> Unique Features
             </h2>
             <Row>
-              <Col lg="6" md="6" xs="12">
+              <Col lg="2" md="2"></Col>
+              <Col lg="4" md="4" xs="12">
                 <div className="d-flex about-count">
                   <div className="car-count">
                     <h3 className="car-count-heading mb-0">01</h3>
@@ -97,7 +98,7 @@ const About = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg="6" md="6" xs="12">
+              <Col lg="4" md="4" xs="12">
                 <div className="d-flex about-count">
                   <div className="car-count">
                     <h3 className="car-count-heading mb-0">02</h3>
@@ -110,7 +111,9 @@ const About = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg="6" md="6" xs="12">
+              <Col lg="2" md="2"></Col>
+              <Col lg="2" md="2"></Col>
+              <Col lg="4" md="4" xs="12">
                 <div className="d-flex about-count">
                   <div className="car-count">
                     <h3 className="car-count-heading mb-0">03</h3>
@@ -123,7 +126,7 @@ const About = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg="6" md="6" xs="12">
+              <Col lg="4" md="4" xs="12" className="last-count-class">
                 <div className="d-flex about-count">
                   <div className="car-count">
                     <h3 className="car-count-heading mb-0">04</h3>
@@ -136,6 +139,7 @@ const About = () => {
                   </div>
                 </div>
               </Col>
+              <Col lg="2" md="2"></Col>
             </Row>
           </div>
         </Container>

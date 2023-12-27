@@ -917,14 +917,17 @@ ul.list-number > li {
   height: 183px;
   content: "";
   position: absolute;
-  position: absolute;
-  right: 270px;
+  right: 70px;
   top: 20px;
+  transform: scale(0.85);
+}
+.last-count-class h4 {
+  line-height: 30px;
 }
 
 .about-subtext {
   color: #fff;
-  padding: 0 250px 0 20px;
+  padding: 0 110px 0 20px;
 }
 
 .about-subtext h4 {
