@@ -28,13 +28,13 @@ const FullView = ({ onClose }) => {
                   <img src={modalcar} alt="" />
                 </div>
               </Col>
-              <Col lg="6" md="6">
-                <div className="right-section-contant">
+              <Col lg="6" md="6" xs="12">
+                <div className="right-section-contant mt-3">
                   <Row>
-                    <div class="small-tags">
+                    <div class="small-tags ">
                       <span class="tag-btn">small</span>
                     </div>
-                    <Col md="6" lg="6">
+                    <Col md="6" lg="6" xs="6">
                       <div className="car-data">
                         <h6>Toyota Aygo</h6>
                         <p>
@@ -45,7 +45,7 @@ const FullView = ({ onClose }) => {
                         </p>
                       </div>
                     </Col>
-                    <Col md="6" lg="6">
+                    <Col md="6" lg="6" xs="6">
                       <div className="car-price">
                         <p className="price">
                           € 24. <span className="font-small">23</span>
@@ -55,12 +55,14 @@ const FullView = ({ onClose }) => {
                     </Col>
                   </Row>
                   <Row className="mt-3">
-                    <Col md="6" lg="6">
+                    <Col md="6" lg="6" xs="6">
                       <div className="checkout-btn">
-                        <button>Checkout</button>
+                        <a href="/checkout">
+                          <button>Checkout</button>
+                        </a>
                       </div>
                     </Col>
-                    <Col md="6" lg="6">
+                    <Col md="6" lg="6" xs="6">
                       <div className="checkout-text">
                         <p className="pick-date">Pick-up Date</p>
                         <p className="date-txt">23 june , 12:00am</p>
@@ -141,7 +143,7 @@ const FullView = ({ onClose }) => {
                   </Row>
                   <hr />
                   <Row>
-                    <Col md="6">
+                    <Col lg="8" md="12">
                       <div className="checkout-btn">
                         <button>IMPORTANT INFORMATION</button>
                       </div>

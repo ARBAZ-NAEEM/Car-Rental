@@ -327,7 +327,7 @@ const FleetView = () => {
                       // style={{ boxShadow: boxShadow }}
                     >
                       <Row style={{ alignItems: "flex-end" }}>
-                        <Col>
+                        <Col lg="3" md="6" className="mb-3">
                           <FormGroupSelect
                             label="Pick-up Location"
                             onChange={handleChange}
@@ -336,7 +336,7 @@ const FleetView = () => {
                             defaultName="Select Location"
                           />
                         </Col>
-                        <Col>
+                        <Col lg="2" md="6" className="mb-3">
                           <FormGroupInput
                             label="Pick-up Date"
                             onChange={handleChange}
@@ -346,7 +346,7 @@ const FleetView = () => {
                             type="date"
                           />
                         </Col>
-                        <Col>
+                        <Col lg="2" md="6" className="mb-3">
                           <FormGroupInput
                             label="Drop-off Date"
                             onChange={handleChange}
@@ -356,7 +356,7 @@ const FleetView = () => {
                             type="date"
                           />
                         </Col>
-                        <Col>
+                        <Col lg="3" md="6" className="mb-3">
                           <FormGroupSelect
                             label="Car Type"
                             onChange={handleChange}
@@ -365,7 +365,7 @@ const FleetView = () => {
                             defaultName="Car Type"
                           />
                         </Col>
-                        <Col>
+                        <Col lg="2" md="6" className="mb-3">
                           <Button className="btn-formPanel" color="primary">
                             Close
                           </Button>
@@ -379,7 +379,13 @@ const FleetView = () => {
                 <div className="row">
                   {/* Use map() to render each car product as a card */}
                   {carProducts.map((product) => (
-                    <div className="col-md-6 mb-4" key={product.id}>
+                    <Col
+                      lg="6"
+                      md="6"
+                      xs="12"
+                      className="mb-4"
+                      key={product.id}
+                    >
                       <div className="card">
                         <div className="card-body">
                           <div className="car-name-data">
@@ -387,7 +393,7 @@ const FleetView = () => {
                               <div className="small-tags">
                                 <span className="tag-btn">small</span>
                               </div>
-                              <div className="col-md-6">
+                              <Col lg="6" md="6" xs="6">
                                 <div className="car-data">
                                   <h6>Toyota Aygo</h6>
                                   <p>
@@ -397,23 +403,23 @@ const FleetView = () => {
                                     </span>
                                   </p>
                                 </div>
-                              </div>
-                              <div className="col-md-6">
+                              </Col>
+                              <Col lg="6" md="6" xs="6">
                                 <div className="car-price">
                                   <p className="price">
                                     € 24. <span className="font-small">23</span>
                                   </p>
                                   <p className="total-text">Total rental</p>
                                 </div>
-                              </div>
+                              </Col>
                             </div>
-                            <div className="row">
-                              <div className="col-md-12">
+                            <Row>
+                              <Col md="12" lg="12">
                                 <div className="image-product">
                                   <img src={product.imageUrl} alt="" />
                                 </div>
-                              </div>
-                            </div>
+                              </Col>
+                            </Row>
                             <div className="car-specification">
                               <ul>
                                 <li>
@@ -448,7 +454,7 @@ const FleetView = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </Col>
                   ))}
                 </div>
               </div>

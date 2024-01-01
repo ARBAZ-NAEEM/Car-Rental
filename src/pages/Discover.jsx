@@ -30,7 +30,7 @@ const Discover = () => {
           <div className="search-content">
             <h4>Your recent searches</h4>
             <Row>
-              <Col lg="3" md="3" xs="6">
+              <Col lg="3" md="6" xs="12">
                 <div className="search-content-info d-flex">
                   <div className="search-img">
                     <img src={carImg} />
@@ -41,7 +41,7 @@ const Discover = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg="3" md="3" xs="6">
+              <Col lg="3" md="6" xs="12">
                 <div className="search-content-info d-flex">
                   <div className="search-img">
                     <img src={carImg} />
@@ -52,7 +52,7 @@ const Discover = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg="3" md="3" xs="6">
+              <Col lg="3" md="6" xs="12">
                 <div className="search-content-info d-flex">
                   <div className="search-img">
                     <img src={carImg} />
@@ -63,7 +63,7 @@ const Discover = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg="3" md="3" xs="6">
+              <Col lg="3" md="6" xs="12">
                 <div className="search-content-info d-flex">
                   <div className="search-img">
                     <img src={carImg} />
@@ -97,7 +97,7 @@ const Discover = () => {
           </div>
           <div className="travel-images-section">
             <Row>
-              <Col md="5" lg="5" xs="12">
+              <Col md="12" lg="5" xs="12">
                 <div className="travel-hover-heading text-light">
                   <h4>Backpacking MALTA</h4>
                   <p>
@@ -111,7 +111,7 @@ const Discover = () => {
                   <Button color="secondary">Rent Car</Button>
                 </div>
               </Col>
-              <Col md="7" lg="7" xs="12">
+              <Col md="12" lg="7" xs="12">
                 <Row>
                   <Col lg="6" md="6" xs="12">
                     <div className="travel-img">
@@ -139,7 +139,7 @@ const Discover = () => {
         <Container>
           <div className="content-text-inner">
             <Row style={{ alignItems: "center", marginBottom: "100px" }}>
-              <Col md="6" lg="6" xs="12">
+              <Col md="12" lg="6" xs="12">
                 <div className="content-img ">
                   <div className="contn-mn-img text-center">
                     <img src={traveling1} />
@@ -149,37 +149,37 @@ const Discover = () => {
                   </a>
                 </div>
               </Col>
-              <Col md="6" lg="6" xs="12">
+              <Col md="12" lg="6" xs="12">
                 <div className="content-content">
                   <h2>
                     <span>Lorem ipsum </span> <br /> dolor sit amet
                   </h2>
                   <p>
-                    <strong>While some providers charge $150+</strong> to file a C Corp,
-                    streamlined processes enable us to offer truly free C Corp
-                    formation. You only pay the mandatory, one time state fee.
-                    File your C Corporation with us for free and spend your
+                    <strong>While some providers charge $150+</strong> to file a
+                    C Corp, streamlined processes enable us to offer truly free
+                    C Corp formation. You only pay the mandatory, one time state
+                    fee. File your C Corporation with us for free and spend your
                     valuable time on other things.
                   </p>
                 </div>
               </Col>
             </Row>
-            <Row style={{ alignItems: "center" }}>
-              <Col md="6" lg="6" xs="12">
+            <Row className="column-reverse" style={{ alignItems: "center" }}>
+              <Col md="12" lg="6" xs="12">
                 <div className="content-content">
                   <h2>
                     <span>Lorem ipsum </span> <br /> dolor sit amet
                   </h2>
                   <p>
-                  <strong>While some providers charge $150+</strong> to file a C Corp,
-                    streamlined processes enable us to offer truly free C Corp
-                    formation. You only pay the mandatory, one time state fee.
-                    File your C Corporation with us for free and spend your
+                    <strong>While some providers charge $150+</strong> to file a
+                    C Corp, streamlined processes enable us to offer truly free
+                    C Corp formation. You only pay the mandatory, one time state
+                    fee. File your C Corporation with us for free and spend your
                     valuable time on other things.
                   </p>
                 </div>
               </Col>
-              <Col md="6" lg="6" xs="12">
+              <Col md="12" lg="6" xs="12">
                 <div className="content-img ">
                   <div className="contn-mn-img text-center">
                     <img src={traveling2} />

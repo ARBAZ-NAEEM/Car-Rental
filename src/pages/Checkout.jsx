@@ -60,7 +60,7 @@ const Checkout = () => {
             </Row>
             <Row>
               <Col lg="7" md="7">
-                <div className="leftside-card">
+                <div className="leftside-card mb-2">
                   <div className="card">
                     <div className="card-body">
                       <div className="form-data-section">
@@ -209,7 +209,7 @@ const Checkout = () => {
                                 }}
                               >
                                 <Row>
-                                  <Col md="8" lg="8">
+                                  <Col md="7" lg="7" xs="6">
                                     <label>
                                       <input
                                         type="checkbox"
@@ -219,7 +219,7 @@ const Checkout = () => {
                                       Pay with Credit Card
                                     </label>
                                   </Col>
-                                  <Col md="4" lg="4">
+                                  <Col md="5" lg="5" xs="6">
                                     <div className="image-section">
                                       <span>
                                         <img src={cardone} alt="" />
@@ -238,13 +238,13 @@ const Checkout = () => {
                                 {showPayment1 && (
                                   <div className="payment-data">
                                     <Row className="mt-2">
-                                      <Col md="9" lg="9">
+                                      <Col md="9" lg="9" xs="12">
                                         <div className="form-group">
                                           <Label>Name on card</Label>
                                           <Input placeholder="Olivia Rhye" />
                                         </div>
                                       </Col>
-                                      <Col md="3" lg="3">
+                                      <Col md="3" lg="3" xs="12">
                                         <div className="form-group">
                                           <Label>Expiry</Label>
                                           <Input placeholder="06 / 2024" />
@@ -252,13 +252,13 @@ const Checkout = () => {
                                       </Col>
                                     </Row>
                                     <Row className="mt-2">
-                                      <Col md="9" lg="9">
+                                      <Col md="9" lg="9" xs="12">
                                         <div className="form-group">
                                           <Label>Card number </Label>
                                           <Input placeholder="1234 1234 1234 1234" />
                                         </div>
                                       </Col>
-                                      <Col md="3" lg="3">
+                                      <Col md="3" lg="3" xs="12">
                                         <div className="form-group">
                                           <Label>CVV</Label>
                                           <Input placeholder="•••" />
@@ -280,7 +280,7 @@ const Checkout = () => {
                                 }}
                               >
                                 <Row>
-                                  <Col md="10" lg="10">
+                                  <Col md="10" lg="10" xs="9">
                                     <label>
                                       <input
                                         type="checkbox"
@@ -294,7 +294,7 @@ const Checkout = () => {
                                       data.
                                     </p>
                                   </Col>
-                                  <Col md="2" lg="2">
+                                  <Col md="2" lg="2" xs="3">
                                     <div class="image-section">
                                       <span>
                                         <img src={apple} alt="" />
@@ -321,7 +321,7 @@ const Checkout = () => {
                                 }}
                               >
                                 <Row>
-                                  <Col md="10" lg="10">
+                                  <Col md="10" lg="10" xs="9">
                                     <label>
                                       <input
                                         type="checkbox"
@@ -335,7 +335,7 @@ const Checkout = () => {
                                       website after submitting your order
                                     </p>
                                   </Col>
-                                  <Col md="2" lg="2">
+                                  <Col md="2" lg="2" xs="3">
                                     <div class="image-section">
                                       <span>
                                         <img src={paypal} alt="" />
@@ -420,23 +420,23 @@ const Checkout = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg="5" md="5">
+              <Col lg="5" md="5" xs="12">
                 <div className="rightside-card">
                   <div className="card">
                     <div className="card-body">
                       <Row>
-                        <Col md="12" lg="12">
+                        <Col md="12" lg="12" xs="12">
                           <p className="order-summry">Order Summary</p>
                         </Col>
                       </Row>
 
                       <Row className="mt-3">
-                        <Col md="6" lg="6">
+                        <Col md="6" lg="6" xs="6">
                           <div className="righttext-left">
                             <p className="discount-txt">Discount</p>
                           </div>
                         </Col>
-                        <Col md="6" lg="6">
+                        <Col md="6" lg="6" xs="6">
                           <div className="righttext-right">
                             <p className="discount-price">$31.9</p>
                           </div>
@@ -444,12 +444,12 @@ const Checkout = () => {
                       </Row>
 
                       <Row>
-                        <Col md="6" lg="6">
+                        <Col md="6" lg="6" xs="6">
                           <div className="righttext-left">
                             <p className="coupon-txt">Coupon Applied</p>
                           </div>
                         </Col>
-                        <Col md="6" lg="6">
+                        <Col md="6" lg="6" xs="6">
                           <div className="righttext-right">
                             <p className="coupon-price">$0.00</p>
                           </div>
@@ -468,14 +468,14 @@ const Checkout = () => {
                       <hr />
 
                       <Row>
-                        <Col md="6" lg="6">
+                        <Col md="6" lg="6" xs="6">
                           <div className="righttext-left">
                             <p>Pickup Date</p>
                             <p>Drop Off Date</p>
                             <p>Final Price</p>
                           </div>
                         </Col>
-                        <Col md="6" lg="6">
+                        <Col md="6" lg="6" xs="6">
                           <div className="righttext-right">
                             <p>23-JULY-2023</p>
                             <p>25-JULY-2023</p>
@@ -486,7 +486,7 @@ const Checkout = () => {
 
                       <hr />
                       <Row>
-                        <Col md="6" lg="6">
+                        <Col md="6" lg="6" xs="6">
                           <div className="righttext-left ">
                             <p className="toyota-txt">
                               <b>Toyota Aygo</b>
@@ -496,7 +496,7 @@ const Checkout = () => {
                             </p>
                           </div>
                         </Col>
-                        <Col md="6" lg="6">
+                        <Col md="6" lg="6" xs="6">
                           <div className="righttext-right">
                             <p className="toyota-price">$288.08</p>
                             <p className="toyota-txt-small">Total Price</p>
@@ -621,7 +621,7 @@ const Checkout = () => {
         <section className="mb-5">
           <div className="confirm-section">
             <Row>
-              <Col md="6" lg="6">
+              <Col md="6" lg="6" xs="12">
                 <div className="confirm-text">
                   <h3>Confirm All Reservation</h3>
                   <h3>Dream Business Today!</h3>
@@ -630,6 +630,7 @@ const Checkout = () => {
               <Col
                 md="6"
                 lg="6"
+                xs="12"
                 className="d-flex justify-content-end align-items-center"
               >
                 <div className="processd-btn">

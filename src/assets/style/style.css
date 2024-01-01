@@ -1,6 +1,10 @@
 .title-bar h1 span {
   position: relative;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 .page-header {
   background: #fff;
 }
@@ -886,7 +890,7 @@ ul.list-number > li {
 .service-about-get button {
   border-radius: 30px;
   padding: 11px 35px;
-  margin-top: 260px !important;
+  /* margin-top: 260px !important; */
 }
 .service-about-content p {
   font-weight: 500;
@@ -1666,6 +1670,7 @@ span.procinig-txt {
 .airportPick-section {
   background-image: url("../img/airport-01.png");
   background-size: cover;
+  border-radius: 20px;
 }
 
 .airportPick-section {
@@ -1708,6 +1713,7 @@ span.procinig-txt {
 .airportDrop-section {
   background-image: url("../img/airport-02.png");
   background-size: cover;
+  border-radius: 20px;
 }
 .processd-btn {
   position: relative;
@@ -1746,8 +1752,40 @@ hmtl {
   }
 }
 @media (max-width: 1440px) {
+  .search-content {
+    padding: 0 50px;
+  }
 }
 @media (max-width: 1366px) {
+  .content-content h2 {
+    color: #c71917;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 54px !important;
+  }
+  .travel-hover-heading button {
+    font-size: 14px;
+    width: 100%;
+    padding: 12px 0;
+    margin-top: 38px;
+  }
+  .search-content {
+    padding: 0 30px;
+  }
+  .about-subtext {
+    color: #fff;
+    padding: 0 30px 0 20px;
+  }
+  .about-subtext h4 {
+    margin-bottom: 0;
+    line-height: 25px;
+  }
+  .about-count:before {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
   .customer-content {
     padding: 70px 600px 70px 180px;
   }
@@ -1776,10 +1814,33 @@ hmtl {
   }
 }
 @media (max-width: 1280px) {
+  .travel-hover-heading button {
+    font-size: 14px;
+    width: 100%;
+    padding: 12px 0;
+    margin-top: 86px;
+  }
+  .travel-hover-heading h4 {
+    font-size: 36px !important;
+  }
+  .search-content {
+    padding: 0 0px;
+  }
+  .search-content-info p {
+    color: #112211;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .about-count:before {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
   .page-home .title-bar {
     padding: 238px 0px !important;
   }
-  .page-home .title-bar h1 {
+  .title-bar h1 {
     font-size: 100px !important;
   }
   .page-home .title-bar h4 {
@@ -1892,6 +1953,81 @@ hmtl {
   }
 }
 @media (max-width: 1024px) {
+  .airportPick-section {
+    padding: 260px 0px 20px 0px;
+  }
+  .airportDrop-section {
+    padding: 260px 0px 20px 0px;
+  }
+  .confirm-text h3 {
+    font-size: 30px;
+    color: #fff;
+  }
+  .check-payment label input[type="checkbox"] {
+    position: absolute;
+    left: 20px;
+    top: 8px;
+  }
+  .page-Checkout .title-bar {
+    padding: 130px 0px !important;
+  }
+  .discover-feet .title-bar {
+    padding: 135px 0 !important;
+  }
+  .page-fleetview .discover-feet .title-bar h1 {
+    font-size: 60px !important;
+  }
+  .car-select-btn button {
+    width: 47%;
+    padding: 8px 30px;
+    margin: 0 4px;
+  }
+  .contact-section.row {
+    border: 10px solid #f0f0f0;
+    margin: 0 30px;
+    padding: 30px 5px;
+    background-color: #fff;
+  }
+  .search-content h4 {
+    font-size: 42px !important;
+    padding-left: 0px;
+    margin-bottom: 40px;
+  }
+  .travel-hover-heading button {
+    font-size: 14px;
+    width: 100%;
+    padding: 6px 0;
+    margin-top: 0;
+  }
+  .travel-hover-heading h4 {
+    font-size: 30px !important;
+  }
+  .content-content h2 {
+    color: #c71917;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 48px !important;
+  }
+  .about-us-content .heading2 {
+    background: #262e34;
+    padding: 0px 160px 70px;
+    font-size: 50px !important;
+  }
+  .about-subtext h4 {
+    margin-bottom: 0;
+    line-height: 24px;
+    font-size: 18px !important;
+  }
+  .about-count:before {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: 12px;
+    transform: scale(0.8);
+  }
+  .about-us-content .heading1 {
+    font-size: 50px !important;
+  }
   .car-subtext p {
     font-size: 11px;
     line-height: 16px;
@@ -1963,7 +2099,7 @@ hmtl {
   .heading-city {
     line-height: 67px !important;
   }
-  .page-home .title-bar h1 {
+  .title-bar h1 {
     font-size: 92px !important;
   }
   .page-home .title-bar h4 {
@@ -1992,11 +2128,164 @@ hmtl {
   }
 }
 @media (max-width: 800px) {
+  span.arrow-image {
+    width: 140px;
+    height: 140px;
+    left: -120px;
+    top: -60px;
+  }
+  .confirm-text h3 {
+    font-size: 20px;
+    color: #fff;
+  }
+  .airportText p {
+    font-size: 13px;
+    color: #fff;
+  }
+  .airportText h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+  }
+  .servicesPoint-text {
+    padding: 30px 20px;
+  }
+  .service-about-content h2 {
+    font-size: 40px !important;
+  }
+  .righttext-left p {
+    font-size: 14px;
+    font-weight: 400 !important;
+  }
+  .page-Checkout .title-bar {
+    padding: 100px 0px !important;
+  }
+  p.date-txt {
+    color: #0c142e;
+    font-size: 12px;
+  }
+  .page-fleetview .discover-feet .title-bar h1 {
+    font-size: 50px !important;
+  }
+  .filter-heading p span a {
+    text-decoration: unset;
+    font-size: 14px;
+  }
+  .car-data h6 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .car-specification ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+  }
+  .car-select-btn button {
+    width: 45%;
+    padding: 8px 12px;
+    margin: 0 4px;
+    font-size: 14px;
+  }
+  .faqs-section button.accordion-button {
+    padding: 0 0px;
+    background-color: unset;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .faqs-section .accordion-body {
+    padding: 14px 0;
+    font-size: 14px;
+  }
+  p.color-changetxt {
+    font-size: 14px;
+  }
+  .image-icon h3 {
+    color: #011643;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px 6px;
+  }
+  .contact-section.row {
+    border: 10px solid #f0f0f0;
+    margin: 0;
+    padding: 20px 0px;
+    background-color: #fff;
+  }
+  .column-reverse.row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .content-content p {
+    font-size: 18px;
+    color: #515151;
+    font-weight: 500;
+  }
+  .content-content h2 {
+    color: #c71917;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 40px !important;
+    margin-top: 40px;
+  }
+  .search-content {
+    padding: 0 30px;
+  }
+  .travel-hover-heading {
+    background: #c71917;
+    padding: 20px 20px 40px;
+    border-radius: 16px;
+    margin-top: 20px;
+  }
+
+  .travel-heading p {
+    font-size: 22px;
+    color: #000;
+    padding-right: 34px;
+  }
+  .travel-heading h2 {
+    color: #c71917;
+    font-size: 35px !important;
+  }
+  .page-discover .title-bar {
+    padding: 100px 0px !important;
+  }
+  .about-us-content .heading2 {
+    background: #262e34;
+    padding: 20px 80px;
+    font-size: 30px !important;
+  }
+  .about-us-content .heading1 {
+    font-size: 30px !important;
+    padding: 20px 80px;
+  }
+  .page-about .title-bar {
+    padding: 100px 0px !important;
+  }
+  .about-count:before {
+    content: "";
+    position: absolute;
+    right: -62px;
+    top: -3px;
+    transform: scale(0.65);
+  }
+  .about-subtext h4 {
+    margin-bottom: 0;
+    line-height: 19px;
+    font-size: 16px !important;
+  }
+  .about-subtext {
+    color: #fff;
+    padding: 0 10px 0 8px;
+  }
   .nav-link {
     font-size: 12px !important;
     padding: 7px 12px !important;
   }
-  .page-home .title-bar h1 {
+  .title-bar h1 {
     font-size: 76px !important;
   }
   .page-home .title-bar h4 {
@@ -2224,7 +2513,107 @@ hmtl {
 @media (max-width: 768px) {
 }
 @media (max-width: 480px) {
-  .page-home .title-bar h1 {
+  .confirm-section {
+    background-image: linear-gradient(
+      90deg,
+      #9d0208 0%,
+      #d00000 100%
+    ) !important;
+    margin: 0 0px;
+    padding: 60px 20px;
+    border-radius: 20px;
+  }
+  .processd-btn {
+    margin-top: 50px;
+  }
+  .airportDrop-section {
+    margin-top: 30px;
+  }
+  .service-about-content {
+    margin-top: 30px;
+  }
+  .checkout-text-heading.mb-4 h3 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .page-Checkout .title-bar {
+    padding: 70px 0px !important;
+  }
+  .close-button {
+    left: 18px;
+  }
+  .modal-container {
+    padding: 20px 0px;
+  }
+  .filter-section {
+    margin-bottom: 30px;
+  }
+  .page-fleetview .discover-feet .title-bar h1 {
+    font-size: 35px !important;
+  }
+  .page-fleetview .discover-feet .title-bar h4 {
+    font-size: 18px !important;
+  }
+  .discover-feet .title-bar {
+    padding: 100px 0 !important;
+  }
+  .faqs-heading h3 {
+    font-size: 35px;
+  }
+  .support-image img {
+    width: 8%;
+  }
+  .content-section {
+    background: #f4efef;
+    padding: 30px 0;
+  }
+  .content-content h2 {
+    color: #c71917;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 30px !important;
+    margin-top: 30px;
+  }
+  .content-img .contn-mn-img img {
+    width: 100%;
+  }
+  .travel-heading p {
+    font-size: 20px;
+    color: #000;
+    padding-right: 0;
+  }
+  .search-content h4 {
+    font-size: 30px !important;
+    padding-left: 0px;
+    margin-bottom: 40px;
+  }
+  .about-us-content .heading1 {
+    font-size: 24px !important;
+    padding: 20px 20px;
+  }
+  .about-us-content .heading2 {
+    background: #262e34;
+    padding: 20px 20px;
+    font-size: 24px !important;
+  }
+
+  .about-subtext h4 {
+    margin-bottom: 0;
+    line-height: 26px;
+    font-size: 26px !important;
+  }
+  .about-count:before {
+    content: "";
+    position: absolute;
+    right: 120px;
+    top: 6px;
+    transform: scale(0.85);
+  }
+  .about-subtext {
+    color: #fff;
+    padding: 0 120px 0px 8px;
+  }
+  .title-bar h1 {
     font-size: 52px !important;
   }
   .page-home .title-bar {
@@ -2341,8 +2730,74 @@ hmtl {
   }
 }
 @media (max-width: 414px) {
+  .title-bar h1 {
+    font-size: 36px !important;
+  }
+  .car-specification ul li {
+    margin-right: 70px;
+  }
+  .page-fleetview .discover-feet .title-bar h4 {
+    font-size: 16px !important;
+  }
+  .img-glry {
+    padding: 10px 0px;
+  }
+  .page-discover .title-bar {
+    padding: 80px 0px !important;
+  }
+  .about-subtext h4 {
+    margin-bottom: 0;
+    line-height: 26px;
+    font-size: 22px !important;
+  }
+  .about-subtext {
+    color: #fff;
+    padding: 0 100px 0px 8px;
+  }
+  .about-count:before {
+    content: "";
+    position: absolute;
+    right: 70px;
+    top: 6px;
+    transform: scale(0.85);
+  }
+  .content-contact img {
+    width: 85%;
+  }
 }
 @media (max-width: 375px) {
+  .page-fleetview .discover-feet .title-bar h4 {
+    font-size: 14px !important;
+  }
+  .page-fleetview .discover-feet .title-bar h1 {
+    font-size: 30px !important;
+  }
+  .content-contact img {
+    width: 70%;
+    margin-left: 37px;
+  }
+  .content-img .contn-mn-img img {
+    width: 90%;
+  }
+  .travel-heading p {
+    font-size: 18px;
+    color: #000;
+    padding-right: 0;
+  }
+  .travel-hover-heading h4 {
+    font-size: 26px !important;
+  }
+  .about-subtext {
+    color: #fff;
+    padding: 0 50px 0px 8px;
+  }
+  .about-count:before {
+    content: "";
+    position: absolute;
+    right: 30px;
+    top: 6px;
+    transform: scale(0.8);
+  }
 }
 
 /* Media Query End */
