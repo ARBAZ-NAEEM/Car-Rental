@@ -300,6 +300,7 @@ input {
   padding: 114px 160px;
   background-image: url("../img/premium-car.png");
   background-size: cover;
+  border-radius: 13px;
 }
 .section-premium {
   background-color: #f4efef;
