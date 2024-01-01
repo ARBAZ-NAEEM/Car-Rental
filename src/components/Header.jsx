@@ -22,7 +22,7 @@ const Header = () => {
     <div className="page-header">
       <Container>
         <Navbar expand="md" className="navbar-custom p-0">
-          <NavbarToggler onClick={() => setIsOpen(true)} />
+          <NavbarToggler onClick={() => setIsOpen(!isOpen)} />
           <Collapse
             isOpen={isOpen}
             navbar

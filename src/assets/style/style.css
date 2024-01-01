@@ -247,7 +247,8 @@ input {
   margin-bottom: 80px;
 }
 
-.howit-row1 .howit-count:before {
+.howit-row1 .how-col1 .howit-count:before,
+.howit-row1 .how-col3 .howit-count:before {
   width: 0;
   height: 0;
   border-left: 45px solid transparent;
@@ -259,7 +260,8 @@ input {
   right: 30px;
   z-index: 1;
 }
-.howit-row2 .howit-count:before {
+.howit-row1 .how-col6 .howit-count:before,
+.howit-row1 .how-col8 .howit-count:before {
   width: 0;
   height: 0;
   border-left: 45px solid transparent;
@@ -270,6 +272,12 @@ input {
   top: -49px;
   right: 30px;
   z-index: 1;
+}
+.how-col1,
+.how-col2,
+.how-col3,
+.how-col4 {
+  margin-bottom: 20px;
 }
 .inner-section-premium h3 {
   font-size: 68px;
@@ -2114,143 +2122,222 @@ hmtl {
   }
   .card-client {
     margin: 70px 15px 50px;
-}
-.testimonials-client p {
-  font-size: 12px;
-  line-height: 21px;
-}
-.mt-4.howit-row2 {
-  margin-top: 0 !important;
-}
-.inner-section-premium h3 {
-  font-size: 37px;
-}
-.inner-section-premium p {
-  font-size: 15px;
-}
-.inner-section-premium button {
-  padding: 8px 16px;
-  font-size: 12px;
-}
-.footer-one-text p, .footer-three-text p, .footer-two-menu li {
-  font-size: 11px;
-}
-.footer-two-menu li {
-  padding: 6px 0;
-}
-.footer-submit {
-  height: 41px;
-  font-size: 13px !important;
-}
-.page-footer {
-  padding: 40px 0px;
-}
-.inner-section-premium {
-  padding: 51px 40px;
-}
-.img-glry {
-  padding: 10px 160px;
-}
-.dim-btn .btn {
-  padding: 10px 32px;
-  font-size: 12px;
-}
-.howit-titlebar {
-  margin-bottom: 40px;
-}
-.img-glry:hover:before {
-  right: 160px;
-  bottom: 10px;
-}
-.img-glry.mb-4, .img-glry.mt-4 {
-  margin: 0 !important;
-}
-.footer-copyright {
-  padding: 13px;
-}
-.footer-copyright p {
-  font-size: 12px;
-}
+  }
+  .testimonials-client p {
+    font-size: 12px;
+    line-height: 21px;
+  }
+  .mt-4.howit-row2 {
+    margin-top: 0 !important;
+  }
+  .inner-section-premium h3 {
+    font-size: 37px;
+  }
+  .inner-section-premium p {
+    font-size: 15px;
+  }
+  .inner-section-premium button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+  .footer-one-text p,
+  .footer-three-text p,
+  .footer-two-menu li {
+    font-size: 11px;
+  }
+  .footer-two-menu li {
+    padding: 6px 0;
+  }
+  .footer-submit {
+    height: 41px;
+    font-size: 13px !important;
+  }
+  .page-footer {
+    padding: 40px 0px;
+  }
+  .inner-section-premium {
+    padding: 51px 40px;
+  }
+  .img-glry {
+    padding: 10px 160px;
+  }
+  .dim-btn .btn {
+    padding: 10px 32px;
+    font-size: 12px;
+  }
+  .howit-titlebar {
+    margin-bottom: 40px;
+  }
+  .img-glry:hover:before {
+    right: 160px;
+    bottom: 10px;
+  }
+  .img-glry.mb-4,
+  .img-glry.mt-4 {
+    margin: 0 !important;
+  }
+  .how-col1,
+  .how-col2,
+  .how-col3,
+  .how-col4 {
+    margin-bottom: 0px;
+  }
+  .how-col1 {
+    order: 1;
+  }
+
+  .how-col2 {
+    order: 2;
+  }
+
+  .how-col6 {
+    order: 4;
+  }
+
+  .how-col5 {
+    order: 3;
+  }
+
+  .how-col3 {
+    order: 5;
+  }
+
+  .how-col4 {
+    order: 6;
+  }
+
+  .how-col8 {
+    order: 8;
+  }
+
+  .how-col7 {
+    order: 7;
+  }
+  .footer-copyright {
+    padding: 13px;
+  }
+  .footer-copyright p {
+    font-size: 12px;
+  }
 }
 @media (max-width: 768px) {
 }
 @media (max-width: 480px) {
   .page-home .title-bar h1 {
     font-size: 52px !important;
-}
-.page-home .title-bar {
-  padding: 100px 0px !important;
-}
-.page-home .title-bar h4 {
-  font-size: 10px !important;
-}
-.title-bar h1 span:before {
-  transform: scale(0.4);
-  right: -170px;
-}
-.form-section {
-  padding: 20px 20px 20px 20px;
-}
-button.btn-formPanel {
-  margin-top: 14px;
-  width: 50%;
-}
-h2 {
-  font-size: 36px !important;
-  line-height: 36px !important;
-}
-.text-discover {
-  font-size: 12px;
-  padding: 0 30px;
-}
-.car-background {
-  margin-top: -50px;
-  padding: 90px 0px 50px 0;
-}
-.howit-count {
-  margin-bottom: 10px;
-}
-.main-city-section {
-  padding: 30px 0 30px;
-}
-.heading-city {
-  line-height: 42px !important;
-}
-.carousel-city ul.react-multi-carousel-track {
-  margin-left: 15px;
-}
-.customer-content {
-  padding: 20px 0px 40px 110px;
-}
-.gallery-section {
-  padding: 30px 0 15px;
-}
-.inner-section-premium h3 {
-  font-size: 24px;
-}
-.inner-section-premium p {
-  font-size: 11px;
-}
-.inner-section-premium {
-  padding: 23px 40px;
-  border-radius: 16px;
-}
-.inner-section-premium button {
-  padding: 8px 16px;
-  font-size: 10px;
-}
-.img-glry:hover:before {
-  right: 60px;
-}
-.img-glry {
-  padding: 10px 60px;
-}
-.test-content p {
-  padding: 0 0px;
-}
-.footer-one, .footer-two {
-  margin-bottom: 30px;
-}
+  }
+  .page-home .title-bar {
+    padding: 100px 0px !important;
+  }
+  .page-home .title-bar h4 {
+    font-size: 10px !important;
+  }
+  .title-bar h1 span:before {
+    transform: scale(0.4);
+    right: -170px;
+  }
+  .form-section {
+    padding: 20px 20px 20px 20px;
+  }
+  button.btn-formPanel {
+    margin-top: 14px;
+    width: 50%;
+  }
+  h2 {
+    font-size: 36px !important;
+    line-height: 36px !important;
+  }
+  .text-discover {
+    font-size: 12px;
+    padding: 0 30px;
+  }
+  .car-background {
+    margin-top: -50px;
+    padding: 90px 0px 50px 0;
+  }
+  .howit-count {
+    margin-bottom: 10px;
+  }
+  .how-col1 {
+    order: 1;
+  }
+
+  .how-col2 {
+    order: 2;
+  }
+
+  .how-col6 {
+    order: 3;
+  }
+
+  .how-col5 {
+    order: 4;
+  }
+
+  .how-col3 {
+    order: 5;
+  }
+
+  .how-col4 {
+    order: 6;
+  }
+
+  .how-col8 {
+    order: 7;
+  }
+
+  .how-col7 {
+    order: 8;
+  }
+  .main-city-section {
+    padding: 30px 0 30px;
+  }
+  .heading-city {
+    line-height: 42px !important;
+  }
+  .carousel-city ul.react-multi-carousel-track {
+    margin-left: 15px;
+  }
+  .customer-content {
+    padding: 20px 0px 40px 110px;
+  }
+  .gallery-section {
+    padding: 30px 0 15px;
+  }
+  .inner-section-premium h3 {
+    font-size: 24px;
+  }
+  .inner-section-premium p {
+    font-size: 11px;
+  }
+  .inner-section-premium {
+    padding: 23px 40px;
+    border-radius: 16px;
+  }
+  .inner-section-premium button {
+    padding: 8px 16px;
+    font-size: 10px;
+  }
+  .img-glry:hover:before {
+    right: 60px;
+  }
+  .img-glry {
+    padding: 10px 60px;
+  }
+  .test-content p {
+    padding: 0 0px;
+  }
+  .howitworks-section {
+    padding: 40px 0px 20px;
+  }
+  .footer-one,
+  .footer-two {
+    margin-bottom: 30px;
+  }
+  .navbar-collapse > ul {
+    width: 100%;
+    justify-content: center !important;
+  }
 }
 @media (max-width: 414px) {
 }
