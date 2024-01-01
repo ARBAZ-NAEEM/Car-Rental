@@ -19,7 +19,7 @@ const PartnersSection = () => {
         {/* <Container> */}
         <div className="our-partners">
           <Row>
-            <Col md="6" lg="6" xs="12">
+            <Col md="12" lg="6" xs="12">
               <hr className="text-light hr-sizing" />
               <div className="d-flex justify-content-around align-items-center">
                 <img src={logo5} alt="" />
@@ -27,7 +27,7 @@ const PartnersSection = () => {
                 <img src={logo1} alt="" />
               </div>
             </Col>
-            <Col md="6" lg="6" xs="12">
+            <Col md="12" lg="6" xs="12">
               <hr className="text-light hr-sizing" />
               <div className="d-flex justify-content-around align-items-center">
                 <img src={logo6} alt="" />

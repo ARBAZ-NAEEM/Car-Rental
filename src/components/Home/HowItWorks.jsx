@@ -29,7 +29,7 @@ const HowItWorks = () => {
         </div>
         <div className="howit-card">
           <Row className="howit-row1">
-            <Col lg="3" md="3" xs="12">
+            <Col lg="3" md="6" xs="12">
               <div className="howit-count">
                 <h4>
                   <span>01</span>
@@ -46,12 +46,12 @@ const HowItWorks = () => {
                 </div>
               </div>
             </Col>
-            <Col lg="3" md="3" xs="12">
+            <Col lg="3" md="6" xs="12">
               <div className="img-how-it-work">
                 <img src={work1} style={{ width: "100%" }} alt="" />
               </div>
             </Col>
-            <Col lg="3" md="3" xs="12">
+            <Col lg="3" md="6" xs="12">
               <div className="howit-count">
                 <h4>
                   <span>03</span>
@@ -68,19 +68,19 @@ const HowItWorks = () => {
                 </div>
               </div>
             </Col>
-            <Col lg="3" md="3" xs="12">
+            <Col lg="3" md="6" xs="12">
               <div className="img-how-it-work rmv-bf">
                 <img src={work2} style={{ width: "100%" }} alt="" />
               </div>
             </Col>
           </Row>
           <Row className="mt-4 howit-row2">
-            <Col lg="3" md="3" xs="12">
+            <Col lg="3" md="6" xs="12">
               <div className="img-how-it-work">
                 <img src={work3} style={{ width: "100%" }} alt="" />
               </div>
             </Col>
-            <Col lg="3" md="3" xs="12">
+            <Col lg="3" md="6" xs="12">
               <div className="howit-count">
                 <h4>
                   <span>02</span>
@@ -97,12 +97,12 @@ const HowItWorks = () => {
                 </div>
               </div>
             </Col>
-            <Col lg="3" md="3" xs="12">
+            <Col lg="3" md="6" xs="12">
               <div className="img-how-it-work">
                 <img src={work4} style={{ width: "100%" }} alt="" />
               </div>
             </Col>
-            <Col lg="3" md="3" xs="12">
+            <Col lg="3" md="6" xs="12">
               <div className="howit-count">
                 <h4>
                   <span>04</span>

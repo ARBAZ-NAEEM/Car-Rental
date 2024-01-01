@@ -16,7 +16,7 @@ const GallerySection = () => {
       <Container fluid>
         <div className="gallery-images">
           <Row>
-            <Col lg="2" md="2" xs="12">
+            <Col lg="2" md="12" xs="12">
               <div className="img-glry mb-4">
                 <img src={gallery1} alt="" style={{ width: "100%" }} />
               </div>
@@ -24,12 +24,12 @@ const GallerySection = () => {
                 <img src={gallery2} alt="" style={{ width: "100%" }} />
               </div>
             </Col>
-            <Col lg="2" md="2" xs="12">
+            <Col lg="2" md="12" xs="12">
               <div className="img-glry">
                 <img src={gallery3} alt="" style={{ width: "100%" }} />
               </div>
             </Col>
-            <Col lg="2" md="2" xs="12">
+            <Col lg="2" md="12" xs="12">
               <div className="img-glry mb-4">
                 <img src={gallery4} alt="" style={{ width: "100%" }} />
               </div>
@@ -37,14 +37,14 @@ const GallerySection = () => {
                 <img src={gallery5} alt="" style={{ width: "100%" }} />
               </div>
             </Col>
-            <Col lg="4" md="4" xs="12">
+            <Col lg="4" md="12" xs="12">
               <Row>
-                <Col lg="6" md="6" xs="12">
+                <Col lg="6" md="12" xs="12">
                   <div className="img-glry">
                     <img src={gallery6} alt="" style={{ width: "100%" }} />
                   </div>
                 </Col>
-                <Col lg="6" md="6" xs="12">
+                <Col lg="6" md="12" xs="12">
                   <div className="img-glry">
                     <img src={gallery7} alt="" style={{ width: "100%" }} />
                   </div>
@@ -54,7 +54,7 @@ const GallerySection = () => {
                 <img src={gallery8} alt="" style={{ width: "100%" }} />
               </div>
             </Col>
-            <Col lg="2" md="2" xs="12">
+            <Col lg="2" md="12" xs="12">
               <div className="img-glry">
                 <img src={gallery9} alt="" style={{ width: "100%" }} />
               </div>

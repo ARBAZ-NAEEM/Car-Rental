@@ -1767,15 +1767,129 @@ hmtl {
   }
 }
 @media (max-width: 1280px) {
+  .page-home .title-bar {
+    padding: 238px 0px !important;
+  }
+  .page-home .title-bar h1 {
+    font-size: 100px !important;
+  }
+  .page-home .title-bar h4 {
+    font-size: 22px !important;
+  }
+  h2 {
+    font-size: 61px !important;
+    line-height: 61px !important;
+  }
+  .discover-section {
+    margin: 70px 0 110px;
+  }
+  .car-background {
+    padding: 220px 0px 130px 0;
+  }
+  .text-discover {
+    font-size: 16px;
+  }
+  .service-content h3 {
+    font-size: 45px !important;
+    line-height: 48px;
+  }
+  .service-content button {
+    padding: 13px 24px;
+  }
+  .service-content ul li {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .customer-content {
+    padding: 40px 600px 40px 180px;
+  }
+  .test-content p {
+    font-size: 14px;
+  }
+  .heading-test {
+    font-size: 43px !important;
+    line-height: 48px;
+  }
+  h4 {
+    font-size: 22px !important;
+    line-height: 24px;
+  }
+  .testimonials-client p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .client-view p {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .client-view span {
+    font-size: 13px;
+  }
+  .inner-section-premium h3 {
+    font-size: 52px;
+  }
+  .inner-section-premium p {
+    font-size: 20px;
+  }
+  .inner-section-premium button {
+    font-size: 13px;
+  }
+  .footer-one-text p,
+  .footer-three-text p,
+  .footer-two-menu li {
+    font-size: 13px;
+  }
+  .footer-one-text p {
+    margin-top: 20px;
+    padding-right: 90px;
+  }
+  .footer-two-menu li {
+    padding: 8px 0;
+  }
+  .customer-text h3 {
+    font-size: 27px !important;
+  }
+  .customer-text p {
+    font-size: 19px;
+  }
+  .customer-content .customer-text:before {
+    transform: scale(0.8);
+  }
+  .customer-content .customer-text:nth-child(1):before {
+    top: -18px;
+  }
+  .customer-content .customer-text:nth-child(2):before {
+    top: -24px;
+  }
+  .customer-content .customer-text:nth-child(3):before {
+    top: -17px;
+  }
+  .customer-content .customer-text:nth-child(4):before {
+    top: -1px;
+  }
+  .route-content h5 {
+    font-size: 21px;
+  }
+  .route-content p {
+    font-size: 14px;
+  }
+  .img-how-it-work img {
+    height: 303px;
+    object-fit: cover;
+  }
+  .footer-submit {
+    height: 48px;
+    font-size: 15px !important;
+  }
 }
 @media (max-width: 1024px) {
   .car-subtext p {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 16px;
-    margin-top: -32px;
+    margin-top: -23px;
   }
   .car-sc:before {
-    right: -22px;
+    right: -11px;
     transform: scale(0.95);
     top: 18px;
   }
@@ -1787,26 +1901,356 @@ hmtl {
     font-size: 18px;
   }
   .customer-content {
-    padding: 20px 100px 10px 100px;
+    padding: 20px 460px 10px 170px;
   }
   .heading-test {
-    font-size: 38px !important;
-    font-weight: 600;
-    line-height: 50px;
+    font-size: 36px !important;
+    line-height: 42px;
   }
   .inner-section-premium {
     padding: 73px 40px;
   }
   .inner-section-premium h3 {
     font-size: 50px;
-    font-weight: 700;
+  }
+  .test-content h4 {
+    font-size: 23px !important;
+  }
+  .service-content h3 {
+    font-size: 36px !important;
+    line-height: 41px;
+  }
+  .service-content h5 {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .service-content ul li {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .service-content p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .services-section {
+    padding: 60px 0 90px;
+  }
+  .page-home .title-bar {
+    padding: 188px 0px !important;
+  }
+  h2 {
+    font-size: 54px !important;
+    line-height: 54px !important;
+  }
+  .discover-section {
+    margin: 50px 0 80px;
+  }
+  .img-how-it-work img {
+    height: 305px;
+  }
+  .footer-one-text p {
+    padding-right: 10px;
+  }
+  .heading-city {
+    line-height: 67px !important;
+  }
+  .page-home .title-bar h1 {
+    font-size: 92px !important;
+  }
+  .page-home .title-bar h4 {
+    font-size: 19px !important;
+  }
+  .title-bar h1 span:before {
+    transform: scale(0.7);
+    right: -120px;
+  }
+  label,
+  input {
+    font-size: 14px;
+  }
+  select.form-select,
+  input {
+    font-size: 14px !important;
+    height: 50px;
+  }
+  button.btn-formPanel {
+    font-size: 14px !important;
+    height: 50px;
+  }
+  .btn-lease {
+    font-size: 14px !important;
+    padding: 11px 26px !important;
   }
 }
 @media (max-width: 800px) {
+  .nav-link {
+    font-size: 12px !important;
+    padding: 7px 12px !important;
+  }
+  .page-home .title-bar h1 {
+    font-size: 76px !important;
+  }
+  .page-home .title-bar h4 {
+    font-size: 15px !important;
+  }
+  .title-bar h1 span:before {
+    transform: scale(0.6);
+    right: -140px;
+  }
+  .page-home .title-bar {
+    padding: 138px 0px !important;
+  }
+  .img-how-it-work:before {
+    display: none;
+  }
+  h2 {
+    font-size: 46px !important;
+    line-height: 46px !important;
+  }
+  .text-discover {
+    font-size: 13px;
+  }
+  .discover-section {
+    margin: 40px 0 50px;
+  }
+  .car-count-heading {
+    font-size: 41px;
+  }
+  .car-subtext h5 {
+    min-height: auto;
+  }
+  .car-subtext p {
+    margin-top: 0;
+  }
+  .car-sc:before {
+    display: none;
+  }
+  .car-subtext {
+    padding: 0px 20px 0px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .car-background {
+    padding: 150px 0px 50px 0;
+  }
+  .howitworks-section {
+    padding: 50px 0px 50px;
+  }
+  .howit-row1 .howit-count:before {
+    display: none;
+  }
+  .img-how-it-work {
+    margin-bottom: 20px;
+  }
+  .howit-row2 .howit-count:before {
+    display: none;
+  }
+  .heading-city {
+    line-height: 52px !important;
+  }
+  .main-city-section {
+    padding: 50px 0 50px;
+  }
+  .service-content h3 {
+    font-size: 27px !important;
+    line-height: 26px;
+  }
+  .service-content h5 {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .service-content ul li {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .service-content p {
+    font-size: 11px;
+    line-height: 18px;
+  }
+  .service-content button {
+    padding: 9px 17px;
+    font-size: 12px;
+  }
+  .services-section {
+    padding: 50px 0 50px;
+  }
+  .customer-content {
+    padding: 20px 0px 50px 80px;
+  }
+  .customer-text h3 {
+    font-size: 22px !important;
+  }
+  .customer-text p {
+    font-size: 13px;
+  }
+  .customer-content .customer-text:before {
+    transform: scale(0.7);
+  }
+  .customer-content .customer-text:nth-child(1):before {
+    top: -24px;
+  }
+  .customer-content .customer-text:nth-child(2):before {
+    top: -33px;
+  }
+  .customer-content .customer-text:nth-child(3):before {
+    top: -22px;
+  }
+  .customer-content .customer-text:nth-child(4):before {
+    top: -20px;
+  }
+  .heading-test {
+    font-size: 27px !important;
+    line-height: 33px;
+  }
+  .test-content h4 {
+    font-size: 17px !important;
+  }
+  .test-content p {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+  .testimonial-section {
+    padding-top: 60px;
+  }
+  .card-client {
+    margin: 70px 15px 50px;
+}
+.testimonials-client p {
+  font-size: 12px;
+  line-height: 21px;
+}
+.mt-4.howit-row2 {
+  margin-top: 0 !important;
+}
+.inner-section-premium h3 {
+  font-size: 37px;
+}
+.inner-section-premium p {
+  font-size: 15px;
+}
+.inner-section-premium button {
+  padding: 8px 16px;
+  font-size: 12px;
+}
+.footer-one-text p, .footer-three-text p, .footer-two-menu li {
+  font-size: 11px;
+}
+.footer-two-menu li {
+  padding: 6px 0;
+}
+.footer-submit {
+  height: 41px;
+  font-size: 13px !important;
+}
+.page-footer {
+  padding: 40px 0px;
+}
+.inner-section-premium {
+  padding: 51px 40px;
+}
+.img-glry {
+  padding: 10px 160px;
+}
+.dim-btn .btn {
+  padding: 10px 32px;
+  font-size: 12px;
+}
+.howit-titlebar {
+  margin-bottom: 40px;
+}
+.img-glry:hover:before {
+  right: 160px;
+  bottom: 10px;
+}
+.img-glry.mb-4, .img-glry.mt-4 {
+  margin: 0 !important;
+}
+.footer-copyright {
+  padding: 13px;
+}
+.footer-copyright p {
+  font-size: 12px;
+}
 }
 @media (max-width: 768px) {
 }
 @media (max-width: 480px) {
+  .page-home .title-bar h1 {
+    font-size: 52px !important;
+}
+.page-home .title-bar {
+  padding: 100px 0px !important;
+}
+.page-home .title-bar h4 {
+  font-size: 10px !important;
+}
+.title-bar h1 span:before {
+  transform: scale(0.4);
+  right: -170px;
+}
+.form-section {
+  padding: 20px 20px 20px 20px;
+}
+button.btn-formPanel {
+  margin-top: 14px;
+  width: 50%;
+}
+h2 {
+  font-size: 36px !important;
+  line-height: 36px !important;
+}
+.text-discover {
+  font-size: 12px;
+  padding: 0 30px;
+}
+.car-background {
+  margin-top: -50px;
+  padding: 90px 0px 50px 0;
+}
+.howit-count {
+  margin-bottom: 10px;
+}
+.main-city-section {
+  padding: 30px 0 30px;
+}
+.heading-city {
+  line-height: 42px !important;
+}
+.carousel-city ul.react-multi-carousel-track {
+  margin-left: 15px;
+}
+.customer-content {
+  padding: 20px 0px 40px 110px;
+}
+.gallery-section {
+  padding: 30px 0 15px;
+}
+.inner-section-premium h3 {
+  font-size: 24px;
+}
+.inner-section-premium p {
+  font-size: 11px;
+}
+.inner-section-premium {
+  padding: 23px 40px;
+  border-radius: 16px;
+}
+.inner-section-premium button {
+  padding: 8px 16px;
+  font-size: 10px;
+}
+.img-glry:hover:before {
+  right: 60px;
+}
+.img-glry {
+  padding: 10px 60px;
+}
+.test-content p {
+  padding: 0 0px;
+}
+.footer-one, .footer-two {
+  margin-bottom: 30px;
+}
 }
 @media (max-width: 414px) {
 }
