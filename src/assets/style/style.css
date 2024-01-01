@@ -805,16 +805,17 @@ ul.list-number > li {
 .contact-section.text-center {
   padding: 80px 0 40px;
 }
+
 .contact-choice-section p {
   font-size: 24px;
   color: #2c2c2c;
   font-weight: 500;
-  padding: 0px 100px;
+  /* padding: 0px 100px; */
   line-height: 44px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .contact-choice-section p a {
-  color: #1D4734;
+  color: #1d4734;
   text-decoration: none;
 }
 .contact-choice-section {
@@ -822,7 +823,7 @@ ul.list-number > li {
 }
 .form-contact-section label {
   font-size: 18px;
-  color: #0A271A !important;
+  color: #0a271a !important;
 }
 .form-contact-section input {
   background: #f9fbfd !important;
@@ -1080,6 +1081,11 @@ button:focus:not(:focus-visible) {
   font-size: 14px;
   font-weight: 400 !important;
 }
+.contact-choice-section input.form-control::placeholder {
+  color: #1f1f1f85;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
 .contact-section .contact-choice-section textarea.form-control::placeholder {
   color: #1f1f1f85;
   font-size: 14px;
@@ -1091,12 +1097,90 @@ button:focus:not(:focus-visible) {
   border: 1px solid #e1e4e8 !important;
   height: 44px;
 }
+.contact-choice-section input.form-control {
+  padding: 0 20px;
+  background-color: transparent !important;
+  border: 1px solid #e1e4e8 !important;
+  height: 50px;
+}
+span.bold-color-change {
+  color: #3f4458;
+  font-weight: 700;
+}
+label.form-check-label {
+  font-size: 13px;
+  font-weight: 400 !important;
+  color: #7d7d7d;
+}
+.form-check-input:checked[type="checkbox"] {
+  --bs-form-check-bg-image: url("../img/tic-image.png") !important;
+}
+.lastImage img {
+  width: 100%;
+}
+.righttext-left p {
+  font-size: 16px;
+  font-weight: 400 !important;
+}
+.coupon-field input.form-control {
+  padding: 0 20px;
+  background-color: transparent !important;
+  border: 1px solid #e1e4e8 !important;
+  height: 50px;
+}
+.coupon-field input.form-control::placeholder {
+  color: #1f1f1f85;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+p.toyota-txt {
+  margin-bottom: 5px;
+  color: #0c142e;
+  font-size: 17px;
+}
+p.toyota-txt-p {
+  font-size: 13px;
+}
+p.toyota-txt-small {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.ads-image img {
+  width: 100%;
+}
+.ads-text h5 {
+  font-size: 32px;
+  font-weight: 600;
+}
+p.toyota-price {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.righttext-right p {
+  text-align: end;
+  font-size: 16px;
+  font-weight: 400 !important;
+}
+.contact-choice-section label.form-label {
+  color: #322d3c;
+  font-size: 14px;
+}
 
 .faqs-section .accordion {
   --bs-accordion-border-width: none;
 }
 .support-image img {
   width: 100%;
+}
+.paymentheading p {
+  padding: 0px 0;
+  font-size: 16px;
+}
+.contact-choice-section .btn-contact-info {
+  padding: 12px 30px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 p.color-changetxt {
   -webkit-text-fill-color: transparent;
@@ -1470,6 +1554,181 @@ ul.social-menu li:hover,
 ul.social-menu li:hover a {
   color: #ac0105;
 }
+
+/* checkout page css  */
+.checkout-text-heading.mb-4 h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+span.procinig-txt {
+  color: #1d4734;
+}
+.page-Checkout {
+  background-color: #dee2e640;
+}
+.form-data-section h5.address-txt {
+  font-size: 24px;
+  font-weight: 600;
+}
+.form-data-section p {
+  font-size: 14px;
+}
+.servicesPoint-text {
+  padding: 60px 20px;
+}
+
+.servicesPoint-text ul li {
+  list-style: none;
+}
+
+.servicesPoint-text ul li p {
+  margin-top: 0 !important;
+}
+
+.servicesPoint-text ul li p img {
+  padding-right: 20px;
+}
+.check-payment {
+  position: relative;
+  padding: 20px 20px;
+  border: 1px solid #e4e7ec;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.check-payment label input[type="checkbox"] {
+  position: absolute;
+  left: 20px;
+  top: 3px;
+}
+.payment-data label.form-label {
+  font-size: 12px;
+  font-weight: 300 !important;
+}
+.image-section span img {
+  float: inline-end;
+  margin: 0 6px;
+}
+.payment-data input.form-control {
+  padding: 0 12px;
+  height: 38px;
+  background-color: #fff !important;
+}
+/* .text-lock p img {
+  padding-right: 10px;
+} */
+
+.text-lock p {
+  font-size: 12px;
+  line-height: 22px;
+  color: #828282;
+}
+.refundabletext {
+  background-color: #f4f4f9;
+  padding: 20px 20px;
+  border-radius: 8px;
+}
+.refundabletext p {
+  font-size: 14px;
+  line-height: 23px;
+  margin-bottom: 5px;
+  color: #666666;
+}
+.refundabletext p b {
+  font-size: 16px;
+  line-height: 0px;
+}
+.check-payment label {
+  padding-left: 20px;
+  font-size: 12px;
+  font-weight: 500 !important;
+}
+.payment-data .form-group label.form-label {
+  padding: 0;
+}
+.check-payment p {
+  padding-left: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 22px;
+  color: #667085;
+}
+.airportPick-section {
+  background-image: url("../img/airport-01.png");
+  background-size: cover;
+}
+
+.airportPick-section {
+  padding: 329px 0px 19px 0px;
+}
+
+.airportDrop-section {
+  padding: 329px 0px 19px 0px;
+}
+.airportText {
+  text-align: center;
+}
+.airportText h3 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 500;
+}
+.confirm-section {
+  background-image: linear-gradient(90deg, #9d0208 0%, #d00000 100%) !important;
+  margin: 0 80px;
+  padding: 60px 50px;
+  border-radius: 20px;
+}
+.airportText p {
+  font-size: 16px;
+  color: #fff;
+}
+.confirm-text h3 {
+  font-size: 45px;
+  color: #fff;
+}
+.processd-btn button {
+  background-color: #ed780d;
+  border: 2px solid #fff;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 12px;
+}
+.airportDrop-section {
+  background-image: url("../img/airport-02.png");
+  background-size: cover;
+}
+.processd-btn {
+  position: relative;
+}
+span.arrow-image {
+  background-image: url("../img/arrow-curve.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: -170px;
+  top: -80px;
+}
+.extra-btn button img {
+  padding-right: 10px;
+  padding-top: 0px;
+}
+.extra-btn button {
+  background-image: linear-gradient(90deg, #9d0208 0%, #d00000 100%) !important;
+  border: unset;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+body,
+hmtl {
+  overflow-x: hidden;
+}
 /* Media Query Start*/
 @media (max-width: 1600px) {
   .car-sc:before {
@@ -1487,16 +1746,61 @@ ul.social-menu li:hover a {
     padding: 35px 40px 20px 30px;
   }
   .car-sc:before {
-    right: 10px;
+    right: 8px;
     transform: scale(1.1);
+    top: 45px;
   }
   .img-how-it-work img {
     height: 306px;
+  }
+  .car-subtext h5 {
+    font-size: 20px;
+  }
+  .car-subtext p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: -20px;
+  }
+  .car-subtext {
+    padding: 0px 5px 0px 12px;
+    margin-top: 60px;
   }
 }
 @media (max-width: 1280px) {
 }
 @media (max-width: 1024px) {
+  .car-subtext p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: -32px;
+  }
+  .car-sc:before {
+    right: -22px;
+    transform: scale(0.95);
+    top: 18px;
+  }
+  .car-subtext {
+    padding: 0px 2px 0px 10px;
+    margin-top: 30px;
+  }
+  .car-subtext h5 {
+    font-size: 18px;
+  }
+  .customer-content {
+    padding: 20px 100px 10px 100px;
+  }
+  .heading-test {
+    font-size: 38px !important;
+    font-weight: 600;
+    line-height: 50px;
+  }
+  .inner-section-premium {
+    padding: 73px 40px;
+  }
+  .inner-section-premium h3 {
+    font-size: 50px;
+    font-weight: 700;
+  }
 }
 @media (max-width: 800px) {
 }

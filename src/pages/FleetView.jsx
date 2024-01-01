@@ -306,7 +306,7 @@ const FleetView = () => {
                   backgroundSize: "cover",
                   padding: "235px 0px",
                   borderRadius: "30px",
-                  backgroundPosition:"center"
+                  backgroundPosition: "center",
                 }}
               >
                 <Container>
@@ -436,7 +436,10 @@ const FleetView = () => {
                               </ul>
                             </div>
                             <div className="car-select-btn">
-                              <button className="choose-btn">Choose</button>
+                              <a href="/checkout">
+                                <button className="choose-btn">Choose</button>
+                              </a>
+
                               <button onClick={toggleModal}>Details</button>
                             </div>
                             {isModalVisible && (

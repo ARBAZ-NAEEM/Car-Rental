@@ -11,6 +11,7 @@ import Discover from "./pages/Discover";
 import FleetView from "./pages/FleetView";
 import LongTermForm from "./pages/LongTermForm";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+
 import AOS from "aos";
 import { useEffect } from "react";
 
