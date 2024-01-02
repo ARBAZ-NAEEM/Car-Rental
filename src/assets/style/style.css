@@ -2891,9 +2891,13 @@ a.logo-image {
     font-size: 23px !important;
     margin-bottom: 0;
   }
+  .img-glry:hover:before {
+    height: 100px;
+
+    width: 80%;
+  }
 }
 @media (max-width: 414px) {
-
   .contact-choice-section p {
     font-size: 18px;
   }
@@ -2924,9 +2928,9 @@ a.logo-image {
   .content-content p {
     font-size: 14px;
   }
-  .img-glry {
+  /* .img-glry {
     padding: 10px 0px;
-  }
+  } */
   .page-discover .title-bar {
     padding: 80px 0px !important;
   }
@@ -2953,10 +2957,10 @@ a.logo-image {
 @media (max-width: 375px) {
   .footer-copyright {
     padding: 10px;
-}
-  .img-glry:hover:before {
-    right: 0px;
   }
+  /* .img-glry:hover:before {
+    right: 0px;
+  } */
   .page-fleetview .discover-feet .title-bar h4 {
     font-size: 14px !important;
   }
