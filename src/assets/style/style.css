@@ -2179,6 +2179,18 @@ a.logo-image {
   }
 }
 @media (max-width: 800px) {
+  .service-about-get .servc-row1 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.service-about-content p {
+  padding-right: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.service-about-get .servc-row2 {
+  padding-bottom: 60px;
+}
   .contact-info .col-contact-1,
   .col-contact-2,
   .col-contact-3 {
@@ -2590,6 +2602,17 @@ a.logo-image {
 @media (max-width: 768px) {
 }
 @media (max-width: 480px) {
+  .service-about-get .servc-row2 > .col-12:first-child {
+    order: 2;
+}
+.service-about-content h2 {
+  font-size: 33px !important;
+}
+  .partners-section {
+    padding: 360px 0 50px 0;
+    margin-top: -325px;
+ 
+}
   .our-partners img {
     width: 70px;
   }
