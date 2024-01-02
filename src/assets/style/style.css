@@ -1744,6 +1744,10 @@ body,
 hmtl {
   overflow-x: hidden;
 }
+
+a.logo-image {
+  display: none;
+}
 /* Media Query Start*/
 @media (max-width: 1600px) {
   .car-sc:before {
@@ -1757,6 +1761,12 @@ hmtl {
   }
 }
 @media (max-width: 1366px) {
+  .contact-info-detail p {
+    font-size: 18px;
+  }
+  .contact-info-detail ul li a {
+    font-size: 18px;
+  }
   .content-content h2 {
     color: #c71917;
     margin-bottom: 30px;
@@ -1953,6 +1963,47 @@ hmtl {
   }
 }
 @media (max-width: 1024px) {
+  .contact-choice-section p {
+    font-size: 22px;
+  }
+  .contact-section h2 {
+    color: #ee333a;
+    font-size: 50px !important;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    line-height: 60px !important;
+  }
+  .contact-info-detail ul li {
+    list-style: none;
+    font-size: 14px;
+  }
+  .contact-info-detail h5 {
+    font-size: 24px;
+  }
+  .contact-info-detail p {
+    font-size: 14px;
+  }
+  .contact-info-detail ul li a {
+    font-size: 14px;
+  }
+  .contact-choice-section h2 {
+    color: #ee333a;
+    font-size: 60px !important;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    line-height: 60px !important;
+  }
+
+  .about-us-content .heading1 {
+    padding: 55px 30px 0px;
+    font-size: 60px !important;
+  }
+  .image-icon h3 {
+    color: #011643;
+    font-size: 26px;
+    font-weight: 900;
+    padding: 20px 2px;
+  }
   .airportPick-section {
     padding: 260px 0px 20px 0px;
   }
@@ -2128,6 +2179,32 @@ hmtl {
   }
 }
 @media (max-width: 800px) {
+  .contact-info .col-contact-1,
+  .col-contact-2,
+  .col-contact-3 {
+    margin-bottom: 10px;
+  }
+  .contact-choice-section h2 {
+    font-size: 48px !important;
+  }
+  .section-contact-long {
+    padding: 30px 0;
+  }
+  .inner-contact-long ul li img {
+    width: 50px;
+  }
+  .msg-contct h4 {
+    font-size: 20px !important;
+    color: #aaaaaa;
+    font-weight: 300 !important;
+  }
+  .msg-contct p {
+    font-size: 20px !important;
+    color: #c71917;
+  }
+  .business-mn-img.text-right {
+    text-align: left !important;
+  }
   span.arrow-image {
     width: 140px;
     height: 140px;
@@ -2513,6 +2590,34 @@ hmtl {
 @media (max-width: 768px) {
 }
 @media (max-width: 480px) {
+  .our-partners img {
+    width: 70px;
+  }
+  a.screen-logo {
+    display: none;
+  }
+  a.logo-image {
+    display: block !important;
+  }
+  .contact-choice-section h2 {
+    font-size: 38px !important;
+    line-height: 50px !important;
+  }
+  .contact-info .col-contact-1,
+  .col-contact-2,
+  .col-contact-3 {
+    padding: 20px 25px !important;
+    border-radius: 10px 10px 10px 10px !important;
+    width: 96% !important;
+    margin: 10px auto !important;
+  }
+
+  .contact-section h2 {
+    font-size: 36px !important;
+  }
+  .page-contact-us .title-bar {
+    padding: 100px 0 !important;
+  }
   .confirm-section {
     background-image: linear-gradient(
       90deg,
@@ -2614,7 +2719,17 @@ hmtl {
     padding: 0 120px 0px 8px;
   }
   .title-bar h1 {
-    font-size: 52px !important;
+    font-size: 42px !important;
+  }
+  .business-mn-img img {
+    transition: 0.8s;
+    width: 100%;
+  }
+  .page-longterm-form .title-bar h4 {
+    font-size: 16px !important;
+  }
+  .page-longterm-form .title-bar {
+    padding: 130px 0px !important;
   }
   .page-home .title-bar {
     padding: 100px 0px !important;
@@ -2730,6 +2845,27 @@ hmtl {
   }
 }
 @media (max-width: 414px) {
+  .form-contact-section {
+    background: #fff;
+    padding: 50px 20px;
+    border: 17px solid #f6f6f6;
+    border-radius: 12px;
+  }
+  .contact-choice-section p {
+    font-size: 18px;
+  }
+  .contact-choice-section h2 {
+    font-size: 28px !important;
+    line-height: 40px !important;
+  }
+  .contact-section h2 {
+    font-size: 26px !important;
+  }
+  .contact-section h4,
+  .contact-choice-section h4 {
+    color: #6f6f6f;
+    font-size: 24px !important;
+  }
   .title-bar h1 {
     font-size: 36px !important;
   }

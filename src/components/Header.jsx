@@ -22,6 +22,13 @@ const Header = () => {
     <div className="page-header">
       <Container>
         <Navbar expand="md" className="navbar-custom p-0">
+          <Link className="logo-image" to="/">
+            <img
+              src={logoImg}
+              alt="Car Rental"
+              className="navbar-brand" // Add any necessary classes for styling
+            />
+          </Link>
           <NavbarToggler onClick={() => setIsOpen(!isOpen)} />
           <Collapse
             isOpen={isOpen}
@@ -83,7 +90,7 @@ const Header = () => {
             </Nav>
             <Nav>
               <NavItem className="nav-size">
-                <Link to="/">
+                <Link to="/" className="screen-logo">
                   <img
                     // height={90}
                     src={logoImg}

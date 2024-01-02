@@ -122,7 +122,7 @@ const LongTermForm = () => {
       <div className="section-bussiness">
         <Container>
           <Row style={{ alignItems: "center" }}>
-            <Col md="6" lg="6" xs="12">
+            <Col md="12" lg="6" xs="12">
               <div className="business-img ">
                 <div
                   className="business-mn-img text-right"
@@ -132,7 +132,7 @@ const LongTermForm = () => {
                 </div>
               </div>
             </Col>
-            <Col md="6" lg="6" xs="12">
+            <Col md="12" lg="6" xs="12">
               <div className="content-content">
                 <h2>
                   <span>business </span> <br /> solutions
@@ -178,7 +178,10 @@ const LongTermForm = () => {
                   </li>
                 </ul>
                 <div className="footer-contact">
-                  <input className="footer-field" placeholder="Write a message" />
+                  <input
+                    className="footer-field"
+                    placeholder="Write a message"
+                  />
                   <Button color="primary" className="footer-submit">
                     SEND MESSAGE
                   </Button>

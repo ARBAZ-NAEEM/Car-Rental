@@ -20,7 +20,7 @@ const ContactUs = () => {
             <h4>DROP US A LINE</h4>
             <h2 className="mb-4">Send Your Message</h2>
             <Row>
-              <Col lg="4" md="4" xs="12" className="col-contact-1">
+              <Col lg="4" md="12" xs="12" className="col-contact-1">
                 <div className="contact-info-detail">
                   <div className="img-div">
                     <img src={location} />
@@ -33,7 +33,7 @@ const ContactUs = () => {
                   <Button color="primary">Visit Us</Button>
                 </div>
               </Col>
-              <Col lg="4" md="4" xs="12" className="col-contact-2">
+              <Col lg="4" md="12" xs="12" className="col-contact-2">
                 <div className="contact-info-detail">
                   <div className="img-div">
                     <img src={headset} />
@@ -50,7 +50,7 @@ const ContactUs = () => {
                   <Button color="primary">Enquiry</Button>
                 </div>
               </Col>
-              <Col lg="4" md="4" xs="12" className="col-contact-3">
+              <Col lg="4" md="12" xs="12" className="col-contact-3">
                 <div className="contact-info-detail">
                   <div className="img-div">
                     <img src={envelope} />
@@ -83,7 +83,8 @@ const ContactUs = () => {
           <div className="form-contact-section">
             <p className="text-center">
               Please fill out the form below to receive a free consultation. Get
-              access to Legal, Tax and Monetary Support When you <a href="#">Sign up Today!</a>
+              access to Legal, Tax and Monetary Support When you{" "}
+              <a href="#">Sign up Today!</a>
             </p>
             <hr />
             <Row>
