@@ -122,7 +122,7 @@ const Discover = () => {
                     </div>
                   </Col>
                   <Col lg="6" md="6" xs="12">
-                    <div className="travel-img">
+                    <div className="travel-img tr-mg">
                       <img src={travel2} style={{ width: "100%" }} />
                     </div>
                     <div className="travel-img">

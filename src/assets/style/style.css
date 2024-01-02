@@ -2602,6 +2602,9 @@ a.logo-image {
 @media (max-width: 768px) {
 }
 @media (max-width: 480px) {
+  .travel-img.tr-mg {
+    margin-top: 0;
+  }
   h2.heading-discover {
     font-size: 30px !important;
   }
@@ -2625,8 +2628,15 @@ a.logo-image {
     display: block !important;
   }
   .contact-choice-section h2 {
-    font-size: 38px !important;
-    line-height: 50px !important;
+    font-size: 33px !important;
+    line-height: 37px !important;
+  }
+  .form-contact-section {
+    padding: 30px 20px;
+  }
+  .contact-choice-section p {
+    font-size: 17px;
+    line-height: 29px;
   }
   .contact-info .col-contact-1,
   .col-contact-2,
@@ -2649,7 +2659,7 @@ a.logo-image {
       #9d0208 0%,
       #d00000 100%
     ) !important;
-    margin: 0 0px;
+    margin: 0 12px;
     padding: 60px 20px;
     border-radius: 20px;
   }
@@ -2682,7 +2692,7 @@ a.logo-image {
     font-size: 35px !important;
   }
   .page-fleetview .discover-feet .title-bar h4 {
-    font-size: 18px !important;
+    font-size: 13px !important;
   }
   .discover-feet .title-bar {
     padding: 100px 0 !important;
@@ -2697,20 +2707,21 @@ a.logo-image {
     background: #f4efef;
     padding: 30px 0;
   }
-  .content-content h2 {
-    color: #c71917;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-size: 30px !important;
-    margin-top: 30px;
+  .contact-section h2 {
+    font-size: 29px !important;
+    line-height: 37px !important;
+    margin-bottom: 10px !important;
   }
   .content-img .contn-mn-img img {
     width: 100%;
   }
   .travel-heading p {
-    font-size: 20px;
+    font-size: 17px;
     color: #000;
     padding-right: 0;
+  }
+  .content-content p {
+    font-size: 16px;
   }
   .search-content h4 {
     font-size: 30px !important;
@@ -2868,14 +2879,21 @@ a.logo-image {
     width: 100%;
     justify-content: center !important;
   }
+  .btn-lease-discover button {
+    padding: 10px 36px;
+    font-size: 13px;
+  }
+  .contact-section.text-center {
+    padding: 40px 0 40px;
+  }
+  .contact-section h4,
+  .contact-choice-section h4 {
+    font-size: 23px !important;
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 414px) {
-  .form-contact-section {
-    background: #fff;
-    padding: 50px 20px;
-    border: 17px solid #f6f6f6;
-    border-radius: 12px;
-  }
+
   .contact-choice-section p {
     font-size: 18px;
   }
@@ -2898,7 +2916,13 @@ a.logo-image {
     margin-right: 70px;
   }
   .page-fleetview .discover-feet .title-bar h4 {
-    font-size: 16px !important;
+    font-size: 11px !important;
+  }
+  .page-fleetview .discover-feet .title-bar h1 {
+    font-size: 30px !important;
+  }
+  .content-content p {
+    font-size: 14px;
   }
   .img-glry {
     padding: 10px 0px;
@@ -2927,6 +2951,12 @@ a.logo-image {
   }
 }
 @media (max-width: 375px) {
+  .footer-copyright {
+    padding: 10px;
+}
+  .img-glry:hover:before {
+    right: 0px;
+  }
   .page-fleetview .discover-feet .title-bar h4 {
     font-size: 14px !important;
   }
@@ -2941,9 +2971,8 @@ a.logo-image {
     width: 90%;
   }
   .travel-heading p {
-    font-size: 18px;
-    color: #000;
-    padding-right: 0;
+    font-size: 13px;
+    padding-right: 2px;
   }
   .travel-hover-heading h4 {
     font-size: 26px !important;
