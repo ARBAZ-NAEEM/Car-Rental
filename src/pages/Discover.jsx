@@ -82,7 +82,7 @@ const Discover = () => {
         <Container>
           <div className="travel-content">
             <div className="travel-heading">
-              <h2>
+              <h2 data-aos="fade-up">
                 <span>Fall into </span>travel
               </h2>
               <p className="mb-0">
@@ -151,7 +151,7 @@ const Discover = () => {
               </Col>
               <Col md="12" lg="6" xs="12">
                 <div className="content-content">
-                  <h2>
+                  <h2 data-aos="fade-up">
                     <span>Lorem ipsum </span> <br /> dolor sit amet
                   </h2>
                   <p>
@@ -167,7 +167,7 @@ const Discover = () => {
             <Row className="column-reverse" style={{ alignItems: "center" }}>
               <Col md="12" lg="6" xs="12">
                 <div className="content-content">
-                  <h2>
+                  <h2 data-aos="fade-up">
                     <span>Lorem ipsum </span> <br /> dolor sit amet
                   </h2>
                   <p>

@@ -134,7 +134,7 @@ const LongTermForm = () => {
             </Col>
             <Col md="12" lg="6" xs="12">
               <div className="content-content">
-                <h2>
+                <h2 data-aos="fade-up">
                   <span>business </span> <br /> solutions
                 </h2>
                 <p>
@@ -154,7 +154,7 @@ const LongTermForm = () => {
           <Row>
             <Col lg="5" md="5" xs="12">
               <div className="inner-contact-long">
-                <h2>Contact us</h2>
+                <h2 data-aos="fade-up">Contact us</h2>
                 <ul>
                   <li>
                     <img src={emailIcon} />
@@ -194,7 +194,7 @@ const LongTermForm = () => {
       <div className="section-visit">
         <Container>
           <div className="inner-visit text-center">
-            <h2>
+            <h2 data-aos="fade-up">
               <span>Visit</span> us Now
             </h2>
             <Iframe iframe={iframe} />

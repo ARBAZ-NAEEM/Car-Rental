@@ -541,7 +541,7 @@ const Checkout = () => {
               </Col>
               <Col md="6" lg="6" xs="12">
                 <div className="service-about-content">
-                  <h2>
+                  <h2 data-aos="fade-up">
                     <span>Extra</span> Services
                   </h2>
                   <div className="servicesPoint-text">
@@ -583,7 +583,7 @@ const Checkout = () => {
               <Col md="6" lg="6">
                 <div className="airportPick-section">
                   <div className="airportText">
-                    <h3>Airport pickup</h3>
+                    <h3 data-aos="fade-up">Airport pickup</h3>
                     <p>
                       Search Flights & Places Hire to our most popular <br />
                       destinations
@@ -600,7 +600,7 @@ const Checkout = () => {
               <Col md="6" lg="6">
                 <div className="airportDrop-section">
                   <div className="airportText">
-                    <h3>Airport Drop off</h3>
+                    <h3 data-aos="fade-up">Airport Drop off</h3>
                     <p>
                       Search hotels & Places Hire to our most popular <br />
                       destinations
@@ -622,7 +622,7 @@ const Checkout = () => {
           <div className="confirm-section">
             <Row>
               <Col md="6" lg="6" xs="12">
-                <div className="confirm-text">
+                <div className="confirm-text" data-aos="fade-up">
                   <h3>Confirm All Reservation</h3>
                   <h3>Dream Business Today!</h3>
                 </div>

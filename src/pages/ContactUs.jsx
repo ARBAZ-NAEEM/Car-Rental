@@ -17,8 +17,10 @@ const ContactUs = () => {
       <div className="contact-section text-center">
         <Container>
           <div className="contact-info">
-            <h4>DROP US A LINE</h4>
-            <h2 className="mb-4">Send Your Message</h2>
+            <h4 data-aos="fade-up">DROP US A LINE</h4>
+            <h2 className="mb-4" data-aos="fade-up">
+              Send Your Message
+            </h2>
             <Row>
               <Col lg="4" md="12" xs="12" className="col-contact-1">
                 <div className="contact-info-detail">
@@ -74,8 +76,8 @@ const ContactUs = () => {
       <div className="contact-choice-section ">
         <Container>
           <div className="contact-info text-center">
-            <h4>LET CONNECT</h4>
-            <h2 className="mb-4">
+            <h4 data-aos="fade-up">LET CONNECT</h4>
+            <h2 className="mb-4" data-aos="fade-up">
               <span>Best Choice</span> of
               <br /> Startups
             </h2>

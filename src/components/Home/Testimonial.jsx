@@ -72,8 +72,11 @@ const Testimonial = () => {
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
-                  <h4>Our testimonials</h4>
-                  <h3 className="heading-discover heading-test">
+                  <h4 data-aos="fade-up">Our testimonials</h4>
+                  <h3
+                    className="heading-discover heading-test"
+                    data-aos="fade-up"
+                  >
                     What They're Talking <br />
                     <span>About Queen</span>
                   </h3>

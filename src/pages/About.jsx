@@ -33,7 +33,7 @@ const About = () => {
               </Col>
               <Col md="6" lg="6" xs="12">
                 <div className="service-about-content">
-                  <h2>
+                  <h2 data-aos="fade-up">
                     <span>Lorem ipsum</span> <br /> dolor sit amet
                   </h2>
                   <p>
@@ -56,7 +56,7 @@ const About = () => {
             <Row className="align-items-center servc-row2">
               <Col md="6" lg="6" xs="12">
                 <div className="service-about-content">
-                  <h2>
+                  <h2 data-aos="fade-up">
                     <span>Lorem ipsum</span> <br /> dolor sit amet
                   </h2>
                   <p>
@@ -91,7 +91,7 @@ const About = () => {
       <div className="unique-feature-section">
         <Container>
           <div className="feature-text ">
-            <h2 className="text-center">
+            <h2 className="text-center" data-aos="fade-up">
               <span>Our</span> <br /> Unique Features
             </h2>
             <Row>
