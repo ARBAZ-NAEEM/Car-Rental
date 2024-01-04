@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="footer-one">
                   <div className="footer-one-text">
                     <div className="footer-one-logo">
-                      <img src={footerLogo} alt=""/>
+                      <img src={footerLogo} alt="" />
                     </div>
                     <p className="mb-0">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -87,7 +87,7 @@ const Footer = () => {
         <Container>
           <div className="footer-copyright-text text-center">
             <p className="mb-0">
-              © Rumble - 2020 | All Right Reserved. Designed By Hasnain
+              © Queen Car Rental - 2024 | All Right Reserved.
             </p>
           </div>
         </Container>
