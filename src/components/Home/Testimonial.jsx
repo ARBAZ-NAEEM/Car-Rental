@@ -82,7 +82,7 @@ const Testimonial = () => {
                   </h3>
                 </div>
               </Col>
-              <Col lg="6" md="6" xs="12">
+              <Col lg="6" md="6" xs="12" className="middle-text">
                 <div className="test-content">
                   <p>
                     Lorem ipsum dolor sit amet nsectetur cing elituspe ndisse

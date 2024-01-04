@@ -74,7 +74,7 @@ const CitySection = (props) => {
         <Container fluid style={{ padding: 0 }}>
           <div className="city-titlebar text-center">
             <h2
-              className="heading-discover heading-city"
+              className="heading-discover heading-city routes-color"
               data-aos="fade-up"
               data-aos-duration="1000"
             >
@@ -117,7 +117,57 @@ const CitySection = (props) => {
                           <p className="mb-0">{items.text}</p>
                         </div>
                         <a href="#" style={{ color: "#EE333A" }}>
-                          <i className="fa fa-arrow-right"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="19"
+                            height="13"
+                            viewBox="0 0 19 13"
+                            fill="none"
+                          >
+                            <g clip-path="url(#clip0_640_397)">
+                              <path
+                                d="M11.9688 1.03906L17.0954 6.06509L11.9688 11.0911"
+                                stroke="url(#paint0_linear_640_397)"
+                                stroke-width="2.01041"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                d="M1.67773 6.06543H14.7856"
+                                stroke="url(#paint1_linear_640_397)"
+                                stroke-width="2.01041"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </g>
+                            <defs>
+                              <linearGradient
+                                id="paint0_linear_640_397"
+                                x1="11.9688"
+                                y1="6.06508"
+                                x2="14.913"
+                                y2="6.51445"
+                                gradientUnits="userSpaceOnUse"
+                              >
+                                <stop stop-color="#9D0208" />
+                                <stop offset="1" stop-color="#D00000" />
+                              </linearGradient>
+                              <linearGradient
+                                id="paint1_linear_640_397"
+                                x1="1.67773"
+                                y1="6.56543"
+                                x2="2.14778"
+                                y2="8.40931"
+                                gradientUnits="userSpaceOnUse"
+                              >
+                                <stop stop-color="#9D0208" />
+                                <stop offset="1" stop-color="#D00000" />
+                              </linearGradient>
+                              <clipPath id="clip0_640_397">
+                                <rect width="19" height="13" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
                         </a>
                       </div>
                     </div>

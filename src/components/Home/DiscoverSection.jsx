@@ -58,7 +58,7 @@ const DiscoverSection = () => {
     <div className="discover-section">
       <Container fluid style={{ padding: 0 }}>
         <div className="discover-titlebar text-center">
-          <h2 className="heading-discover" data-aos="fade-up">
+          <h2 className="heading-discover fleet-color" data-aos="fade-up">
             Discover
             <br />
             <span>Our Fleet</span>

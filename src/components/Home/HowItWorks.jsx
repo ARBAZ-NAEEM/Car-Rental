@@ -15,7 +15,7 @@ const HowItWorks = () => {
       <Container>
         <div className="howit-titlebar text-center">
           <h2
-            className="heading-discover"
+            className="heading-discover work-color"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
@@ -73,7 +73,7 @@ const HowItWorks = () => {
                 <img src={work2} style={{ width: "100%" }} alt="" />
               </div>
             </Col>
-          {/* </Row>
+            {/* </Row>
           <Row className="mt-4 howit-row2"> */}
             <Col lg="3" md="6" xs="12" className="how-col5">
               <div className="img-how-it-work">

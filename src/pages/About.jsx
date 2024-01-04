@@ -91,8 +91,15 @@ const About = () => {
       <div className="unique-feature-section">
         <Container>
           <div className="feature-text ">
+            <h2
+              style={{ marginBottom: 0 }}
+              className="text-center"
+              data-aos="fade-up"
+            >
+              <span className="our-color">Our</span>
+            </h2>
             <h2 className="text-center" data-aos="fade-up">
-              <span>Our</span> <br /> Unique Features
+              Unique Features
             </h2>
             <Row>
               <Col lg="2" md="2"></Col>
