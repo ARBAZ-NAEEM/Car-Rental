@@ -66,7 +66,7 @@ const CarSection = () => {
                     <img src={traffic} alt="" />
                   </div>
                 </div>
-                <div className="car-subtext">
+                <div className="car-subtext new-sub-car">
                   <h5 data-aos="fade-up" data-aos-duration="3000">
                     Diverse fleet
                   </h5>

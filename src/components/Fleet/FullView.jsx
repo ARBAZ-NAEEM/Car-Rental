@@ -23,13 +23,13 @@ const FullView = ({ onClose }) => {
         <div className="modal-body">
           <Container>
             <Row>
-              <Col lg="6" md="6">
+              <Col lg="6" md="6" className="px-0">
                 <div className="image-modal">
                   <img src={modalcar} alt="" />
                 </div>
               </Col>
-              <Col lg="6" md="6" xs="12">
-                <div className="right-section-contant mt-3">
+              <Col lg="6" md="6" xs="12" className="px-0">
+                <div className="right-section-contant ">
                   <Row>
                     <div class="small-tags ">
                       <span class="tag-btn">small</span>
@@ -48,7 +48,7 @@ const FullView = ({ onClose }) => {
                     <Col md="6" lg="6" xs="6">
                       <div className="car-price">
                         <p className="price">
-                          € 24. <span className="font-small">23</span>
+                          € 24.<span className="font-small">23</span>
                         </p>
                         <p className="total-text">Total rental</p>
                       </div>
@@ -79,7 +79,9 @@ const FullView = ({ onClose }) => {
                           <img src={questionfill} alt="" />
                         </p>
                         <p>
-                          Local Tax <img src={questionfill} alt="" />
+                          Local Tax 
+                          {/* <img src={questionfill}
+                           alt="" /> */}
                         </p>
                         <p>
                           Unlimited Mileage <img src={questionfill} alt="" />
@@ -99,7 +101,7 @@ const FullView = ({ onClose }) => {
                   <Row>
                     <Col md="12" lg="12">
                       <p className="custom-txt">Not Included</p>
-                      <p className="txt-para">
+                      <p className="txt-para ">
                         You can also upgrade your rental options when you've
                         chosen your vehicle.
                       </p>
@@ -108,7 +110,7 @@ const FullView = ({ onClose }) => {
                   <hr />
                   <Row>
                     <Col md="12" lg="12">
-                      <p className="txt-para">
+                      <p className="txt-para py-3 mb-0">
                         We can’t guarantee the exact model you’ll get.
                       </p>
                     </Col>
