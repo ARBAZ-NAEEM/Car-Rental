@@ -151,8 +151,11 @@ const Discover = () => {
               </Col>
               <Col md="12" lg="6" xs="12">
                 <div className="content-content">
-                  <h2 data-aos="fade-up">
-                    <span>Lorem ipsum </span> <br /> dolor sit amet
+                  <h2 style={{ marginBottom: 0 }} data-aos="fade-up">
+                    <span>Lorem ipsum </span>
+                  </h2>
+                  <h2 className="dolar-color" data-aos="fade-up">
+                    dolor sit amet
                   </h2>
                   <p>
                     <strong>While some providers charge $150+</strong> to file a
@@ -167,8 +170,11 @@ const Discover = () => {
             <Row className="column-reverse" style={{ alignItems: "center" }}>
               <Col md="12" lg="6" xs="12">
                 <div className="content-content">
-                  <h2 data-aos="fade-up">
-                    <span>Lorem ipsum </span> <br /> dolor sit amet
+                  <h2 style={{ marginBottom: 0 }} data-aos="fade-up">
+                    <span>Lorem ipsum </span>
+                  </h2>
+                  <h2 className="dolar-color" data-aos="fade-up">
+                    dolor sit amet
                   </h2>
                   <p>
                     <strong>While some providers charge $150+</strong> to file a
