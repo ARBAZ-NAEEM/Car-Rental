@@ -29,7 +29,7 @@ const CarSection = () => {
       <div className="car-background">
         <Container>
           <Row>
-            <Col lg="4" md="12" xs="12">
+            <Col lg="4" md="4" xs="12">
               <div className="d-flex car-sc">
                 <div className="car-count">
                   <h3 className="car-count-heading mb-0">01</h3>
@@ -54,7 +54,7 @@ const CarSection = () => {
                 </div>
               </div>
             </Col>
-            <Col lg="4" md="12" xs="12">
+            <Col lg="4" md="4" xs="12">
               <div className="d-flex car-sc">
                 <div className="car-count">
                   <h3 className="car-count-heading mb-0">02</h3>
@@ -79,7 +79,7 @@ const CarSection = () => {
                 </div>
               </div>
             </Col>
-            <Col lg="4" md="12" xs="12">
+            <Col lg="4" md="4" xs="12">
               <div className="d-flex car-sc">
                 <div className="car-count">
                   <h3 className="car-count-heading mb-0">03</h3>

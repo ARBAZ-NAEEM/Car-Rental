@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { Button, Col, Container, Row } from "reactstrap";
 import FormGroupSelect from "../GeneralComponents/FormGroupSelect";
 import FormGroupInput from "../GeneralComponents/FormGroupInput";
-
+import DatePicker from "react-datepicker";
 const PickUpForm = (props) => {
-  const {btnText, boxShadow} = props
+  const [selectedDate, setSelectedDate] = useState(null);
+  const [selectedDateof, setSelectedDateof] = useState(null);
+  const { btnText, boxShadow } = props;
   const formPanel = {
     pickUpLocation: 0,
     pickUpDate: "",
@@ -21,7 +23,7 @@ const PickUpForm = (props) => {
   return (
     <div className="section-form">
       <Container>
-        <div className="form-section" style={{boxShadow: boxShadow}}>
+        <div className="form-section" style={{ boxShadow: boxShadow }}>
           <Row style={{ alignItems: "flex-end" }}>
             <Col lg="3" md="3" xs="12">
               <FormGroupSelect
@@ -33,24 +35,59 @@ const PickUpForm = (props) => {
               />
             </Col>
             <Col lg="3" md="3" xs="12">
-              <FormGroupInput
-                label="Pick-up Date"
-                onChange={handleChange}
-                name="pickUpDate"
-                value={fields?.pickUpDate}
-                placeholder="d-m-Y"
-                type="date"
-              />
+              <div className="form-group">
+                <label className="form-label">Pick-up Date</label>
+
+                <DatePicker
+                  selected={selectedDate}
+                  onChange={(date) => {
+                    const inputYear = date.getFullYear().toString();
+                    // Check if the year input is longer than 4 characters
+                    if (inputYear.length > 4) {
+                      // Manipulate the year to only get the first 4 characters
+                      const year = parseInt(inputYear.substring(0, 4), 10);
+                      const newDate = new Date(date);
+                      newDate.setFullYear(year);
+                      setSelectedDate(newDate);
+                    } else {
+                      setSelectedDate(date);
+                    }
+                  }}
+                  placeholderText={" d-m-Y"}
+                  filterDate={(date) =>
+                    date.getDay() !== 6 && date.getDay() !== 0
+                  }
+                  showYearDropdown
+                  scrollableYearDropdown
+                />
+              </div>
             </Col>
             <Col lg="3" md="3" xs="12">
-              <FormGroupInput
-                label="Drop-off Date"
-                onChange={handleChange}
-                name="dropOffDate"
-                value={fields?.dropOffDate}
-                placeholder="d-m-Y"
-                type="date"
-              />
+              <div className="form-group">
+                <label htmlFor="">Drop-off Date</label>
+                <DatePicker
+                  selected={selectedDateof}
+                  onChange={(date) => {
+                    const inputYear = date.getFullYear().toString();
+                    // Check if the year input is longer than 4 characters
+                    if (inputYear.length > 4) {
+                      // Manipulate the year to only get the first 4 characters
+                      const year = parseInt(inputYear.substring(0, 4), 10);
+                      const newDate = new Date(date);
+                      newDate.setFullYear(year);
+                      setSelectedDateof(newDate);
+                    } else {
+                      setSelectedDateof(date);
+                    }
+                  }}
+                  placeholderText={" d-m-Y"}
+                  filterDate={(date) =>
+                    date.getDay() !== 6 && date.getDay() !== 0
+                  }
+                  showYearDropdown
+                  scrollableYearDropdown
+                />
+              </div>
             </Col>
             <Col lg="3" md="3" xs="12">
               <Button className="btn-formPanel" color="primary">

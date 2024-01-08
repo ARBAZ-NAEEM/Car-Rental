@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "../src/assets/style/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "react-datepicker/dist/react-datepicker.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Checkout from "./pages/Checkout";

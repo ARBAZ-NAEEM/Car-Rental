@@ -80,27 +80,34 @@ const Discover = () => {
       </div>
       <div className="section-travel">
         <Container>
-          <div className="travel-content">
-            <div className="travel-heading">
-              <h2 data-aos="fade-up">
-                <span>Fall into </span>travel
-              </h2>
-              <p className="mb-0">
-                Going somewhere to celebrate this season? Whether you're going
-                home or somewhere to roam, we've got the travel tools to get you
-                to your destination.
-              </p>
-            </div>
-            <div className="travel-btn">
-              <Button color="secondary">See All</Button>
-            </div>
-          </div>
+          <Row>
+            <Col md="11" lg="11" xs="12">
+              <div className="travel-content">
+                <div className="travel-heading">
+                  <h2 data-aos="fade-up">
+                    <span>Fall into </span>travel
+                  </h2>
+                  <p className="mb-0">
+                    Going somewhere to celebrate this season? Whether you're
+                    going home or somewhere to <br /> roam, we've got the travel
+                    tools to get you to your destination.
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col md="1" lg="1" xs="12" className="display-btn-center">
+              <div className="travel-btn">
+                <Button color="secondary">See All</Button>
+              </div>
+            </Col>
+          </Row>
+
           <div className="travel-images-section">
             <Row>
               <Col md="12" lg="5" xs="12">
                 <div className="travel-hover-heading text-light">
                   <h4>Backpacking MALTA</h4>
-                  <p>
+                  <p className="mt-3">
                     Traveling is a unique experience as it's the best way to
                     unplug from the pushes and pulls of daily life. It helps us
                     to forget about our problems, frustrations, and fears at

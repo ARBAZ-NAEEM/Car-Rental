@@ -34,6 +34,10 @@ const Footer = () => {
                       <li>1-567-124-44227</li>
                       <li>182 main street pert habour 8007</li>
                       <li>Mon-sat 8:00-18:00 Sunday Closed</li>
+                      <li>
+                        {" "}
+                        <a href="/ourpolicy">Our Policy </a>
+                      </li>
                     </ul>
                     <ul className="social-menu">
                       <li>

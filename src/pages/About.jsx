@@ -102,11 +102,11 @@ const About = () => {
               Unique Features
             </h2>
             <Row>
-              <Col lg="2" md="2"></Col>
-              <Col lg="4" md="4" xs="12">
+              <Col lg="1" md="1"></Col>
+              <Col lg="5" md="5" xs="12" className="col-pad-left">
                 <div className="d-flex about-count">
                   <div className="car-count">
-                    <h3 className="car-count-heading mb-0">01</h3>
+                    <h3 className="car-count-heading mb-2">01</h3>
                     <div className="car-count-img">
                       <img src={group1} alt="" />
                     </div>
@@ -116,10 +116,10 @@ const About = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg="4" md="4" xs="12">
+              <Col lg="5" md="5" xs="12" className="col-pad-right">
                 <div className="d-flex about-count">
                   <div className="car-count">
-                    <h3 className="car-count-heading mb-0">02</h3>
+                    <h3 className="car-count-heading mb-2">02</h3>
                     <div className="car-count-img">
                       <img src={group2} alt="" />
                     </div>
@@ -129,12 +129,17 @@ const About = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg="2" md="2"></Col>
-              <Col lg="2" md="2"></Col>
-              <Col lg="4" md="4" xs="12">
+              <Col lg="1" md="1"></Col>
+              <Col lg="1" md="1"></Col>
+              <Col
+                lg="5"
+                md="5"
+                xs="12"
+                className="slast-count-class col-pad-left"
+              >
                 <div className="d-flex about-count">
                   <div className="car-count">
-                    <h3 className="car-count-heading mb-0">03</h3>
+                    <h3 className="car-count-heading mb-2">03</h3>
                     <div className="car-count-img">
                       <img src={group3} alt="" />
                     </div>
@@ -144,10 +149,15 @@ const About = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg="4" md="4" xs="12" className="last-count-class">
+              <Col
+                lg="5"
+                md="5"
+                xs="12"
+                className="last-count-class col-pad-right"
+              >
                 <div className="d-flex about-count">
                   <div className="car-count">
-                    <h3 className="car-count-heading mb-0">04</h3>
+                    <h3 className="car-count-heading mb-2">04</h3>
                     <div className="car-count-img">
                       <img src={group4} alt="" />
                     </div>
@@ -157,7 +167,7 @@ const About = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg="2" md="2"></Col>
+              <Col lg="1" md="1"></Col>
             </Row>
           </div>
         </Container>

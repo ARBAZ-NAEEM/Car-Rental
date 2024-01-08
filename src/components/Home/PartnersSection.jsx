@@ -13,7 +13,7 @@ const PartnersSection = () => {
       <Container>
         <div className="long-term">
           <Button color="secondary" className="btn-lease" data-aos="fade-up">
-            Long Term Lease
+            <span> Long Term Lease</span>
           </Button>
         </div>
         {/* <Container> */}
