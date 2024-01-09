@@ -26,6 +26,8 @@ import product_six from "../assets/img/product-6.png";
 import circlesupport from "../assets/img/Feature Icon with circle.png";
 import emailicon from "../assets/img/email 1.png";
 import phoneicon from "../assets/img/viber 1.png";
+import DatePicker from "react-datepicker";
+
 import {
   Accordion,
   AccordionBody,
@@ -108,7 +110,8 @@ const FleetView = () => {
       imageUrl: product_six,
     },
   ];
-
+  const [selectedDate, setSelectedDate] = useState(null);
+  const [selectedDateof, setSelectedDateof] = useState(null);
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   // Function to toggle modal visibility
@@ -337,24 +340,65 @@ const FleetView = () => {
                           />
                         </Col>
                         <Col lg="2" md="6" className="mb-3">
-                          <FormGroupInput
-                            label="Pick-up Date"
-                            onChange={handleChange}
-                            name="pickUpDate"
-                            value={fields?.pickUpDate}
-                            placeholder="d-m-Y"
-                            type="date"
-                          />
+                          <div className="form-group">
+                            <label className="form-label">Pick-up Date</label>
+
+                            <DatePicker
+                              selected={selectedDate}
+                              onChange={(date) => {
+                                const inputYear = date.getFullYear().toString();
+                                // Check if the year input is longer than 4 characters
+                                if (inputYear.length > 4) {
+                                  // Manipulate the year to only get the first 4 characters
+                                  const year = parseInt(
+                                    inputYear.substring(0, 4),
+                                    10
+                                  );
+                                  const newDate = new Date(date);
+                                  newDate.setFullYear(year);
+                                  setSelectedDate(newDate);
+                                } else {
+                                  setSelectedDate(date);
+                                }
+                              }}
+                              placeholderText={" d-m-Y"}
+                              filterDate={(date) =>
+                                date.getDay() !== 6 && date.getDay() !== 0
+                              }
+                              showYearDropdown
+                              scrollableYearDropdown
+                            />
+                          </div>
                         </Col>
                         <Col lg="2" md="6" className="mb-3">
-                          <FormGroupInput
-                            label="Drop-off Date"
-                            onChange={handleChange}
-                            name="dropOffDate"
-                            value={fields?.dropOffDate}
-                            placeholder="d-m-Y"
-                            type="date"
-                          />
+                          <div className="form-group">
+                            <label htmlFor="">Drop-off Date</label>
+                            <DatePicker
+                              selected={selectedDateof}
+                              onChange={(date) => {
+                                const inputYear = date.getFullYear().toString();
+                                // Check if the year input is longer than 4 characters
+                                if (inputYear.length > 4) {
+                                  // Manipulate the year to only get the first 4 characters
+                                  const year = parseInt(
+                                    inputYear.substring(0, 4),
+                                    10
+                                  );
+                                  const newDate = new Date(date);
+                                  newDate.setFullYear(year);
+                                  setSelectedDateof(newDate);
+                                } else {
+                                  setSelectedDateof(date);
+                                }
+                              }}
+                              placeholderText={" d-m-Y"}
+                              filterDate={(date) =>
+                                date.getDay() !== 6 && date.getDay() !== 0
+                              }
+                              showYearDropdown
+                              scrollableYearDropdown
+                            />
+                          </div>
                         </Col>
                         <Col lg="3" md="6" className="mb-3">
                           <FormGroupSelect
