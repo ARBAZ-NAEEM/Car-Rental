@@ -90,9 +90,11 @@ const PickUpForm = (props) => {
               </div>
             </Col>
             <Col lg="3" md="3" xs="12">
-              <Button className="btn-formPanel" color="primary">
-                {btnText}
-              </Button>
+              <div className="findcarbtn">
+                <Button className="btn-formPanel" color="primary">
+                  {btnText}
+                </Button>
+              </div>
             </Col>
           </Row>
         </div>

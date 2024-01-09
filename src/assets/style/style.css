@@ -1954,11 +1954,11 @@ a.logo-image {
 .col-pad-left {
   padding-left: 70px;
 }
-.footer-one-logo img {
-  width: 300px;
-  height: 117px;
+/* .footer-one-logo img {
+  width: 187px;
+  height: 187px;
   flex-shrink: 0;
-}
+} */
 /* Media Query Start*/
 @media (max-width: 1600px) {
   .travel-hover-heading {
@@ -2429,11 +2429,11 @@ a.logo-image {
   .accordion-button::after {
     background-size: 80% !important;
   }
-  .footer-one-logo img {
+  /* .footer-one-logo img {
     width: 200px;
     height: 100px;
     flex-shrink: 0;
-  }
+  } */
   .about-count:before {
     transform: scale(0.76);
     right: -32px;
@@ -2875,13 +2875,96 @@ a.logo-image {
 @media (max-width: 768px) {
 }
 @media (max-width: 480px) {
+  .gallery-images .row > * {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .content-contact img {
+    margin-top: -80px;
+    margin-left: 20px;
+    position: relative;
+    transition: 0.8s;
+    width: 260px;
+  }
+  .travel-hover-heading p {
+    font-size: 18px;
+    padding-right: 0;
+    margin-bottom: 70px;
+  }
+  .section-travel {
+    padding: 16px 0 70px;
+  }
+  .search-section {
+    display: none;
+  }
+  /* search filter hide  */
+  .filter-section {
+    display: none;
+  }
+  .howit-img img {
+    width: 100px;
+    object-fit: scale-down;
+  }
+  .howit-count h3 strong {
+    font-size: 52px;
+  }
+  .howit-count h3 {
+    margin-top: 50px;
+    min-height: 80px;
+  }
+  .howit-count h3 {
+    font-weight: 400;
+    font-size: 50px;
+  }
+  .howit-count h4 span:before {
+    width: 65px;
+    height: 8px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    top: 60px;
+  }
+  .howit-count h4 {
+    font-size: 50px !important;
+  }
+  .footer-three {
+    text-align: center;
+  }
+  .footer-two-text ul.social-menu {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-two-menu li:before {
+    display: none;
+  }
+  .footer-two-menu li {
+    margin-left: 0;
+  }
+  .footer-title span:before {
+    bottom: -20px;
+    left: 14px;
+  }
+  .footer-two {
+    text-align: center;
+  }
+  .footer-one {
+    text-align: center;
+  }
+  .findcarbtn {
+    text-align: center;
+  }
   .car-subtext p {
     font-size: 10.02px;
   }
+  .car-sc {
+    left: 80px;
+  }
   .car-sc:before {
-    right: 155px;
-    transform: scale(0.8);
-    top: -4px;
+    right: 140px;
+    transform: scale(0.9);
+    top: 6px;
   }
   .car-subtext {
     padding: 0px 10px 0px 20px;
@@ -2902,14 +2985,45 @@ a.logo-image {
     justify-content: start;
     align-items: start;
   }
+  .modal-container .car-specification ul li {
+    margin-right: 10px;
+    font-size: 10px;
+    margin-bottom: 6px;
+  }
+  p.pick-date {
+    font-size: 10px;
+  }
+  p.date-txt {
+    font-size: 10px;
+  }
+  p.custom-txt {
+    font-size: 14px;
+  }
+  p.txt-para {
+    font-size: 12px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    padding-right: 20px;
+  }
+  .price-includes p {
+    font-size: 10px;
+  }
   .checkout-btn button {
-    width: 80%;
-    padding: 8px 0px;
-    font-size: 16px;
-    border-radius: 5px !important;
+    width: 100%;
+    padding: 6px 0px;
+    font-size: 12px;
+  }
+  .modal-container .car-data p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .car-product p.price {
+    font-size: 18.5px;
+    font-weight: 400;
+    color: #000;
   }
   .car-data h6 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
   }
   p.price {
@@ -2918,7 +3032,7 @@ a.logo-image {
     color: #000;
   }
   .car-price p.total-text {
-    font-size: 14px;
+    font-size: 12px;
     color: #000;
     font-weight: 400;
   }
@@ -2927,11 +3041,11 @@ a.logo-image {
     margin-bottom: 10px;
     margin-left: 10px !important;
   }
-  .footer-one-logo img {
+  /* .footer-one-logo img {
     width: 300px;
     height: 117px;
     flex-shrink: 0;
-  }
+  } */
 
   .footer-one-logo {
     text-align: center;
@@ -2951,7 +3065,7 @@ a.logo-image {
     position: relative;
   }
   .car-count-img img {
-    width: 85%;
+    width: 90px;
     height: auto;
   }
   .travel-img.tr-mg {
@@ -3151,33 +3265,26 @@ a.logo-image {
   .how-col1 {
     order: 1;
   }
-
   .how-col2 {
-    order: 2;
-  }
-
-  .how-col6 {
-    order: 3;
-  }
-
-  .how-col5 {
     order: 4;
   }
-
   .how-col3 {
     order: 5;
   }
-
   .how-col4 {
+    order: 8;
+  }
+  .how-col5 {
+    order: 2;
+  }
+  .how-col6 {
+    order: 3;
+  }
+  .how-col7 {
     order: 6;
   }
-
   .how-col8 {
     order: 7;
-  }
-
-  .how-col7 {
-    order: 8;
   }
   .main-city-section {
     padding: 30px 0 30px;
@@ -3249,16 +3356,31 @@ a.logo-image {
   }
 }
 @media (max-width: 414px) {
+  .modal-container {
+    padding: 20px 5px;
+    overflow-x: hidden;
+  }
+  .howit-count h3 {
+    font-weight: 400;
+    font-size: 44px;
+  }
+  .howit-count h3 strong {
+    font-size: 48px;
+  }
   .car-subtext h5 {
     width: 60%;
   }
   .car-subtext p {
     width: 60%;
   }
+  .car-sc {
+    left: 50px;
+  }
+
   .car-sc:before {
-    right: 102px;
-    transform: scale(0.8);
-    top: -4px;
+    right: 80px;
+    transform: scale(0.86);
+    top: 8px;
   }
   .about-us-content .heading1 {
     font-size: 22px !important;
@@ -3323,23 +3445,38 @@ a.logo-image {
   }
 
   .content-contact img {
-    width: 85%;
+    width: 54%;
   }
 }
 @media (max-width: 375px) {
+  .car-subtext p {
+    width: 78%;
+  }
+  .car-subtext {
+    padding: 0px 10px 0px 10px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .car-sc {
+    left: 30px;
+  }
   .car-sc:before {
-    right: 70px;
-    transform: scale(0.85);
+    right: 50px;
+    transform: scale(0.9);
     top: 10px;
+  }
+  .modal-container .car-data p {
+    font-size: 9px;
+    font-weight: 400;
   }
   .checkout-btn button {
     width: 100%;
-    padding: 8px 0px;
-    font-size: 16px;
+    padding: 4px 0px;
+    font-size: 14px;
     border-radius: 5px !important;
   }
   .car-data h6 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
   }
   .about-count:before {
@@ -3369,14 +3506,14 @@ a.logo-image {
     font-size: 30px !important;
   }
   .content-contact img {
-    width: 70%;
+    width: 50%;
     margin-left: 37px;
   }
   .content-img .contn-mn-img img {
     width: 90%;
   }
   .travel-heading p {
-    font-size: 13px;
+    font-size: 16px;
     padding-right: 2px;
   }
   .travel-hover-heading h4 {
@@ -3385,6 +3522,16 @@ a.logo-image {
   .about-subtext {
     color: #fff;
     padding: 0 50px 0px 8px;
+  }
+}
+@media (max-width: 375px) {
+  .car-sc:before {
+    right: 30px;
+    transform: scale(0.9);
+    top: 10px;
+  }
+  .car-sc {
+    left: 20px;
   }
 }
 
