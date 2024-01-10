@@ -419,7 +419,7 @@ const FleetView = () => {
                   </Container>
                 </div>
               </div>
-              <div className="car-product">
+              <div className="car-product mt-2">
                 <div className="row">
                   {/* Use map() to render each car product as a card */}
                   {carProducts.map((product) => (
@@ -528,89 +528,93 @@ const FleetView = () => {
       </div>
       <div className="contact-form-bg">
         <Container fluid>
-          <Row className="contact-section">
-            <Col lg="4" md="4">
-              <div className="right-section">
-                <div className="image-icon">
-                  <img src={circlesupport} alt="" />
-                  <h3>LONG TERM LEASE </h3>
-                </div>
-                <Row className="support-sec mt-5">
-                  <Col md="2" lg="2">
-                    <div className="support-image">
-                      <img src={emailicon} alt="" />
+          <div className="extra-margin">
+            <div className="extra-border">
+              <Row className="contact-section">
+                <Col lg="4" md="4">
+                  <div className="right-section">
+                    <div className="image-icon">
+                      <img src={circlesupport} alt="" />
+                      <h3>LONG TERM LEASE </h3>
                     </div>
-                  </Col>
-                  <Col md="8" lg="8">
-                    <div className="support-text">
-                      <p className="color-changetxt"> Send us a message </p>
-                      <p className="simple-txt">Support@blocship.com</p>
-                    </div>
-                  </Col>
-                </Row>
-                <Row className="support-sec mt-3">
-                  <Col md="2" lg="2">
-                    <div className="support-image">
-                      <img src={phoneicon} alt="" />
-                    </div>
-                  </Col>
-                  <Col md="8" lg="8">
-                    <div className="support-text">
-                      <p className="color-changetxt"> Setup a call </p>
-                      <p className="simple-txt">+1 555 555 5</p>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-            </Col>
-            <Col lg="8" md="8">
-              <div className="contact-choice-section ">
-                <Row>
-                  <Col lg="6" md="6" xs="12">
-                    <div className="form-group">
-                      <Label>Full Name</Label>
-                      <Input placeholder="Enter Your Name" />
-                    </div>
-                  </Col>
-                  <Col lg="6" md="6" xs="12">
-                    <div className="form-group">
-                      <Label>Email Address</Label>
-                      <Input placeholder="Enter Your Email" />
-                    </div>
-                  </Col>
-                  <Col lg="6" md="6" xs="12" className="mt-3">
-                    <div className="form-group">
-                      <Label>Company Name</Label>
-                      <Input placeholder="Enter Your Company" />
-                    </div>
-                  </Col>
-                  <Col lg="6" md="6" xs="12" className="mt-3">
-                    <div className="form-group">
-                      <Label>Services</Label>
-                      <Input placeholder="Specify your budget" />
-                    </div>
-                  </Col>
-                  <Col lg="12" md="12" xs="12" className="mt-3">
-                    <div className="form-group">
-                      <Label>Enter Your Message</Label>
-                      <Input
-                        type="textarea"
-                        rows={4}
-                        cols={40}
-                        placeholder="Enter your Messgae"
-                      />
-                    </div>
-                  </Col>
+                    <Row className="support-sec mt-5">
+                      <Col md="2" lg="2">
+                        <div className="support-image">
+                          <img src={emailicon} alt="" />
+                        </div>
+                      </Col>
+                      <Col md="8" lg="8">
+                        <div className="support-text">
+                          <p className="color-changetxt"> Send us a message </p>
+                          <p className="simple-txt">Support@blocship.com</p>
+                        </div>
+                      </Col>
+                    </Row>
+                    <Row className="support-sec mt-3">
+                      <Col md="2" lg="2">
+                        <div className="support-image">
+                          <img src={phoneicon} alt="" />
+                        </div>
+                      </Col>
+                      <Col md="8" lg="8">
+                        <div className="support-text">
+                          <p className="color-changetxt"> Setup a call </p>
+                          <p className="simple-txt">+1 555 555 5</p>
+                        </div>
+                      </Col>
+                    </Row>
+                  </div>
+                </Col>
+                <Col lg="8" md="8">
+                  <div className="contact-choice-section ">
+                    <Row>
+                      <Col lg="6" md="6" xs="12">
+                        <div className="form-group">
+                          <Label>Full Name</Label>
+                          <Input placeholder="Enter Your Name" />
+                        </div>
+                      </Col>
+                      <Col lg="6" md="6" xs="12">
+                        <div className="form-group">
+                          <Label>Email Address</Label>
+                          <Input placeholder="Enter Your Email" />
+                        </div>
+                      </Col>
+                      <Col lg="6" md="6" xs="12" className="mt-3">
+                        <div className="form-group">
+                          <Label>Company Name</Label>
+                          <Input placeholder="Enter Your Company" />
+                        </div>
+                      </Col>
+                      <Col lg="6" md="6" xs="12" className="mt-3">
+                        <div className="form-group">
+                          <Label>Services</Label>
+                          <Input placeholder="Specify your budget" />
+                        </div>
+                      </Col>
+                      <Col lg="12" md="12" xs="12" className="mt-3">
+                        <div className="form-group">
+                          <Label>Enter Your Message</Label>
+                          <Input
+                            type="textarea"
+                            rows={4}
+                            cols={40}
+                            placeholder="Enter your Messgae"
+                          />
+                        </div>
+                      </Col>
 
-                  <Col lg="12" className="mt-3">
-                    <Button className="btn-contact-info" color="primary">
-                      Send Message To Us
-                    </Button>
-                  </Col>
-                </Row>
-              </div>
-            </Col>
-          </Row>
+                      <Col lg="12" className="mt-3">
+                        <Button className="btn-contact-info" color="primary">
+                          Send Message To Us
+                        </Button>
+                      </Col>
+                    </Row>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </div>
         </Container>
       </div>
       <Footer />

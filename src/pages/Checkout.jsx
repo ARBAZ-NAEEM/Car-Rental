@@ -531,7 +531,7 @@ const Checkout = () => {
           </Container>
         </div>
 
-        <section className="mt-3 mb-5">
+        <section className="mt-3 mb-5 airport-section">
           <Container>
             <Row className="align-items-center servc-row1">
               <Col md="6" lg="6" xs="12">

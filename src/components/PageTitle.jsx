@@ -15,7 +15,10 @@ const PageTitle = (props) => {
     >
       <Container>
         {subHeading ? (
-          <h4 className="mb-0" style={{ textTransform: "uppercase" }}>
+          <h4
+            className="mb-0 subHeading"
+            style={{ textTransform: "uppercase" }}
+          >
             {subHeading}
           </h4>
         ) : null}

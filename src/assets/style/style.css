@@ -8,6 +8,17 @@ body {
 .page-header {
   background: #fff;
 }
+h4.subHeading {
+  font-size: 26px !important;
+  letter-spacing: 1px !important;
+  font-weight: 500 !important;
+  line-height: 25px !important;
+}
+h2 {
+  font-size: 71px !important;
+  line-height: 68px !important;
+  font-weight: 600 !important;
+}
 .title-bar h1 span:before {
   position: absolute;
   background-image: url("../img/red_line.png");
@@ -141,7 +152,14 @@ h2.routes-color span {
   -webkit-text-fill-color: transparent;
 }
 .text-discover {
+  color: #181918;
+  text-align: center;
+  font-family: Open Sans;
   font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.94px;
+  letter-spacing: -0.25px;
 }
 .card-discover {
   margin: 10px;
@@ -380,10 +398,12 @@ h2.routes-color span {
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
+  font-family: "Open Sans";
 }
 .footer-one-text p {
   margin-top: 30px;
   padding-right: 60px;
+  font-family: "Open Sans";
 }
 /* .footer-one-logo {
   position: relative;
@@ -427,6 +447,7 @@ h2.routes-color span {
   padding: 7px 0;
   position: relative;
   margin-left: 18px;
+  font-family: "Open Sans";
 }
 input.footer-field {
   width: 100%;
@@ -451,6 +472,7 @@ input.footer-field {
 }
 .footer-copyright p {
   font-size: 14px;
+  font-family: "Open Sans";
 }
 ul.social-menu li a {
   color: #fff;
@@ -932,10 +954,10 @@ ul.list-number > li {
 }
 
 .contact-choice-section p {
-  font-size: 24px;
+  font-size: 22px;
   color: #2c2c2c;
   font-weight: 500;
-  /* padding: 0px 100px; */
+  padding: 0px 60px;
   line-height: 44px;
   font-family: "Poppins";
 }
@@ -964,8 +986,16 @@ ul.list-number > li {
 .form-contact-section {
   background: #fff;
   padding: 50px 40px;
-  border: 17px solid #f6f6f6;
-  border-radius: 12px;
+
+  border-radius: 10px;
+}
+.page-contact-us .extra-border {
+  border-top: 20px solid #f6f6f6;
+  border-bottom: 20px solid #f6f6f6;
+  border-left: 23px solid #f6f6f6;
+  border-right: 23px solid #f6f6f6;
+  border-radius: 10px;
+  background-color: #f6f6f6;
 }
 .form-contact-section hr {
   width: 80%;
@@ -1173,12 +1203,14 @@ button.choose-btn {
 }
 .car-product .card {
   border: unset;
-  box-shadow: 0 0 13px 3px #0000000f;
-  border-radius: 2px;
+  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
   transition: 0.3s;
+  margin: 6px 6px;
 }
 .car-product .card:hover {
   background-color: #ee333a;
+  border-radius: 5px;
 }
 .car-product .card:hover span.tag-btn {
   background-image: unset;
@@ -1208,12 +1240,34 @@ button.choose-btn {
   background-color: unset;
   line-height: 50px;
 }
+.extra-border {
+  border-top: 20px solid #f6f6f6;
+  border-bottom: 20px solid #f6f6f6;
+  border-left: 23px solid #f6f6f6;
+  border-right: 23px solid #f6f6f6;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
+.term-form-border {
+  border-top: 20px solid #f6f6f6;
+  border-bottom: 20px solid #f6f6f6;
+  border-left: 23px solid #f6f6f6;
+  border-right: 23px solid #f6f6f6;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
 .contact-section.row {
-  border: 20px solid #f0f0f0;
-  margin: 0 100px;
+  /* border-top: 16px solid #f0f0f0;
+  border-bottom: 16px solid #f0f0f0;
+  border-left: 13px solid #f0f0f0;
+  border-right: 13px solid #f0f0f0; */
+  /* margin: 0 100px; */
   padding: 30px 25px;
   background-color: #fff;
   border-radius: 10px;
+}
+.extra-margin {
+  margin: 0 100px;
 }
 button:focus:not(:focus-visible) {
   box-shadow: unset;
@@ -1691,6 +1745,8 @@ p.txt-para {
   font-size: 14px;
   padding-top: 10px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: normal;
 }
 .travel-hover-heading button {
   color: #112211 !important;
@@ -1788,6 +1844,7 @@ span.procinig-txt {
 .form-data-section h5.address-txt {
   font-size: 24px;
   font-weight: 600;
+  color: #323232;
 }
 .form-data-section p {
   font-size: 14px;
@@ -1890,9 +1947,13 @@ span.procinig-txt {
   text-align: center;
 }
 .airportText h3 {
+  text-align: center;
+  font-family: "Lexend", sans-serif !important;
   font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   color: #fff;
-  font-weight: 500;
 }
 .confirm-section {
   background-image: linear-gradient(90deg, #9d0208 0%, #d00000 100%) !important;
@@ -1900,13 +1961,29 @@ span.procinig-txt {
   padding: 60px 50px;
   border-radius: 20px;
 }
+.airport-section .container .row {
+  width: 98%;
+  margin: 0 auto;
+}
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .airportText p {
-  font-size: 16px;
   color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Montserrat", sans-serif;
 }
 .confirm-text h3 {
-  font-size: 45px;
   color: #fff;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
 }
 .processd-btn button {
   background-color: #ed780d;
@@ -2293,9 +2370,12 @@ a.logo-image {
     padding: 8px 30px;
     margin: 0 4px;
   }
+  .extra-margin {
+    margin: 0 30px;
+  }
   .contact-section.row {
     border: 10px solid #f0f0f0;
-    margin: 0 30px;
+
     padding: 30px 5px;
     background-color: #fff;
   }
@@ -2576,9 +2656,12 @@ a.logo-image {
     font-weight: 900;
     padding: 20px 6px;
   }
+  .extra-margin {
+    margin: 0px;
+  }
+
   .contact-section.row {
     border: 10px solid #f0f0f0;
-    margin: 0;
     padding: 20px 0px;
     background-color: #fff;
   }
@@ -2893,6 +2976,12 @@ a.logo-image {
 @media (max-width: 768px) {
 }
 @media (max-width: 480px) {
+  .page-home .gallery-section {
+    display: none;
+  }
+  .car-count-heading {
+    display: none;
+  }
   .travel-heading p {
     line-height: 30px;
   }
@@ -2919,7 +3008,7 @@ a.logo-image {
     font-size: 18px;
     padding-right: 0;
     margin-bottom: 70px;
-    line-height: 30px;
+    /* line-height: 30px; */
   }
   .section-travel {
     padding: 16px 0 70px;
@@ -2986,15 +3075,15 @@ a.logo-image {
     text-align: center;
   }
   .car-subtext p {
-    font-size: 10.02px;
+    font-size: 12px;
   }
   .car-sc {
-    left: 80px;
+    left: 70px;
   }
   .car-sc:before {
-    right: 140px;
+    right: 126px;
     transform: scale(0.9);
-    top: 6px;
+    top: 8px;
   }
   .car-subtext {
     padding: 0px 10px 0px 20px;
@@ -3008,7 +3097,7 @@ a.logo-image {
     width: 50%;
   }
   .car-subtext h5 {
-    font-size: 14px;
+    font-size: 18px;
   }
   .display-btn-center {
     display: flex;
@@ -3133,6 +3222,7 @@ a.logo-image {
   .contact-choice-section p {
     font-size: 17px;
     line-height: 29px;
+    padding: 0px 0px;
   }
   .contact-info .col-contact-1,
   .col-contact-2,
@@ -3401,14 +3491,14 @@ a.logo-image {
     width: 60%;
   }
   .car-subtext p {
-    width: 60%;
+    width: 72%;
   }
   .car-sc {
-    left: 50px;
+    left: 40px;
   }
 
   .car-sc:before {
-    right: 80px;
+    right: 65px;
     transform: scale(0.86);
     top: 8px;
   }
@@ -3479,6 +3569,13 @@ a.logo-image {
   }
 }
 @media (max-width: 375px) {
+  .car-subtext h5 {
+    width: 70%;
+  }
+  .car-count-img img {
+    width: 80px;
+    height: auto;
+  }
   .content-content h2 {
     line-height: 26px !important;
     font-size: 32px !important;
@@ -3487,7 +3584,7 @@ a.logo-image {
     width: 78%;
   }
   .car-subtext {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 30px;
     margin-top: 30px;
     margin-bottom: 60px;
   }
@@ -3559,6 +3656,11 @@ a.logo-image {
   }
 }
 @media (max-width: 375px) {
+  .car-sc:before {
+    right: 18px;
+    transform: scale(0.9);
+    top: 10px;
+  }
   .car-sc:before {
     right: 30px;
     transform: scale(0.9);

@@ -73,7 +73,8 @@ const ContactUs = () => {
           </div>
         </Container>
       </div>
-      <div className="contact-choice-section ">
+
+      <div className="contact-choice-section">
         <Container>
           <div className="contact-info text-center">
             <h4 data-aos="fade-up">LET CONNECT</h4>
@@ -82,53 +83,56 @@ const ContactUs = () => {
               <br /> Startups
             </h2>
           </div>
-          <div className="form-contact-section">
-            <p className="text-center">
-              Please fill out the form below to receive a free consultation. Get
-              access to Legal, Tax and Monetary Support When you{" "}
-              <a href="#">Sign up Today!</a>
-            </p>
-            <hr />
-            <Row>
-              <Col lg="6" md="6" xs="12">
-                <div className="form-group">
-                  <Label>
-                    Name<span className="text-danger">*</span>
-                  </Label>
-                  <Input placeholder="Enter Your Name" />
-                </div>
-              </Col>
-              <Col lg="6" md="6" xs="12">
-                <div className="form-group">
-                  <Label>
-                    Mobile Number<span className="text-danger">*</span>
-                  </Label>
-                  <Input placeholder="Enter Your Number" />
-                </div>
-              </Col>
-              <Col lg="6" md="6" xs="12">
-                <div className="form-group">
-                  <Label>
-                    Email Address<span className="text-danger">*</span>
-                  </Label>
-                  <Input placeholder="Enter Your Email" />
-                </div>
-              </Col>
-              <Col lg="6" md="6" xs="12">
-                <div className="form-group">
-                  <Label>Message</Label>
-                  <Input placeholder="Enter Your Message" />
-                </div>
-              </Col>
-              <Col lg="12" className="text-center">
-                <Button className="btn-contact-info" color="primary">
-                  Submit Form
-                </Button>
-              </Col>
-            </Row>
+          <div className="extra-border">
+            <div className="form-contact-section">
+              <p className="text-center">
+                Please fill out the form below to receive a free consultation.
+                Get access to Legal, Tax and Monetary Support When you{" "}
+                <a href="#">Sign up Today!</a>
+              </p>
+              <hr />
+              <Row>
+                <Col lg="6" md="6" xs="12">
+                  <div className="form-group">
+                    <Label>
+                      Name<span className="text-danger">*</span>
+                    </Label>
+                    <Input placeholder="Enter Your Name" />
+                  </div>
+                </Col>
+                <Col lg="6" md="6" xs="12">
+                  <div className="form-group">
+                    <Label>
+                      Mobile Number<span className="text-danger">*</span>
+                    </Label>
+                    <Input placeholder="Enter Your Number" />
+                  </div>
+                </Col>
+                <Col lg="6" md="6" xs="12">
+                  <div className="form-group">
+                    <Label>
+                      Email Address<span className="text-danger">*</span>
+                    </Label>
+                    <Input placeholder="Enter Your Email" />
+                  </div>
+                </Col>
+                <Col lg="6" md="6" xs="12">
+                  <div className="form-group">
+                    <Label>Message</Label>
+                    <Input placeholder="Enter Your Message" />
+                  </div>
+                </Col>
+                <Col lg="12" className="text-center submit-btn">
+                  <Button className="btn-contact-info" color="primary">
+                    Submit Form
+                  </Button>
+                </Col>
+              </Row>
+            </div>
           </div>
         </Container>
       </div>
+
       <PremiumSection />
       <Footer />
     </div>
