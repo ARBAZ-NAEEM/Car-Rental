@@ -119,6 +119,17 @@ const FleetView = () => {
     setIsModalVisible(!isModalVisible);
   };
 
+  const CustomInput = React.forwardRef(({ value, onClick }, ref) => (
+    <input
+      type="text"
+      value={value}
+      onClick={onClick}
+      // onChange={(e) => {}}
+      placeholder="d-m-Y"
+      ref={ref}
+    />
+  ));
+
   return (
     <div className="page-fleetview">
       <Header />
@@ -345,26 +356,8 @@ const FleetView = () => {
 
                             <DatePicker
                               selected={selectedDate}
-                              onChange={(date) => {
-                                const inputYear = date.getFullYear().toString();
-                                // Check if the year input is longer than 4 characters
-                                if (inputYear.length > 4) {
-                                  // Manipulate the year to only get the first 4 characters
-                                  const year = parseInt(
-                                    inputYear.substring(0, 4),
-                                    10
-                                  );
-                                  const newDate = new Date(date);
-                                  newDate.setFullYear(year);
-                                  setSelectedDate(newDate);
-                                } else {
-                                  setSelectedDate(date);
-                                }
-                              }}
-                              placeholderText={" d-m-Y"}
-                              filterDate={(date) =>
-                                date.getDay() !== 6 && date.getDay() !== 0
-                              }
+                              onChange={(date) => setSelectedDate(date)}
+                              customInput={<CustomInput />}
                               showYearDropdown
                               scrollableYearDropdown
                             />
@@ -375,26 +368,8 @@ const FleetView = () => {
                             <label htmlFor="">Drop-off Date</label>
                             <DatePicker
                               selected={selectedDateof}
-                              onChange={(date) => {
-                                const inputYear = date.getFullYear().toString();
-                                // Check if the year input is longer than 4 characters
-                                if (inputYear.length > 4) {
-                                  // Manipulate the year to only get the first 4 characters
-                                  const year = parseInt(
-                                    inputYear.substring(0, 4),
-                                    10
-                                  );
-                                  const newDate = new Date(date);
-                                  newDate.setFullYear(year);
-                                  setSelectedDateof(newDate);
-                                } else {
-                                  setSelectedDateof(date);
-                                }
-                              }}
-                              placeholderText={" d-m-Y"}
-                              filterDate={(date) =>
-                                date.getDay() !== 6 && date.getDay() !== 0
-                              }
+                              onChange={(date) => setSelectedDateof(date)}
+                              customInput={<CustomInput />}
                               showYearDropdown
                               scrollableYearDropdown
                             />

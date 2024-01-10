@@ -5,6 +5,18 @@ html,
 body {
   overflow-x: hidden;
 }
+body.popup-overlay {
+  overflow: hidden !important;
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Adjust the opacity as needed */
+  z-index: 999; /* Ensure the overlay appears above other elements */
+}
 .page-header {
   background: #fff;
 }
@@ -50,7 +62,9 @@ a.nav-link.nav-btn {
   font-family: "Poppins", sans-serif !important;
   border-radius: 10px;
 }
-
+.paymentheading {
+  margin-top: 20px;
+}
 .form-group .react-datepicker-wrapper .react-datepicker__input-container input {
   padding: 0 10px !important;
   color: #212529 !important;
@@ -992,8 +1006,8 @@ ul.list-number > li {
 .page-contact-us .extra-border {
   border-top: 20px solid #f6f6f6;
   border-bottom: 20px solid #f6f6f6;
-  border-left: 23px solid #f6f6f6;
-  border-right: 23px solid #f6f6f6;
+  border-left: 20px solid #f6f6f6;
+  border-right: 20px solid #f6f6f6;
   border-radius: 10px;
   background-color: #f6f6f6;
 }
@@ -1243,16 +1257,16 @@ button.choose-btn {
 .extra-border {
   border-top: 20px solid #f6f6f6;
   border-bottom: 20px solid #f6f6f6;
-  border-left: 23px solid #f6f6f6;
-  border-right: 23px solid #f6f6f6;
+  border-left: 20px solid #f6f6f6;
+  border-right: 20px solid #f6f6f6;
   border-radius: 10px;
   background-color: #f6f6f6;
 }
 .term-form-border {
   border-top: 20px solid #f6f6f6;
   border-bottom: 20px solid #f6f6f6;
-  border-left: 23px solid #f6f6f6;
-  border-right: 23px solid #f6f6f6;
+  border-left: 20px solid #f6f6f6;
+  border-right: 20px solid #f6f6f6;
   border-radius: 10px;
   background-color: #f6f6f6;
 }
@@ -1261,7 +1275,7 @@ button.choose-btn {
   border-bottom: 16px solid #f0f0f0;
   border-left: 13px solid #f0f0f0;
   border-right: 13px solid #f0f0f0; */
-  /* margin: 0 100px; */
+  margin: 0px;
   padding: 30px 25px;
   background-color: #fff;
   border-radius: 10px;
@@ -1834,6 +1848,7 @@ ul.social-menu li:hover a {
 .checkout-text-heading.mb-4 h3 {
   font-size: 32px;
   font-weight: 700;
+  font-family: "Poppins" !important;
 }
 span.procinig-txt {
   color: #1d4734;
@@ -2301,7 +2316,8 @@ a.logo-image {
     width: 70px;
   } */
   .contact-choice-section p {
-    font-size: 22px;
+    font-size: 14px;
+    padding: 0px 18px;
   }
   .contact-section h2 {
     color: #ee333a;
@@ -2350,6 +2366,7 @@ a.logo-image {
   .confirm-text h3 {
     font-size: 30px;
     color: #fff;
+    line-height: 35px;
   }
   .check-payment label input[type="checkbox"] {
     position: absolute;
@@ -2584,9 +2601,11 @@ a.logo-image {
   .confirm-text h3 {
     font-size: 20px;
     color: #fff;
+    line-height: 25px;
   }
   .airportText p {
-    font-size: 13px;
+    font-size: 12px;
+    padding: 0 4px;
     color: #fff;
   }
   .airportText h3 {
@@ -2974,8 +2993,25 @@ a.logo-image {
   }
 }
 @media (max-width: 768px) {
+  span.arrow-image {
+    width: 120px;
+    height: 120px;
+    left: -90px;
+    top: -60px;
+  }
 }
+
 @media (max-width: 480px) {
+  .paymentheading p {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  span.arrow-image {
+    width: 120px;
+    height: 120px;
+    left: -110px;
+    top: -50px;
+  }
   .page-home .gallery-section {
     display: none;
   }
@@ -3176,7 +3212,7 @@ a.logo-image {
   .about-count:before {
     transform: scale(0.8);
     right: 135px;
-    top: 13px;
+    top: -38px;
   }
   .about-count {
     align-items: flex-end;
@@ -3220,8 +3256,8 @@ a.logo-image {
     padding: 30px 20px;
   }
   .contact-choice-section p {
-    font-size: 17px;
-    line-height: 29px;
+    font-size: 14px;
+    line-height: 26px;
     padding: 0px 0px;
   }
   .contact-info .col-contact-1,
@@ -3329,8 +3365,12 @@ a.logo-image {
   }
   .about-subtext h4 {
     margin-bottom: 0;
-    line-height: 36px !important;
+    line-height: 28px !important;
     font-size: 20px !important;
+  }
+  .about-subtext {
+    color: #fff;
+    padding: 0 40px 0px 20px !important;
   }
 
   /* .about-subtext {
@@ -3520,10 +3560,10 @@ a.logo-image {
   .about-count:before {
     transform: scale(0.8);
     right: 55px;
-    top: 13px;
+    top: -40px;
   }
   .contact-choice-section p {
-    font-size: 18px;
+    font-size: 13px;
   }
   .contact-choice-section h2 {
     font-size: 28px !important;
@@ -3560,8 +3600,8 @@ a.logo-image {
   }
   .about-subtext h4 {
     margin-bottom: 0;
-    line-height: 26px;
-    font-size: 22px !important;
+    line-height: 26px !important;
+    font-size: 20px !important;
   }
 
   .content-contact img {
@@ -3611,14 +3651,14 @@ a.logo-image {
     font-weight: 700;
   }
   .about-count:before {
-    transform: scale(0.8);
-    right: 20px;
-    top: 13px;
+    transform: scale(0.76);
+    right: 40px;
+    top: -35px;
   }
   .about-subtext h4 {
     margin-bottom: 0;
-    line-height: 30px !important;
-    font-size: 20px !important;
+    line-height: 24px !important;
+    font-size: 18px !important;
   }
   .about-subtext {
     color: #fff;

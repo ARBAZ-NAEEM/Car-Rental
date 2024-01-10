@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "reactstrap";
 import modalcar from "../../assets/img/modal-image-car.png";
 import close from "../../assets/img/close-icon.png";
@@ -10,6 +10,15 @@ import dooricon from "../../assets/img/door-icon.png";
 import manulicon from "../../assets/img/manul-icon.png";
 import petrolicon from "../../assets/img/petrol-icon.png";
 const FullView = ({ onClose }) => {
+  useEffect(() => {
+    // Add 'modal-open' class to body when the modal is opened
+    document.body.classList.add("popup-overlay");
+
+    // Remove 'modal-open' class from body when the component is unmounted (modal is closed)
+    return () => {
+      document.body.classList.remove("popup-overlay");
+    };
+  }, []);
   const handleClose = (e) => {
     e.stopPropagation(); // Prevent the event from bubbling up to the overlay
     onClose(); // Close the modal
@@ -79,7 +88,7 @@ const FullView = ({ onClose }) => {
                           <img src={questionfill} alt="" />
                         </p>
                         <p>
-                          Local Tax 
+                          Local Tax
                           {/* <img src={questionfill}
                            alt="" /> */}
                         </p>
