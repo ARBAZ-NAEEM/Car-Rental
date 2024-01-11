@@ -3021,6 +3021,10 @@ nav .navbar-collapse.show {
 .navbar-collapse > ul {
   width: 100%;
     flex-direction: column;
+    text-align: center !important;
+}
+.navbar-collapse > ul  ul.ml-auto.nav {
+  justify-content: center;
 }
   .paymentheading p {
     font-size: 20px;
