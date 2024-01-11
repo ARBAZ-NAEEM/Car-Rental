@@ -3002,6 +3002,25 @@ a.logo-image {
 }
 
 @media (max-width: 480px) {
+  nav .navbar-collapse {
+    position: fixed;
+    top: 103px;
+    background: #fff;
+    right: -100%;
+    width: 60vw;
+    height: 100vh;
+    display: block;
+    transition: right 0.3s ease;
+    z-index: 999999;
+    padding: 20px 20px 20px;
+}
+  
+nav .navbar-collapse.show {
+  right: 0;
+}
+.navbar-collapse > ul {
+    flex-direction: column;
+}
   .paymentheading p {
     font-size: 20px;
     margin-top: 30px;
@@ -3494,10 +3513,10 @@ a.logo-image {
   .footer-two {
     margin-bottom: 30px;
   }
-  .navbar-collapse > ul {
+  /* .navbar-collapse > ul {
     width: 100%;
     justify-content: center !important;
-  }
+  } */
   .btn-lease-discover button {
     padding: 10px 36px;
     font-size: 13px;
