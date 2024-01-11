@@ -3002,7 +3002,7 @@ a.logo-image {
 }
 
 @media (max-width: 480px) {
-  nav .navbar-collapse {
+  /* nav .navbar-collapse {
     position: fixed;
     top: 103px;
     background: #fff;
@@ -3017,8 +3017,9 @@ a.logo-image {
   
 nav .navbar-collapse.show {
   right: 0;
-}
+} */
 .navbar-collapse > ul {
+  width: 100%;
     flex-direction: column;
 }
   .paymentheading p {
