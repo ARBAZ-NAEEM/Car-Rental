@@ -97,7 +97,7 @@ const Discover = () => {
             </Col>
             <Col md="1" lg="1" xs="12" className="display-btn-center">
               <div className="travel-btn">
-                <Button color="secondary">See All</Button>
+                {/* <Button color="secondary">See All</Button> */}
               </div>
             </Col>
           </Row>
@@ -206,7 +206,7 @@ const Discover = () => {
           </div>
         </Container>
       </div>
-      <GallerySection />
+      {/* <GallerySection /> */}
       <Faq />
       <PremiumSection />
       <PickUpForm btnText="Change" boxShadow="5px 5px 5px #ccc" />

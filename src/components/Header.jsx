@@ -42,6 +42,11 @@ const Header = () => {
                 </Link>
               </NavItem>
               <NavItem>
+                <Link className="nav-link" to="/discover">
+                Discover Malta
+                </Link>
+              </NavItem>
+              {/* <NavItem>
                 <Nav className="ml-auto">
                   <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav caret>
@@ -52,19 +57,15 @@ const Header = () => {
                         Discover Malta
                       </Link>
                     </DropdownToggle>
-                    {/* <DropdownMenu>
-                      <DropdownItem
-                        type="button"
-                        className="dropdown-item"
-                        href="/discover"
-                      >
-                        Dummy Link
-                      </DropdownItem>
-                    </DropdownMenu> */}
                   </UncontrolledDropdown>
                 </Nav>
+              </NavItem> */}
+                 <NavItem>
+                <Link className="nav-link" to="/FleetView">
+                Fleet
+                </Link>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <Nav className="ml-auto">
                   <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav caret>
@@ -75,7 +76,7 @@ const Header = () => {
                         Fleet
                       </Link>
                     </DropdownToggle>
-                    {/* <DropdownMenu>
+                    <DropdownMenu>
                       <DropdownItem
                         type="button"
                         className="dropdown-item"
@@ -83,10 +84,10 @@ const Header = () => {
                       >
                         Fleet View
                       </DropdownItem>
-                    </DropdownMenu> */}
+                    </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
-              </NavItem>
+              </NavItem> */}
             </Nav>
             <Nav>
               <NavItem className="nav-size">

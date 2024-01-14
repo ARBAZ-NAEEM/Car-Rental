@@ -35,7 +35,7 @@ const Home = () => {
       <CityServiceSection />
       <CustomerSatisfication />
       <Testimonial />
-      <GallerySection />
+      {/* <GallerySection /> */}
       <PremiumSection bg="#f4efef" />
       <Footer />
     </div>

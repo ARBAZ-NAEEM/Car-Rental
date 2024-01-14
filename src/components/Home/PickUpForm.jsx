@@ -57,6 +57,8 @@ const PickUpForm = (props) => {
                   customInput={<CustomInput />}
                   showYearDropdown
                   scrollableYearDropdown
+                  showTimeSelect
+                  dateFormat="MM-d-yyyy h:mm aa"
                 />
               </div>
             </Col>
@@ -69,6 +71,8 @@ const PickUpForm = (props) => {
                   customInput={<CustomInput />}
                   showYearDropdown
                   scrollableYearDropdown
+                  showTimeSelect
+                  dateFormat="MM-d-yyyy h:mm aa"
                 />
               </div>
             </Col>

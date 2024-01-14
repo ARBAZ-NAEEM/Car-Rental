@@ -119,7 +119,7 @@ const Checkout = () => {
                           <Col lg="6" md="6" xs="12" className="mt-3">
                             <div className="form-group">
                               <Label>
-                                State<span className="text-danger">*</span>
+                                State
                               </Label>
                               <Input placeholder="State" />
                             </div>

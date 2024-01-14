@@ -47,7 +47,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a href="#">
-                          <i className="fa fa-twitter"></i>
+                          <i className="fa fa-instagram"></i>
                         </a>
                       </li>
                       <li>
@@ -55,11 +55,11 @@ const Footer = () => {
                           <i className="fa fa-linkedin-square"></i>
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#">
                           <i className="fa fa-youtube-play"></i>
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

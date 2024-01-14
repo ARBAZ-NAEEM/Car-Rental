@@ -21,7 +21,7 @@ const About = () => {
     <div className="page-about">
       <Header />
       <PageTitle heading="About us" bgImg={bgImg} gap="180px 0" />
-      <AboutSection bg="#F4EFEF" />
+      {/* <AboutSection bg="#F4EFEF" /> */}
       <div className="about-group-service">
         <Container>
           <div className="service-about-get">
@@ -101,7 +101,7 @@ const About = () => {
             <h2 className="text-center" data-aos="fade-up">
               Unique Features
             </h2>
-            <Row>
+            <Row className="feature-section-center">
               <Col lg="1" md="1"></Col>
               <Col lg="5" md="5" xs="12" className="col-pad-left">
                 <div className="d-flex about-count">

@@ -83,26 +83,26 @@ const FullView = ({ onClose }) => {
                     <Col md="12" lg="12">
                       <p className="price-txt">Price Includes</p>
                       <div className="price-includes">
-                        <p>
+                        {/* <p>
                           Vehicle Registration Fee{" "}
                           <img src={questionfill} alt="" />
-                        </p>
-                        <p>
+                        </p> */}
+                        {/* <p>
                           Local Tax
-                          {/* <img src={questionfill}
-                           alt="" /> */}
-                        </p>
+                          <img src={questionfill}
+                           alt="" />
+                        </p> */}
                         <p>
                           Unlimited Mileage <img src={questionfill} alt="" />
                         </p>
                         <p>
-                          € 1000.00 Damage Excess{" "}
+                        €800 Damage Excess{" "}
                           <img src={questionfill} alt="" />
                         </p>
-                        <p>
+                        {/* <p>
                           € 1000.00 Theft Excess{" "}
                           <img src={questionfill} alt="" />
-                        </p>
+                        </p> */}
                       </div>
                     </Col>
                   </Row>
@@ -152,14 +152,14 @@ const FullView = ({ onClose }) => {
                       </div>
                     </Col>
                   </Row>
-                  <hr />
+                  {/* <hr />
                   <Row>
                     <Col lg="8" md="12">
                       <div className="checkout-btn">
                         <button>IMPORTANT INFORMATION</button>
                       </div>
                     </Col>
-                  </Row>
+                  </Row> */}
                 </div>
               </Col>
             </Row>
