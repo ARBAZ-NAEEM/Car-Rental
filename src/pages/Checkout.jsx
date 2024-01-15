@@ -84,6 +84,22 @@ const Checkout = () => {
                               <Input placeholder="Enter Your Email" />
                             </div>
                           </Col>
+                          {/* <Col lg="6" md="6" xs="12" className="mt-3">
+                            <div className="form-group">
+                              <Label>
+                                Age:
+                              </Label>
+                              <Input placeholder="Enter Your Age" />
+                            </div>
+                          </Col>
+                          <Col lg="6" md="6" xs="12" className="mt-3">
+                            <div className="form-group">
+                              <Label>
+                                Flight Number
+                              </Label>
+                              <Input placeholder="Enter Your flight number" />
+                            </div>
+                          </Col> */}
                           <Col lg="12" md="12" xs="12" className="mt-3">
                             <div className="form-group">
                               <Label>

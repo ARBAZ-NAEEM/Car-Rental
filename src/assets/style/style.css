@@ -971,7 +971,7 @@ ul.list-number > li {
   font-size: 22px;
   color: #2c2c2c;
   font-weight: 500;
-  padding: 0px 60px;
+  /* padding: 0px 60px; */
   line-height: 44px;
   font-family: "Poppins";
 }
