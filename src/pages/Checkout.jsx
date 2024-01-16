@@ -132,14 +132,14 @@ const Checkout = () => {
                               <Input placeholder="City" />
                             </div>
                           </Col>
-                          <Col lg="6" md="6" xs="12" className="mt-3">
+                          {/* <Col lg="6" md="6" xs="12" className="mt-3">
                             <div className="form-group">
                               <Label>
                                 State
                               </Label>
                               <Input placeholder="State" />
                             </div>
-                          </Col>
+                          </Col> */}
 
                           <Col lg="6" md="6" xs="12" className="mt-3">
                             <div className="form-group">
@@ -167,9 +167,45 @@ const Checkout = () => {
                           </Col>
                           <Col lg="6" md="6" xs="12" className="mt-3">
                             <div className="form-group">
-                              <Label>pick</Label>
-                              <Input placeholder="pick" />
+                              <Label>Pick</Label>
+                              <Input placeholder="pick"  id="exampleFileOne"
+       />
                             </div>
+                          </Col>
+                          <Col lg="6" md="6" xs="12" className="mt-3">
+                            <div className="form-group">
+                              <Label>Flight Number</Label>
+                              <Input placeholder="Flight Number"   id="exampleFileOne"
+       />
+                            </div>
+                          </Col>
+
+                          <Col lg="12" md="12" xs="12" className="mt-3">
+                            <div className="form-group">
+                              <Label>ID card</Label>
+                              <Input placeholder="ID card" 
+                               id="exampleFileTwo"
+                               name="file"
+                               type="file" />
+                            </div>
+                          </Col>
+                          
+
+                          <Col lg="12" md="12" xs="12" className="mt-3">
+                            <div className="form-group">
+                              <Label>Driving license</Label>
+                              <Input placeholder="driving license"   
+                              name="file"
+                              type="file" />
+                            </div>
+                          </Col>
+                          <Col lg="12" md="12" xs="12" className="mt-3">
+                            <FormGroup check>
+                              <Input type="checkbox" />{" "}
+                              <Label check>
+                              Deposit is € 400
+                              </Label>
+                            </FormGroup>
                           </Col>
                           <Col lg="12" md="12" xs="12" className="mt-3">
                             <FormGroup check>
@@ -179,6 +215,9 @@ const Checkout = () => {
                               </Label>
                             </FormGroup>
                           </Col>
+
+
+                       
 
                           <Col lg="12" md="12" xs="12" className="mt-3">
                             <FormGroup check>

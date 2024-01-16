@@ -1317,10 +1317,12 @@ button:focus:not(:focus-visible) {
   height: 44px;
 }
 .contact-choice-section input.form-control {
-  padding: 0 20px;
+  padding: 7px 14px;
   background-color: transparent !important;
   border: 1px solid #e1e4e8 !important;
-  height: 50px;
+  height: 40px;
+  font-size: 14px !important;
+  font-weight: 400 !important;
 }
 span.bold-color-change {
   color: #3f4458;
@@ -1764,7 +1766,7 @@ p.txt-para {
   margin-top: 20px;
 }
 .travel-hover-heading p {
-  font-size: 14px;
+  font-size: 16px;
   padding-top: 10px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -2024,6 +2026,12 @@ span.procinig-txt {
 .processd-btn {
   position: relative;
 }
+.filterHours select {
+  float: right;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 1px 10px;
+}
 span.arrow-image {
   background-image: url("../img/arrow-curve.png");
   background-size: contain;
@@ -2072,11 +2080,20 @@ a.logo-image {
   }
 }
 @media (max-width: 1440px) {
+  .travel-hover-heading {
+    padding: 20px 20px 54px;
+  }
   .search-content {
     padding: 0 50px;
   }
 }
 @media (max-width: 1366px) {
+  .travel-hover-heading h4 {
+    font-size: 38px !important;
+  }
+  .travel-hover-heading {
+    padding: 20px 20px 84px;
+  }
   .contact-info-detail p {
     font-size: 18px;
   }
@@ -2127,7 +2144,7 @@ a.logo-image {
 }
 @media (max-width: 1280px) {
   .travel-hover-heading {
-    padding: 20px 20px 64px;
+    padding: 20px 20px 50px;
   }
   .checkout-btn button {
     width: 100%;

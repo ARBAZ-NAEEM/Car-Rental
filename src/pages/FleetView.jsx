@@ -130,6 +130,26 @@ const FleetView = () => {
     />
   ));
 
+  const [selectedHour, setSelectedHour] = useState(null);
+
+  // Your data, replace this with your actual data
+  const data = [
+    { id: 1, time: '10:00 AM', text: 'Meeting 1' },
+    { id: 2, time: '12:30 PM', text: 'Lunch' },
+    { id: 3, time: '3:45 PM', text: 'Workshop' },
+    // Add more data as needed
+  ];
+
+  // Function to handle hour selection
+  const handleHourChange = (event) => {
+    setSelectedHour(event.target.value);
+  };
+
+  // Filter data based on the selected hour
+  const filteredData = selectedHour
+    ? data.filter(item => item.time.includes(selectedHour))
+    : data;
+
   return (
     <div className="page-fleetview">
       <Header />
@@ -147,6 +167,21 @@ const FleetView = () => {
                           <a href="">Clear Filters</a>
                         </span>
                       </p>
+                    </div>
+                    <div className="filterHours">
+                      <label htmlFor="">Filter By Hours : </label>
+                      <select value={selectedHour} onChange={handleHourChange}>
+                        <option value="">Select Hour</option>
+                        <option value="10">01:00 AM</option>
+                        <option value="12">02:00 PM</option>
+                        <option value="15">03:00 PM</option>
+                        <option value="15">04:00 PM</option>
+                        <option value="15">05:00 PM</option>
+                        <option value="15">06:00 PM</option>
+                        <option value="15">07:00 PM</option>
+                        <option value="15">08:00 PM</option>
+                        {/* Add more options as needed */}
+                      </select>
                     </div>
                     <hr />
                     <div className="checkbox-box">
