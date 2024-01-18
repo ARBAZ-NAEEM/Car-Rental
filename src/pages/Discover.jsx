@@ -18,12 +18,14 @@ import GallerySection from "../components/Home/GallerySection";
 import PremiumSection from "../components/Home/PremiumSection";
 import PickUpForm from "../components/Home/PickUpForm";
 import Faq from "../components/Fleet/Faq";
+import bgImg from "../assets/img/img-backg-pages.png";
+import bgImgnew from "../assets/img/long-term.png";
 
 const Discover = () => {
   return (
     <div className="page-discover">
       <Header />
-      <PageTitle heading="Discover Malta" bgImg={discover} gap="180px 0" />
+      <PageTitle heading="Discover Malta" bgImg={[discover]}  rotationInterval={2000}  gap="180px 0" />
       <CitySection bg="#fff" />
       <div className="search-section">
         <Container fluid>

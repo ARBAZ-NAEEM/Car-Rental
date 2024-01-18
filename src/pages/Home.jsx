@@ -23,7 +23,7 @@ const Home = () => {
       <PageTitle
         subHeading="Book Any Luxury Car in low price"
         heading="Car Rental"
-        bgImg={bgImg}
+        bgImg={[bgImg]}
         gap="288px 0"
       />
       <PickUpForm btnText="Find a Car" boxShadow="none" />

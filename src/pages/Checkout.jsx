@@ -45,7 +45,7 @@ const Checkout = () => {
     <>
       <div className="page-Checkout">
         <Header />
-        <PageTitle heading="Checkout" bgImg={bgImg} gap="180px 0" />
+        <PageTitle heading="Checkout" bgImg={[bgImg]} gap="180px 0" />
         <div className="check-out-form py-5">
           <Container>
             <Row>

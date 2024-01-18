@@ -30,7 +30,7 @@ const LongTermForm = () => {
       <PageTitle
         subHeading="Book Any Luxury Car in low price"
         heading="Long-Term Form"
-        bgImg={bgImg}
+        bgImg={[bgImg]}
         gap="180px 0"
       />
       <Container className="custom-form">
