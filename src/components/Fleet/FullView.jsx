@@ -67,7 +67,7 @@ const FullView = ({ onClose }) => {
                     <Col md="6" lg="6" xs="6">
                       <div className="checkout-btn">
                         <a href="/checkout">
-                          <button>Checkout</button>
+                          <button>choose</button>
                         </a>
                       </div>
                     </Col>
@@ -96,8 +96,7 @@ const FullView = ({ onClose }) => {
                           Unlimited Mileage <img src={questionfill} alt="" />
                         </p>
                         <p>
-                        €800 Damage Excess{" "}
-                          <img src={questionfill} alt="" />
+                          €800 Damage Excess <img src={questionfill} alt="" />
                         </p>
                         {/* <p>
                           € 1000.00 Theft Excess{" "}

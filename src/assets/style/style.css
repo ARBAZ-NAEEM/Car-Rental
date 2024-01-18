@@ -1853,6 +1853,21 @@ ul.social-menu li:hover,
 ul.social-menu li:hover a {
   color: #ac0105;
 }
+.logo-animated {
+  text-align: center;
+}
+
+h1.payment-text {
+  font-size: 26px !important;
+}
+.logo-animated img {
+  aspect-ratio: 3/3;
+  object-fit: contain;
+  mix-blend-mode: color-burn !important;
+  width: 60%;
+  height: auto;
+  margin-bottom: 50px;
+}
 
 /* checkout page css  */
 .checkout-text-heading.mb-4 h3 {

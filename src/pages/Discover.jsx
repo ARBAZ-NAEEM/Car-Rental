@@ -18,14 +18,47 @@ import GallerySection from "../components/Home/GallerySection";
 import PremiumSection from "../components/Home/PremiumSection";
 import PickUpForm from "../components/Home/PickUpForm";
 import Faq from "../components/Fleet/Faq";
-import bgImg from "../assets/img/img-backg-pages.png";
-import bgImgnew from "../assets/img/long-term.png";
+import Carousel from "react-multi-carousel";
+
+import logo1 from "../assets/img/carlogo01.webp";
+import logo2 from "../assets/img/carlogo02.webp";
+import logo3 from "../assets/img/carlogo03.webp";
+import logo4 from "../assets/img/carlogo04.webp";
+import logo5 from "../assets/img/carlogo05.webp";
+import logo6 from "../assets/img/carlogo06.webp";
+import logo7 from "../assets/img/carlogo07.webp";
+import logo8 from "../assets/img/carlogo08.webp";
+import logo9 from "../assets/img/carlogo09.webp";
+import logo10 from "../assets/img/carlogo10.webp";
+import logo11 from "../assets/img/carlogo11.webp";
 
 const Discover = () => {
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 6,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 3,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 3,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
   return (
     <div className="page-discover">
       <Header />
-      <PageTitle heading="Discover Malta" bgImg={[discover]}  rotationInterval={2000}  gap="180px 0" />
+      <PageTitle
+        heading="Discover Malta"
+        bgImg={[discover]}
+        rotationInterval={2000}
+        gap="180px 0"
+      />
       <CitySection bg="#fff" />
       <div className="search-section">
         <Container fluid>
@@ -209,6 +242,58 @@ const Discover = () => {
         </Container>
       </div>
       {/* <GallerySection /> */}
+      <div className="logo-animated">
+        <Carousel
+          swipeable={false}
+          draggable={false}
+          responsive={responsive}
+          ssr={true} // means to render carousel on server-side.
+          infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={2000}
+          keyBoardControl={true}
+          showDots={true}
+          customTransition="all .5"
+          transitionDuration={100}
+          containerClass="carousel-container"
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          // dotListClass="custom-dot-list-style"
+          itemClass="carousel-item-padding-20-px"
+        >
+          <div>
+            <img src={logo1} alt="" />
+          </div>
+          <div>
+            <img src={logo2} alt="" />
+          </div>
+          <div>
+            <img src={logo3} alt="" />
+          </div>
+          <div>
+            <img src={logo4} alt="" />
+          </div>
+          <div>
+            <img src={logo5} alt="" />
+          </div>
+          <div>
+            <img src={logo6} alt="" />
+          </div>
+          <div>
+            <img src={logo7} alt="" />
+          </div>
+          <div>
+            <img src={logo8} alt="" />
+          </div>
+          <div>
+            <img src={logo9} alt="" />
+          </div>
+
+          <div>
+            <img src={logo11} alt="" />
+          </div>
+        </Carousel>
+      </div>
+
       <Faq />
       <PremiumSection />
       <PickUpForm btnText="Change" boxShadow="5px 5px 5px #ccc" />

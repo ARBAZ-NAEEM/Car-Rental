@@ -15,6 +15,8 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 import AOS from "aos";
 import { useEffect } from "react";
+import SuccessPayment from "./pages/SuccessPayment";
+import FailPayment from "./pages/FailPayment";
 
 function App() {
   useEffect(() => {
@@ -34,6 +36,8 @@ function App() {
           <Route path="discover" element={<Discover />} />
           <Route path="longtermform" element={<LongTermForm />} />
           <Route path="ourpolicy" element={<PrivacyPolicy />} />
+          <Route path="successpayment" element={<SuccessPayment />} />
+          <Route path="failpayment" element={<FailPayment />} />
           <Route path="*" element={<NoPageFound />} />
         </Routes>
       </BrowserRouter>
