@@ -168,43 +168,45 @@ const Checkout = () => {
                           <Col lg="6" md="6" xs="12" className="mt-3">
                             <div className="form-group">
                               <Label>Pick</Label>
-                              <Input placeholder="pick"  id="exampleFileOne"
-       />
+                              <Input placeholder="pick" id="exampleFileOne" />
                             </div>
                           </Col>
                           <Col lg="6" md="6" xs="12" className="mt-3">
                             <div className="form-group">
                               <Label>Flight Number</Label>
-                              <Input placeholder="Flight Number"   id="exampleFileOne"
-       />
+                              <Input
+                                placeholder="Flight Number"
+                                id="exampleFileOne"
+                              />
                             </div>
                           </Col>
 
                           <Col lg="12" md="12" xs="12" className="mt-3">
                             <div className="form-group">
                               <Label>ID card</Label>
-                              <Input placeholder="ID card" 
-                               id="exampleFileTwo"
-                               name="file"
-                               type="file" />
+                              <Input
+                                placeholder="ID card"
+                                id="exampleFileTwo"
+                                name="file"
+                                type="file"
+                              />
                             </div>
                           </Col>
-                          
 
                           <Col lg="12" md="12" xs="12" className="mt-3">
                             <div className="form-group">
                               <Label>Driving license</Label>
-                              <Input placeholder="driving license"   
-                              name="file"
-                              type="file" />
+                              <Input
+                                placeholder="driving license"
+                                name="file"
+                                type="file"
+                              />
                             </div>
                           </Col>
                           <Col lg="12" md="12" xs="12" className="mt-3">
                             <FormGroup check>
                               <Input type="checkbox" />{" "}
-                              <Label check>
-                              Deposit is € 400
-                              </Label>
+                              <Label check>Deposit is € 400</Label>
                             </FormGroup>
                           </Col>
                           <Col lg="12" md="12" xs="12" className="mt-3">
@@ -215,9 +217,6 @@ const Checkout = () => {
                               </Label>
                             </FormGroup>
                           </Col>
-
-
-                       
 
                           <Col lg="12" md="12" xs="12" className="mt-3">
                             <FormGroup check>
@@ -539,7 +538,7 @@ const Checkout = () => {
                         </Col>
                       </Row>
 
-                      <hr />
+                      {/* <hr />
                       <Row>
                         <Col md="6" lg="6" xs="6">
                           <div className="righttext-left ">
@@ -564,11 +563,11 @@ const Checkout = () => {
                             <img src={imageCar} alt="" />
                           </div>
                         </Col>
-                      </Row>
+                      </Row> */}
                     </div>
                   </div>
 
-                  <div className="ads-section mt-5">
+                  {/* <div className="ads-section mt-5">
                     <Row>
                       <Col md="12" lg="12">
                         <div className="ads-text">
@@ -579,7 +578,7 @@ const Checkout = () => {
                         </div>
                       </Col>
                     </Row>
-                  </div>
+                  </div> */}
                 </div>
               </Col>
             </Row>
@@ -676,20 +675,19 @@ const Checkout = () => {
         <section className="mb-5">
           <div className="confirm-section">
             <Row>
-              <Col md="6" lg="6" xs="12">
+              
+              <Col
+                md="12"
+                lg="12"
+                xs="12"
+                className=""
+              >
                 <div className="confirm-text" data-aos="fade-up">
                   <h3>Confirm All Reservation</h3>
                   <h3>Dream Business Today!</h3>
                 </div>
-              </Col>
-              <Col
-                md="6"
-                lg="6"
-                xs="12"
-                className="d-flex justify-content-end align-items-center"
-              >
                 <div className="processd-btn">
-                  <button>Proceed to payment</button>
+                  <Button color="primary">Proceed to payment</Button>
                   <span className="arrow-image"></span>
                 </div>
               </Col>

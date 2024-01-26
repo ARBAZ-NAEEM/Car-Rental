@@ -1996,10 +1996,11 @@ span.procinig-txt {
   color: #fff;
 }
 .confirm-section {
-  background-image: linear-gradient(90deg, #9d0208 0%, #d00000 100%) !important;
+  background-image: url("../img//GettyImages.jpg");
   margin: 0 80px;
-  padding: 60px 50px;
+  padding: 130px 160px 80px;
   border-radius: 20px;
+  background-size: cover;
 }
 .airport-section .container .row {
   width: 98%;
@@ -2023,15 +2024,16 @@ span.procinig-txt {
   font-family: "Montserrat", sans-serif !important;
   font-weight: 700;
   font-size: 40px;
-  line-height: 54px;
+  line-height: 40px;
+  text-align: right;
 }
 .processd-btn button {
-  background-color: #ed780d;
-  border: 2px solid #fff;
-  font-size: 16px;
+  font-size: 13px;
   color: #fff;
-  padding: 8px 20px;
-  border-radius: 12px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-family: "Lexend" !important;
+  font-weight: 600;
 }
 .airportDrop-section {
   background-image: url("../img/airport-02.png");
@@ -2039,6 +2041,8 @@ span.procinig-txt {
   border-radius: 20px;
 }
 .processd-btn {
+  text-align: right;
+  margin-top: 40px;
   position: relative;
 }
 .filterHours select {
@@ -2054,8 +2058,9 @@ span.arrow-image {
   position: absolute;
   width: 180px;
   height: 180px;
-  left: -170px;
-  top: -80px;
+  right: -130px;
+  top: -130px;
+  transform: rotate(135deg);
 }
 .extra-btn button img {
   padding-right: 10px;
@@ -2312,6 +2317,10 @@ a.logo-image {
   }
 }
 @media (max-width: 1024px) {
+  .confirm-section {
+    padding: 60px 160px 50px;
+    
+}
   .content-content h2 {
     line-height: 52px !important;
     font-size: 50px !important;
@@ -2635,11 +2644,14 @@ a.logo-image {
   span.arrow-image {
     width: 140px;
     height: 140px;
-    left: -120px;
-    top: -60px;
+    right: -100px;
+    top: -100px;
   }
+  .confirm-section {
+    padding: 60px 90px 50px;
+}
   .confirm-text h3 {
-    font-size: 20px;
+    font-size: 26px;
     color: #fff;
     line-height: 25px;
   }
@@ -3343,17 +3355,12 @@ nav .navbar-collapse.show {
     padding: 100px 0 !important;
   }
   .confirm-section {
-    background-image: linear-gradient(
-      90deg,
-      #9d0208 0%,
-      #d00000 100%
-    ) !important;
     margin: 0 12px;
     padding: 60px 20px;
     border-radius: 20px;
   }
   .processd-btn {
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .airportDrop-section {
     margin-top: 30px;
