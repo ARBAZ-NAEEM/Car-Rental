@@ -3053,6 +3053,11 @@ a.logo-image {
 }
 
 @media (max-width: 480px) {
+  .footer-title span {
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
   .feature-text .feature-section-center.row {
     margin-left: 80px;
   }
@@ -3175,10 +3180,10 @@ nav .navbar-collapse.show {
   .footer-two-menu li {
     margin-left: 0;
   }
-  .footer-title span:before {
+  /* .footer-title span:before {
     bottom: -20px;
     left: 25px;
-  }
+  } */
   .footer-two {
     text-align: center;
   }
