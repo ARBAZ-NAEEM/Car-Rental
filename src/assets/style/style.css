@@ -2319,8 +2319,7 @@ a.logo-image {
 @media (max-width: 1024px) {
   .confirm-section {
     padding: 60px 160px 50px;
-    
-}
+  }
   .content-content h2 {
     line-height: 52px !important;
     font-size: 50px !important;
@@ -2649,7 +2648,7 @@ a.logo-image {
   }
   .confirm-section {
     padding: 60px 90px 50px;
-}
+  }
   .confirm-text h3 {
     font-size: 26px;
     color: #fff;
@@ -3178,7 +3177,7 @@ nav .navbar-collapse.show {
   }
   .footer-title span:before {
     bottom: -20px;
-    left: 14px;
+    left: 25px;
   }
   .footer-two {
     text-align: center;

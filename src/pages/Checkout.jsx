@@ -675,13 +675,7 @@ const Checkout = () => {
         <section className="mb-5">
           <div className="confirm-section">
             <Row>
-              
-              <Col
-                md="12"
-                lg="12"
-                xs="12"
-                className=""
-              >
+              <Col md="12" lg="12" xs="12" className="">
                 <div className="confirm-text" data-aos="fade-up">
                   <h3>Confirm All Reservation</h3>
                   <h3>Dream Business Today!</h3>
