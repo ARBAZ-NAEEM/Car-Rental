@@ -247,7 +247,7 @@ h2.routes-color span {
 .car-background {
   background-color: #262e34;
   margin-top: -130px;
-  padding: 250px 0px 160px 0;
+  padding: 250px 0px 100px 0;
 }
 .car-sc:before {
   background-image: url("../img/Vector-stroke.png");
@@ -331,8 +331,8 @@ h2.routes-color span {
   margin-bottom: 80px;
 }
 .car-count-img img {
-  width: 124.296px;
-  height: 107.191px;
+  width: 115.296px;
+  height: 100.191px;
 }
 .howit-row1 .how-col1 .howit-count:before,
 .howit-row1 .how-col3 .howit-count:before {
@@ -2088,6 +2088,28 @@ a.logo-image {
 .col-pad-left {
   padding-left: 70px;
 }
+
+.car-sc:before {
+  display: none !important;
+}
+.d-flex.car-sc {
+  /* background-color: #9d0208; */
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+/* .car-subtext h5 {
+  background: unset;
+  color: #fff !important;
+  -webkit-text-fill-color: unset;
+} */
+.car-subtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.car-subtext {
+  margin-top: 0px !important;
+}
 /* .footer-one-logo img {
   width: 187px;
   height: 187px;
@@ -2215,7 +2237,7 @@ a.logo-image {
     margin: 70px 0 110px;
   }
   .car-background {
-    padding: 220px 0px 130px 0;
+    padding: 220px 0px 100px 0;
   }
   .text-discover {
     font-size: 16px;
@@ -3053,6 +3075,11 @@ a.logo-image {
 }
 
 @media (max-width: 480px) {
+  .car-subtext {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
   .footer-title span {
     text-align: center !important;
     display: flex !important;
@@ -3207,10 +3234,10 @@ nav .navbar-collapse.show {
   .car-subtext {
     padding: 0px 10px 0px 20px;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
   }
   .car-subtext h5 {
-    width: 50%;
+    width: 70%;
   }
   .car-subtext p {
     width: 50%;
@@ -3705,9 +3732,9 @@ nav .navbar-collapse.show {
     width: 78%;
   }
   .car-subtext {
-    padding: 0px 10px 0px 30px;
+    padding: 0px 10px 0px 20px;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
   }
   .car-sc {
     left: 30px;
